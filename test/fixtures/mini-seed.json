@@ -1,0 +1,20 @@
+[
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "测试题 A",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "测试题 B",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  }
+]

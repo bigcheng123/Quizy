@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' file:; media-src 'self' file:;">
+  <title>Quizy — 答题解锁</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <div id="app">
+    <!-- 星星背景 -->
+    <div id="stars"></div>
+
+    <!-- 顶部进度区 -->
+    <div id="progress-area">
+      <div class="progress-subject">
+        <span class="subject-label chinese">📖 语文</span>
+        <div class="stars-row" id="stars-chinese"></div>
+        <span class="progress-text" id="text-chinese">0/5</span>
+      </div>
+      <div class="progress-subject">
+        <span class="subject-label math">🔢 数学</span>
+        <div class="stars-row" id="stars-math"></div>
+        <span class="progress-text" id="text-math">0/5</span>
+      </div>
+    </div>
+
+    <!-- 科目切换 -->
+    <div id="subject-tabs">
+      <button class="tab-btn active" id="tab-chinese" onclick="switchSubject('chinese')">语文</button>
+      <button class="tab-btn" id="tab-math" onclick="switchSubject('math')">数学</button>
+    </div>
+
+    <!-- 题目卡片 -->
+    <div id="question-card">
+      <div id="question-meta">
+        <span id="q-grade-label"></span>
+        <span id="q-type-label"></span>
+      </div>
+      <div id="question-content"></div>
+      <div id="question-image-wrap" style="display:none">
+        <img id="question-image" src="" alt="题目图片">
+      </div>
+      <div id="options-area"></div>
+      <div id="fill-area" style="display:none">
+        <input type="text" id="fill-input" placeholder="请输入答案" autocomplete="off">
+        <button type="button" id="fill-submit-btn">确认</button>
+      </div>
+    </div>
+
+    <!-- 反馈提示 -->
+    <div id="feedback" style="display:none"></div>
+
+    <!-- 答题通过遮罩 -->
+    <div id="unlock-overlay" style="display:none">
+      <div id="unlock-content">
+        <div id="unlock-emoji">🎉</div>
+        <h1>全部答对，通过！</h1>
+        <p>今天的题目全部完成，太棒了！</p>
+        <button type="button" id="unlock-done-btn">结束锁屏，进入桌面</button>
+      </div>
+    </div>
+
+    <!-- 隐藏的管理员入口（右下角不可见区域） -->
+    <div id="admin-trigger"></div>
+    <!-- 管理员密码弹窗 -->
+    <div id="admin-modal" style="display:none">
+      <div id="admin-modal-box">
+        <h3>管理员验证</h3>
+        <input type="password" id="admin-pwd-input" placeholder="请输入管理员密码" autocomplete="off">
+        <div id="admin-modal-btns">
+          <button type="button" id="admin-btn-cancel">取消</button>
+          <button type="button" id="admin-btn-confirm">确认</button>
+        </div>
+        <p id="admin-pwd-error" style="display:none;color:#e74c3c">密码错误，请重试</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

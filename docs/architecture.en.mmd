@@ -1,0 +1,53 @@
+%% Quizy architecture diagram — Electron three-tier (Main / Preload / Renderer)
+%% Regenerate PNG:
+%%   npx --yes -p @mermaid-js/mermaid-cli mmdc -i docs/architecture.en.mmd -o docs/architecture.en.png -t dark -b "#0f1d3a" -w 1800
+flowchart LR
+    subgraph OS["💻 Windows OS"]
+        AUTOLAUNCH["Auto-launch at login<br/>(setLoginItemSettings)"]
+        FS[("📂 %APPDATA%/Quizy/<br/>quizy.db · config.json")]
+    end
+
+    subgraph MAIN["⚙️ Main Process (Node.js)"]
+        direction TB
+        M_ENTRY["main.js<br/>window creation · shortcut blocking · lock guard"]
+        M_IPC["ipcHandlers.js<br/>IPC channel registry"]
+        M_DB["db.js<br/>better-sqlite3"]
+        M_STORE["store.js<br/>electron-store"]
+        M_AUTO["autoLaunch.js"]
+        M_ENTRY --> M_IPC
+        M_IPC --> M_DB
+        M_IPC --> M_STORE
+        M_ENTRY --> M_AUTO
+    end
+
+    subgraph PRELOAD["🔒 Preload (contextIsolation)"]
+        P_QUIZ["quizPreload.js<br/>→ window.quizAPI"]
+        P_ADMIN["adminPreload.js<br/>→ window.adminAPI"]
+    end
+
+    subgraph RENDERER["🎨 Renderer (vanilla HTML/CSS/JS · strict CSP)"]
+        direction TB
+        R_QUIZ["Quiz Window<br/>fullscreen · closable:false · alwaysOnTop<br/>quiz · progress · unlock animation"]
+        R_ADMIN["Admin Window<br/>900×700 · normal window<br/>settings · bank · records"]
+    end
+
+    AUTOLAUNCH -.on boot.-> M_ENTRY
+    M_DB <--read/write--> FS
+    M_STORE <--read/write--> FS
+
+    R_QUIZ <--IPC invoke/send--> P_QUIZ
+    R_ADMIN <--IPC invoke/send--> P_ADMIN
+    P_QUIZ <--ipcRenderer--> M_IPC
+    P_ADMIN <--ipcRenderer--> M_IPC
+
+    R_QUIZ -.hidden 5-click + password.-> R_ADMIN
+    R_QUIZ -.all correct → unlock-desktop.-> M_ENTRY
+
+    classDef main fill:#2d3748,stroke:#4a5568,color:#fff
+    classDef preload fill:#744210,stroke:#975a16,color:#fff
+    classDef renderer fill:#1a365d,stroke:#2c5282,color:#fff
+    classDef os fill:#2d3748,stroke:#718096,color:#cbd5e0
+    class M_ENTRY,M_IPC,M_DB,M_STORE,M_AUTO main
+    class P_QUIZ,P_ADMIN preload
+    class R_QUIZ,R_ADMIN renderer
+    class AUTOLAUNCH,FS os

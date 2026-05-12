@@ -1,0 +1,53 @@
+%% Quizy 架构图 — Electron 三层结构（Main / Preload / Renderer）
+%% 重新生成 PNG：
+%%   npx --yes -p @mermaid-js/mermaid-cli mmdc -i docs/architecture.mmd -o docs/architecture.png -t dark -b transparent -w 1600
+flowchart LR
+    subgraph OS["💻 Windows OS"]
+        AUTOLAUNCH["开机自启<br/>(setLoginItemSettings)"]
+        FS[("📂 %APPDATA%/Quizy/<br/>quizy.db · config.json")]
+    end
+
+    subgraph MAIN["⚙️ Main Process (Node.js)"]
+        direction TB
+        M_ENTRY["main.js<br/>窗口创建 · 快捷键拦截 · 锁屏守护"]
+        M_IPC["ipcHandlers.js<br/>IPC 通道注册"]
+        M_DB["db.js<br/>better-sqlite3"]
+        M_STORE["store.js<br/>electron-store"]
+        M_AUTO["autoLaunch.js"]
+        M_ENTRY --> M_IPC
+        M_IPC --> M_DB
+        M_IPC --> M_STORE
+        M_ENTRY --> M_AUTO
+    end
+
+    subgraph PRELOAD["🔒 Preload (contextIsolation)"]
+        P_QUIZ["quizPreload.js<br/>→ window.quizAPI"]
+        P_ADMIN["adminPreload.js<br/>→ window.adminAPI"]
+    end
+
+    subgraph RENDERER["🎨 Renderer (vanilla HTML/CSS/JS · CSP strict)"]
+        direction TB
+        R_QUIZ["Quiz Window<br/>全屏 · closable:false · alwaysOnTop<br/>答题 / 进度 / 解锁动画"]
+        R_ADMIN["Admin Window<br/>900×700 · 普通窗口<br/>设置 / 题库 / 记录"]
+    end
+
+    AUTOLAUNCH -.开机.-> M_ENTRY
+    M_DB <--读写--> FS
+    M_STORE <--读写--> FS
+
+    R_QUIZ <--IPC invoke/send--> P_QUIZ
+    R_ADMIN <--IPC invoke/send--> P_ADMIN
+    P_QUIZ <--ipcRenderer--> M_IPC
+    P_ADMIN <--ipcRenderer--> M_IPC
+
+    R_QUIZ -.隐藏入口 5 次点击 + 密码.-> R_ADMIN
+    R_QUIZ -.全部答对 → unlock-desktop.-> M_ENTRY
+
+    classDef main fill:#2d3748,stroke:#4a5568,color:#fff
+    classDef preload fill:#744210,stroke:#975a16,color:#fff
+    classDef renderer fill:#1a365d,stroke:#2c5282,color:#fff
+    classDef os fill:#2d3748,stroke:#718096,color:#cbd5e0
+    class M_ENTRY,M_IPC,M_DB,M_STORE,M_AUTO main
+    class P_QUIZ,P_ADMIN preload
+    class R_QUIZ,R_ADMIN renderer
+    class AUTOLAUNCH,FS os

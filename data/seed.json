@@ -1,0 +1,830 @@
+[
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "（语文·1年级）下列词语书写完全正确的一项是？",
+    "options": [
+      "再接再厉",
+      "再接再励",
+      "在接再厉",
+      "再接再利"
+    ],
+    "answer": "再接再厉",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "（语文·1年级）成语“座无虚席”用来形容观众、听众很多，现场没有空座位。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "（语文·1年级）补全成语：千（ ）一发（填一字，常见搭配）",
+    "options": null,
+    "answer": "钧",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "（语文·1年级·看图识字）题干配图由家长上传；此处用文字描述：图意为“太阳从山后升起”，最贴切的字是？",
+    "options": [
+      "旦",
+      "早",
+      "旭",
+      "时"
+    ],
+    "answer": "旭",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "（语文·1年级）与“寂静”意思最接近的词是？",
+    "options": [
+      "热闹",
+      "安静",
+      "喧哗",
+      "拥挤"
+    ],
+    "answer": "安静",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "（语文·1年级）“他跑得很快，像箭一样。”这句话运用了比喻的修辞手法。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "（数学·1年级）3 + 7 = ？",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "（数学·1年级）5 比 9 大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "（数学·1年级）12 − 5 = （ ）（只填数字）",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "image",
+    "content": "（数学·1年级·看图题）想象图中有 3 行 4 列共多少个小圆点？",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "（数学·1年级）把 1 米平均分成 5 份，每份长多少米？",
+    "options": [
+      "0.1 米",
+      "0.2 米",
+      "0.25 米",
+      "0.5 米"
+    ],
+    "answer": "0.2 米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "（数学·1年级）0.5 和 1/2 表示的大小相等。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 2,
+    "type": "choice",
+    "content": "（语文·2年级）下列词语书写完全正确的一项是？",
+    "options": [
+      "再接再厉",
+      "再接再励",
+      "在接再厉",
+      "再接再利"
+    ],
+    "answer": "再接再厉",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 2,
+    "type": "judge",
+    "content": "（语文·2年级）成语“座无虚席”用来形容观众、听众很多，现场没有空座位。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 2,
+    "type": "fill",
+    "content": "（语文·2年级）补全成语：千（ ）一发（填一字，常见搭配）",
+    "options": null,
+    "answer": "钧",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 2,
+    "type": "image",
+    "content": "（语文·2年级·看图识字）题干配图由家长上传；此处用文字描述：图意为“太阳从山后升起”，最贴切的字是？",
+    "options": [
+      "旦",
+      "早",
+      "旭",
+      "时"
+    ],
+    "answer": "旭",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 2,
+    "type": "choice",
+    "content": "（语文·2年级）与“寂静”意思最接近的词是？",
+    "options": [
+      "热闹",
+      "安静",
+      "喧哗",
+      "拥挤"
+    ],
+    "answer": "安静",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 2,
+    "type": "judge",
+    "content": "（语文·2年级）“他跑得很快，像箭一样。”这句话运用了比喻的修辞手法。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 2,
+    "type": "choice",
+    "content": "（数学·2年级）3 + 7 = ？",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 2,
+    "type": "judge",
+    "content": "（数学·2年级）5 比 9 大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 2,
+    "type": "fill",
+    "content": "（数学·2年级）12 − 5 = （ ）（只填数字）",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 2,
+    "type": "image",
+    "content": "（数学·2年级·看图题）想象图中有 3 行 4 列共多少个小圆点？",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 2,
+    "type": "choice",
+    "content": "（数学·2年级）把 1 米平均分成 5 份，每份长多少米？",
+    "options": [
+      "0.1 米",
+      "0.2 米",
+      "0.25 米",
+      "0.5 米"
+    ],
+    "answer": "0.2 米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 2,
+    "type": "judge",
+    "content": "（数学·2年级）0.5 和 1/2 表示的大小相等。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "（语文·3年级）下列词语书写完全正确的一项是？",
+    "options": [
+      "再接再厉",
+      "再接再励",
+      "在接再厉",
+      "再接再利"
+    ],
+    "answer": "再接再厉",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "（语文·3年级）成语“座无虚席”用来形容观众、听众很多，现场没有空座位。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "（语文·3年级）补全成语：千（ ）一发（填一字，常见搭配）",
+    "options": null,
+    "answer": "钧",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "（语文·3年级·看图识字）题干配图由家长上传；此处用文字描述：图意为“太阳从山后升起”，最贴切的字是？",
+    "options": [
+      "旦",
+      "早",
+      "旭",
+      "时"
+    ],
+    "answer": "旭",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "（语文·3年级）与“寂静”意思最接近的词是？",
+    "options": [
+      "热闹",
+      "安静",
+      "喧哗",
+      "拥挤"
+    ],
+    "answer": "安静",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "（语文·3年级）“他跑得很快，像箭一样。”这句话运用了比喻的修辞手法。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "（数学·3年级）下列哪个数是偶数？",
+    "options": [
+      "13",
+      "21",
+      "28",
+      "35"
+    ],
+    "answer": "28",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "（数学·3年级）任意两个整数相加，和一定大于其中较大的那个数。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "（数学·3年级）若一个正方形边长为 4 厘米，它的周长是（ ）厘米。（只填数字）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "（数学·3年级·看图题）想象图中有 3 行 4 列共多少个小圆点？",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "（数学·3年级）把 1 米平均分成 5 份，每份长多少米？",
+    "options": [
+      "0.1 米",
+      "0.2 米",
+      "0.25 米",
+      "0.5 米"
+    ],
+    "answer": "0.2 米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "（数学·3年级）0.5 和 1/2 表示的大小相等。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 4,
+    "type": "choice",
+    "content": "（语文·4年级）下列词语书写完全正确的一项是？",
+    "options": [
+      "再接再厉",
+      "再接再励",
+      "在接再厉",
+      "再接再利"
+    ],
+    "answer": "再接再厉",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 4,
+    "type": "judge",
+    "content": "（语文·4年级）成语“座无虚席”用来形容观众、听众很多，现场没有空座位。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 4,
+    "type": "fill",
+    "content": "（语文·4年级）补全成语：千（ ）一发（填一字，常见搭配）",
+    "options": null,
+    "answer": "钧",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 4,
+    "type": "image",
+    "content": "（语文·4年级·看图识字）题干配图由家长上传；此处用文字描述：图意为“太阳从山后升起”，最贴切的字是？",
+    "options": [
+      "旦",
+      "早",
+      "旭",
+      "时"
+    ],
+    "answer": "旭",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 4,
+    "type": "choice",
+    "content": "（语文·4年级）与“寂静”意思最接近的词是？",
+    "options": [
+      "热闹",
+      "安静",
+      "喧哗",
+      "拥挤"
+    ],
+    "answer": "安静",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 4,
+    "type": "judge",
+    "content": "（语文·4年级）“他跑得很快，像箭一样。”这句话运用了比喻的修辞手法。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 4,
+    "type": "choice",
+    "content": "（数学·4年级）36 和 48 的最大公因数是？",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 4,
+    "type": "judge",
+    "content": "（数学·4年级）任意两个整数相加，和一定大于其中较大的那个数。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 4,
+    "type": "fill",
+    "content": "（数学·4年级）若一个正方形边长为 4 厘米，它的周长是（ ）厘米。（只填数字）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 4,
+    "type": "image",
+    "content": "（数学·4年级·看图题）想象图中有 3 行 4 列共多少个小圆点？",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 4,
+    "type": "choice",
+    "content": "（数学·4年级）1/3 + 1/6 = ？",
+    "options": [
+      "1/9",
+      "2/9",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 4,
+    "type": "judge",
+    "content": "（数学·4年级）0.5 和 1/2 表示的大小相等。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 5,
+    "type": "choice",
+    "content": "（语文·5年级）下列词语书写完全正确的一项是？",
+    "options": [
+      "再接再厉",
+      "再接再励",
+      "在接再厉",
+      "再接再利"
+    ],
+    "answer": "再接再厉",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 5,
+    "type": "judge",
+    "content": "（语文·5年级）成语“座无虚席”用来形容观众、听众很多，现场没有空座位。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 5,
+    "type": "fill",
+    "content": "（语文·5年级）补全成语：千（ ）一发（填一字，常见搭配）",
+    "options": null,
+    "answer": "钧",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 5,
+    "type": "image",
+    "content": "（语文·5年级·看图识字）题干配图由家长上传；此处用文字描述：图意为“太阳从山后升起”，最贴切的字是？",
+    "options": [
+      "旦",
+      "早",
+      "旭",
+      "时"
+    ],
+    "answer": "旭",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 5,
+    "type": "choice",
+    "content": "（语文·5年级）与“寂静”意思最接近的词是？",
+    "options": [
+      "热闹",
+      "安静",
+      "喧哗",
+      "拥挤"
+    ],
+    "answer": "安静",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 5,
+    "type": "judge",
+    "content": "（语文·5年级）“他跑得很快，像箭一样。”这句话运用了比喻的修辞手法。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 5,
+    "type": "choice",
+    "content": "（数学·5年级）36 和 48 的最大公因数是？",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 5,
+    "type": "judge",
+    "content": "（数学·5年级）任意两个整数相加，和一定大于其中较大的那个数。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 5,
+    "type": "fill",
+    "content": "（数学·5年级）若 2x + 6 = 14，则 x = （ ）（只填数字）",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 5,
+    "type": "image",
+    "content": "（数学·5年级·看图题）想象图中有 3 行 4 列共多少个小圆点？",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 5,
+    "type": "choice",
+    "content": "（数学·5年级）1/3 + 1/6 = ？",
+    "options": [
+      "1/9",
+      "2/9",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 5,
+    "type": "judge",
+    "content": "（数学·5年级）0.5 和 1/2 表示的大小相等。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "（语文·6年级）下列词语书写完全正确的一项是？",
+    "options": [
+      "再接再厉",
+      "再接再励",
+      "在接再厉",
+      "再接再利"
+    ],
+    "answer": "再接再厉",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "（语文·6年级）成语“座无虚席”用来形容观众、听众很多，现场没有空座位。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "（语文·6年级）补全成语：千（ ）一发（填一字，常见搭配）",
+    "options": null,
+    "answer": "钧",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "（语文·6年级·看图识字）题干配图由家长上传；此处用文字描述：图意为“太阳从山后升起”，最贴切的字是？",
+    "options": [
+      "旦",
+      "早",
+      "旭",
+      "时"
+    ],
+    "answer": "旭",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "（语文·6年级）与“寂静”意思最接近的词是？",
+    "options": [
+      "热闹",
+      "安静",
+      "喧哗",
+      "拥挤"
+    ],
+    "answer": "安静",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "（语文·6年级）“他跑得很快，像箭一样。”这句话运用了比喻的修辞手法。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 6,
+    "type": "choice",
+    "content": "（数学·6年级）比的前项扩大 2 倍，后项不变，比值如何变化？",
+    "options": [
+      "缩小到一半",
+      "不变",
+      "扩大 2 倍",
+      "扩大 4 倍"
+    ],
+    "answer": "扩大 2 倍",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 6,
+    "type": "judge",
+    "content": "（数学·6年级）任意两个整数相加，和一定大于其中较大的那个数。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 6,
+    "type": "fill",
+    "content": "（数学·6年级）若 2x + 6 = 14，则 x = （ ）（只填数字）",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 6,
+    "type": "image",
+    "content": "（数学·6年级·看图题）想象图中有 3 行 4 列共多少个小圆点？",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 6,
+    "type": "choice",
+    "content": "（数学·6年级）1/3 + 1/6 = ？",
+    "options": [
+      "1/9",
+      "2/9",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 6,
+    "type": "judge",
+    "content": "（数学·6年级）0.5 和 1/2 表示的大小相等。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "name": "quizy",
+  "version": "1.0.0",
+  "description": "儿童开机锁屏答题软件",
+  "main": "src/main/main.js",
+  "license": "MIT",
+  "author": "Quizy Contributors",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=development electron .",
+    "postinstall": "cross-env CL=/std:c++20 electron-rebuild -f -w better-sqlite3",
+    "rebuild:electron": "cross-env CL=/std:c++20 electron-rebuild -f -w better-sqlite3",
+    "test": "cross-env ELECTRON_RUN_AS_NODE=1 electron --test ./test/db.test.js ./test/store.test.js",
+    "build": "electron-builder --win --x64",
+    "build:dir": "electron-builder --win --x64 --dir"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "electron-store": "^8.1.0"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.7.1",
+    "cross-env": "^7.0.3",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "overrides": {
+    "@electron/rebuild": {
+      "@electron/node-gyp": "npm:node-gyp@11.5.0"
+    }
+  },
+  "build": {
+    "appId": "com.quizy.app",
+    "productName": "Quizy",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icons/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*",
+      "data/**/*",
+      "node_modules/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "data/",
+        "to": "data/"
+      }
+    ]
+  }
+}
