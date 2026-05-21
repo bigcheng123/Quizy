@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Quizy is a Windows Electron desktop app that turns boot-time into a forced quiz session for elementary-school children. The app launches fullscreen at login, locks the desktop, and only releases control after the child answers the configured number of Chinese (`chinese`) and Math (`math`) questions correctly. Parents reach an admin UI through a hidden 5-click trigger + password gate. All data is local (SQLite + electron-store); no network.
+Quizy is a Windows Electron desktop app that turns boot-time into a forced quiz session for elementary-school children. The app launches fullscreen at login, locks the desktop, and only releases control after the child answers the configured number of Chinese (`chinese`) and Math (`math`) questions correctly. Parents reach an admin UI through the bottom-right **Settings** button + password gate. All data is local (SQLite + electron-store); no network.
 
 Primary product spec & open task list: `DEVELOPMENT_TASKS.md` (repo root). That doc is canonical — check section 2.2 for remaining gaps before assuming a file exists.
 
@@ -27,11 +27,11 @@ There is **no linter or formatter** configured. The only scripted tests are `npm
 Three-tier Electron app, classic main/preload/renderer split with `contextIsolation: true` and `nodeIntegration: false`. Two BrowserWindows coexist:
 
 - **Quiz window** (`src/renderer/quiz/`) — fullscreen, frameless, `closable: false`, `alwaysOnTop`. This is the lockscreen. Preload exposes `window.quizAPI`.
-- **Admin window** (`src/renderer/admin/`) — 900×700, framed and resizable, **also `alwaysOnTop: true`** so the lock window can't visually bury it. Created only after the hidden-trigger + password flow succeeds. Preload exposes `window.adminAPI`.
+- **Admin window** (`src/renderer/admin/`) — 900×700, framed and resizable, **also `alwaysOnTop: true`** so the lock window can't visually bury it. Created only after the settings-button + password flow succeeds. Preload exposes `window.adminAPI`.
 
 Main process wiring (`src/main/main.js`):
-1. `initStore(options?)` → electron-store with schema (default admin password `123456`, grade `3`, `unlockRequirements: {chinese: 5, math: 5}`, `adminSecretClickCount: 5`). Production calls `initStore()` with no args; tests may pass `{ cwd, name, projectVersion }`.
-2. `initDb()` → opens `<userData>/quizy.db` (or `QUIZY_TEST_USERDATA` when set for tests), creates `questions` + `records` tables, runs `seedIfEmpty()` from `data/seed.json` (dev: repo root, prod: `process.resourcesPath/data/`, or `QUIZY_SEED_PATH`; skip seeding with `QUIZY_SKIP_SEED=1`). Use `closeDb()` only from tests or internal cleanup.
+1. `initStore(options?)` → electron-store with schema (default admin password `123456`, grade `3`, `unlockRequirements: {chinese: 5, math: 5}`). Production calls `initStore()` with no args; tests may pass `{ cwd, name, projectVersion }`.
+2. `initDb()` → opens `<userData>/quizy.db` (or `QUIZY_TEST_USERDATA` when set for tests), creates `questions` + `records` tables, runs `seedIfEmpty()` from `data/seed.json` (`resolveSeedPath()`: `<repo>/data/seed.json` via `src/main/../..`, then `process.resourcesPath/data/`; override with `QUIZY_SEED_PATH`; skip with `QUIZY_SKIP_SEED=1`). Use `closeDb()` only from tests or internal cleanup.
 3. `setupAutoLaunch()` → `app.setLoginItemSettings({openAtLogin: true})` — **skipped in development** so you don't pollute your login items while iterating.
 4. `registerIpcHandlers()` → all DB/config/IPC channels in `src/main/ipcHandlers.js`.
 5. Registers no-op `globalShortcut` handlers for Alt+F4, Ctrl+W, Ctrl+R, F5, F11.
@@ -57,4 +57,4 @@ These are load-bearing for the product working at all:
 
 ## Hidden admin entry flow
 
-The right-bottom `#admin-trigger` element in the quiz UI accumulates clicks (5 by default, configurable via `adminSecretClickCount`) within a 3-second rolling window. On success it opens a password modal; correct password sends `open-admin-window` IPC, which spawns the admin BrowserWindow. The admin window stays open independently of the quiz window — closing it refocuses the quiz.
+The bottom-right `#settings-btn` on the quiz UI opens the password modal on click. Correct password sends `open-admin-window` IPC, which spawns the admin BrowserWindow. The admin window stays open independently of the quiz window — closing it refocuses the quiz.

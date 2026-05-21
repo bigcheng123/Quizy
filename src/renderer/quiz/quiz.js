@@ -3,12 +3,11 @@
 let config = null;
 let currentSubject = 'chinese';
 let currentQuestion = null;
-let answeredIds = { chinese: [], math: [] };
+let sessionWrongIds = { chinese: [], math: [] };
 let correctCount = { chinese: 0, math: 0 };
 let requirements = { chinese: 5, math: 5 };
+let enabledSubjects = ['chinese', 'math'];
 let grade = 3;
-let adminClickCount = 0;
-let adminClickTimer = null;
 let isAnswering = false;
 let unlockExitRequested = false;
 const UNLOCK_BTN_DEFAULT = '结束锁屏，进入桌面';
@@ -24,7 +23,7 @@ async function init() {
   await loadQuestion();
   setupFillControls();
   setupUnlockDone();
-  setupAdminTrigger();
+  setupAdminEntry();
   window.quizAPI.onQuizSessionReset(() => {
     resetQuizSession();
   });
@@ -38,16 +37,36 @@ function applyConfig(cfg) {
     math: typeof req.math === 'number' ? req.math : 5
   };
   grade = cfg.grade;
+  enabledSubjects = Array.isArray(cfg.subjects) && cfg.subjects.length
+    ? cfg.subjects.filter((s) => s === 'chinese' || s === 'math')
+    : ['chinese', 'math'];
+  if (!enabledSubjects.length) enabledSubjects = ['chinese'];
+  applySubjectVisibility();
+}
+
+function applySubjectVisibility() {
+  for (const subj of ['chinese', 'math']) {
+    const on = enabledSubjects.includes(subj);
+    const prog = document.querySelector(`.progress-subject .subject-label.${subj}`);
+    if (prog && prog.parentElement) prog.parentElement.style.display = on ? '' : 'none';
+    const tab = document.getElementById(`tab-${subj}`);
+    if (tab) tab.style.display = on ? '' : 'none';
+  }
+  if (!enabledSubjects.includes(currentSubject)) {
+    currentSubject = enabledSubjects[0];
+  }
+  document.getElementById('tab-chinese').classList.toggle('active', currentSubject === 'chinese');
+  document.getElementById('tab-math').classList.toggle('active', currentSubject === 'math');
+}
+
+function allSubjectsComplete() {
+  return enabledSubjects.every((s) => correctCount[s] >= requirements[s]);
 }
 
 async function resetQuizSession() {
-  answeredIds = { chinese: [], math: [] };
+  sessionWrongIds = { chinese: [], math: [] };
   correctCount = { chinese: 0, math: 0 };
   isAnswering = false;
-  adminClickCount = 0;
-  if (adminClickTimer) clearTimeout(adminClickTimer);
-  adminClickTimer = null;
-
   const cfg = await window.quizAPI.getConfig();
   applyConfig(cfg);
 
@@ -61,9 +80,8 @@ async function resetQuizSession() {
   document.body.classList.remove('admin-modal-open');
   document.getElementById('admin-modal').style.display = 'none';
 
-  currentSubject = 'chinese';
-  document.getElementById('tab-chinese').classList.add('active');
-  document.getElementById('tab-math').classList.remove('active');
+  currentSubject = enabledSubjects[0] || 'chinese';
+  applySubjectVisibility();
 
   renderProgress();
   await loadQuestion();
@@ -99,7 +117,7 @@ function generateStars() {
 }
 
 function renderProgress() {
-  for (const subj of ['chinese', 'math']) {
+  for (const subj of enabledSubjects) {
     const req = requirements[subj];
     const cnt = correctCount[subj];
     const starsRow = document.getElementById(`stars-${subj}`);
@@ -116,6 +134,7 @@ function renderProgress() {
 
 function switchSubject(subj) {
   if (isAnswering) return;
+  if (!enabledSubjects.includes(subj)) return;
   currentSubject = subj;
   document.getElementById('tab-chinese').classList.toggle('active', subj === 'chinese');
   document.getElementById('tab-math').classList.toggle('active', subj === 'math');
@@ -124,10 +143,11 @@ function switchSubject(subj) {
 
 async function loadQuestion() {
   isAnswering = false;
-  const excludeIds = answeredIds[currentSubject];
+  const excludeIds = sessionWrongIds[currentSubject];
   const q = await window.quizAPI.getQuestion(currentSubject, grade, excludeIds);
   if (!q) {
-    document.getElementById('question-content').textContent = '该科目暂无更多题目，请联系管理员添加题库。';
+    document.getElementById('question-content').textContent =
+      '该年级本科目暂无可用题目。请在设置中调整年级或题型，或到管理后台补充题库；也可取消「答对不再出现」后重试。';
     document.getElementById('options-area').innerHTML = '';
     document.getElementById('fill-area').style.display = 'none';
     return;
@@ -192,7 +212,11 @@ async function handleAnswer(answer, btnEl) {
   isAnswering = true;
 
   const correct = answer.trim() === currentQuestion.answer.trim();
-  answeredIds[currentSubject].push(currentQuestion.id);
+  if (!correct) {
+    if (!sessionWrongIds[currentSubject].includes(currentQuestion.id)) {
+      sessionWrongIds[currentSubject].push(currentQuestion.id);
+    }
+  }
   await window.quizAPI.submitAnswer(currentSubject, currentQuestion.id, correct);
 
   if (correct) {
@@ -202,8 +226,7 @@ async function handleAnswer(answer, btnEl) {
     showFeedback('⭐');
     playSound('correct');
 
-    if (correctCount['chinese'] >= requirements['chinese'] &&
-        correctCount['math'] >= requirements['math']) {
+    if (allSubjectsComplete()) {
       setTimeout(showUnlock, 800);
       return;
     }
@@ -227,10 +250,8 @@ async function handleAnswer(answer, btnEl) {
 
 function autoSwitchSubjectIfDone() {
   if (correctCount[currentSubject] >= requirements[currentSubject]) {
-    const other = currentSubject === 'chinese' ? 'math' : 'chinese';
-    if (correctCount[other] < requirements[other]) {
-      switchSubjectSilent(other);
-    }
+    const other = enabledSubjects.find((s) => s !== currentSubject && correctCount[s] < requirements[s]);
+    if (other) switchSubjectSilent(other);
   }
 }
 
@@ -295,18 +316,8 @@ function setupUnlockDone() {
   });
 }
 
-function setupAdminTrigger() {
-  const trigger = document.getElementById('admin-trigger');
-  trigger.addEventListener('click', () => {
-    adminClickCount++;
-    clearTimeout(adminClickTimer);
-    adminClickTimer = setTimeout(() => { adminClickCount = 0; }, 3000);
-    const required = config ? config.adminSecretClickCount : 5;
-    if (adminClickCount >= required) {
-      adminClickCount = 0;
-      showAdminModal();
-    }
-  });
+function setupAdminEntry() {
+  document.getElementById('settings-btn').addEventListener('click', () => showAdminModal());
 
   const adminModal = document.getElementById('admin-modal');
   adminModal.addEventListener('click', (e) => {

@@ -128,7 +128,7 @@ app.on('will-quit', () => {
   globalShortcut.unregisterAll();
 });
 
-ipcMain.on('unlock-desktop', () => {
+function forceQuitApp() {
   isUnlocked = true;
   if (adminWindow && !adminWindow.isDestroyed()) {
     adminWindow.destroy();
@@ -136,18 +136,15 @@ ipcMain.on('unlock-desktop', () => {
   adminWindow = null;
   destroyQuizWindow();
   app.quit();
-});
+}
+
+ipcMain.on('unlock-desktop', forceQuitApp);
 
 /** 隐藏应急出口：答题页 Ctrl+Q / Cmd+Q，供开发与家长从全屏锁死状态退出（勿告知儿童）。 */
-ipcMain.on('emergency-quit', () => {
-  isUnlocked = true;
-  if (adminWindow && !adminWindow.isDestroyed()) {
-    adminWindow.destroy();
-  }
-  adminWindow = null;
-  destroyQuizWindow();
-  app.quit();
-});
+ipcMain.on('emergency-quit', forceQuitApp);
+
+/** 管理后台「强制结束程序」：关闭锁屏与后台，返回桌面。 */
+ipcMain.on('force-quit-app', forceQuitApp);
 
 ipcMain.on('open-admin', () => {
   createAdminWindow();

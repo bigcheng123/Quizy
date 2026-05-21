@@ -9,7 +9,7 @@
 
 **Language / 语言**：**简体中文** · [English](./README.en.md)
 
-> 一款面向小学生的 Windows 桌面应用：开机即以全屏锁屏方式启动，孩子必须答对每日规定数量的 **语文 / 数学** 题目，才能解锁桌面进入正常使用。家长（管理员）通过隐藏入口 + 密码进入后台，配置年级、题量、密码并管理题库、查看答题记录。
+> 一款面向小学生的 Windows 桌面应用：开机即以全屏锁屏方式启动，孩子必须答对每日规定数量的 **语文 / 数学** 题目，才能解锁桌面进入正常使用。家长（管理员）通过右下角「设置」+ 密码进入后台，配置年级、题量、密码并管理题库、查看答题记录。
 
 - **平台**：Windows 10/11（64 位）
 - **技术栈**：Electron 33 + better-sqlite3 11 + electron-store 8 + 原生 HTML/CSS/JS
@@ -65,7 +65,7 @@ flowchart LR
     P_QUIZ <--ipcRenderer--> M_IPC
     P_ADMIN <--ipcRenderer--> M_IPC
 
-    R_QUIZ -.隐藏入口 5 次点击 + 密码.-> R_ADMIN
+    R_QUIZ -.设置按钮 + 密码.-> R_ADMIN
     R_QUIZ -.全部答对 → unlock-desktop.-> M_ENTRY
 
     classDef main fill:#2d3748,stroke:#4a5568,color:#fff
@@ -104,8 +104,8 @@ flowchart LR
            └─> 语文/数学双双达标
                 └─> "解锁成功"庆祝动画 → IPC `unlock-desktop` → 关闭主窗口
 
-[隐藏管理员入口]
- 右下角 60×60 透明区域，3 秒内点击 5 次 → 密码弹窗 → 进入管理后台
+[管理员入口]
+ 右下角「设置」按钮 → 密码弹窗 → 进入管理后台
 ```
 
 ### 1.3 技术决策（务必遵守）
@@ -191,7 +191,7 @@ Quizy/
 | --- | --- |
 | `main.js` | 创建 **Quiz 窗口**（全屏/frame:false/closable:false/alwaysOnTop）；`close` 监听阻止退出，`blur` 监听抢回前台（**例外**：当 Admin 窗口存在时不再 refocus，避免抢占后台焦点）；按需创建 **Admin 窗口**（900×700 alwaysOnTop）；注册 `Alt+F4`/`Ctrl+W`/`Ctrl+R`/`F5`/`F11` 空处理；接收 **`unlock-desktop`** 关窗，接收隐藏的 **`emergency-quit`**（`Ctrl+Q`/`Cmd+Q`）触发应急退出 |
 | `db.js` | 初始化 `quizy.db`，建表 `questions` / `records` + 索引；随机抽题（支持 `excludeIds`）、答题记录读写、题目 CRUD、按科目+年级计数；**暴露 `closeDb()`**；支持测试注入：`QUIZY_TEST_USERDATA`（数据库路径覆盖）、`QUIZY_SKIP_SEED`（跳过种子）、`QUIZY_SEED_PATH`（指定种子文件） |
-| `store.js` | 用 `electron-store` 管理：`grade`（默认 3）、`adminPassword`（默认 `123456`）、`unlockRequirements`（默认 `{chinese:5, math:5}`）、`adminSecretClickCount`（默认 5）；`initStore(options?)` 透传 `cwd`/`name`/`projectVersion`，便于测试隔离 |
+| `store.js` | 用 `electron-store` 管理：`grade`（默认 3）、`adminPassword`（默认 `123456`）、`unlockRequirements`（默认 `{chinese:5, math:5}`）；`initStore(options?)` 透传 `cwd`/`name`/`projectVersion`，便于测试隔离 |
 | `autoLaunch.js` | 调用 `app.setLoginItemSettings({openAtLogin:true})`；**dev 模式下自动跳过**，避免污染开发者的登录项 |
 | `ipcHandlers.js` | 注册所有 IPC 通道（见 3.4） |
 
@@ -207,7 +207,7 @@ Quizy/
 | 即时反馈 (`#feedback`) | 答对显示 `⭐`、答错显示 `💔`，0.8s 缩放淡出动画 |
 | 错题处理 | 卡片 `shake` 抖动 + 高亮正确答案，1.2s 后自动加载下一题 |
 | 通过遮罩 (`#unlock-overlay`) | 双科目都达标时显示通过祝贺文案与按钮「结束锁屏，进入桌面」，点击后 IPC `unlock-desktop` 退出应用 |
-| 隐藏管理员入口 (`#admin-trigger`) | 右下角 60×60 透明区，3 秒内点击 5 次触发密码弹窗 |
+| 设置入口 (`#settings-btn`) | 右下角「⚙️ 设置」按钮，单击触发密码弹窗 |
 | 管理员弹窗 (`#admin-modal`) | 密码输入 → `verifyPassword` → 通过则 `openAdmin` 打开后台窗口 |
 | 防绕过 | 屏蔽右键菜单、`F12`/`F5`/`F11`、`Ctrl+R`/`Ctrl+W`/`Ctrl+Q` |
 
@@ -238,7 +238,7 @@ Quizy/
 
 | 通道名 | 来源 | 用途 |
 | --- | --- | --- |
-| `get-config` | quiz / admin | 读取配置（grade / unlockRequirements / adminPassword / adminSecretClickCount） |
+| `get-config` | quiz / admin | 读取配置（grade / unlockRequirements / adminPassword） |
 | `set-config` | admin | 设置单项配置 |
 | `verify-password` | quiz | 字符串比对管理员密码 |
 | `get-question` | quiz | 按 subject + grade + excludeIds 随机抽题 |
@@ -388,15 +388,13 @@ npm run build:dir
 
 ---
 
-## 七、隐藏入口与默认凭据
+## 七、设置入口与默认凭据
 
 | 项 | 默认值 | 修改方式 |
 | --- | --- | --- |
 | 管理员密码 | `123456` | 后台"基础设置"Tab |
-| 隐藏入口点击次数 | `5` 次 / 3 秒内 | 暂未在 UI 暴露，通过编辑 `%APPDATA%\Quizy\config.json` 的 `adminSecretClickCount` 调整 |
-| 触发区位置 | 屏幕右下角 60×60 像素透明区域 | 不可移动 |
 
-**操作步骤**：在锁屏页右下角连续点击 5 次（3 秒内）→ 弹出密码框 → 输入正确密码 → 自动打开管理后台窗口。后台与锁屏并存，关闭后台会自动重新聚焦锁屏。
+**操作步骤**：在锁屏页右下角点击「⚙️ 设置」→ 弹出密码框 → 输入正确密码 → 自动打开管理后台窗口。后台与锁屏并存，关闭后台会自动重新聚焦锁屏。
 
 ---
 

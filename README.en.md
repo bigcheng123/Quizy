@@ -9,7 +9,7 @@
 
 **Language / 语言**：[简体中文](./README.md) · **English**
 
-> A Windows desktop app for elementary-school children. The PC auto-launches Quizy at login into a full-screen lockscreen; the child must correctly answer a configured number of **Chinese (语文)** and **Math (数学)** questions before the desktop is unlocked. Parents reach an admin UI through a hidden 5-click trigger + password gate to manage grade, daily quota, password, question bank, and answer history.
+> A Windows desktop app for elementary-school children. The PC auto-launches Quizy at login into a full-screen lockscreen; the child must correctly answer a configured number of **Chinese (语文)** and **Math (数学)** questions before the desktop is unlocked. Parents reach an admin UI through the bottom-right **Settings** button + password gate to manage grade, daily quota, password, question bank, and answer history.
 
 - **Platform**: Windows 10/11 (x64)
 - **Stack**: Electron 33 + better-sqlite3 11 + electron-store 8 + vanilla HTML/CSS/JS
@@ -65,7 +65,7 @@ flowchart LR
     P_QUIZ <--ipcRenderer--> M_IPC
     P_ADMIN <--ipcRenderer--> M_IPC
 
-    R_QUIZ -.hidden 5-click + password.-> R_ADMIN
+    R_QUIZ -.Settings button + password.-> R_ADMIN
     R_QUIZ -.all correct → unlock-desktop.-> M_ENTRY
 
     classDef main fill:#2d3748,stroke:#4a5568,color:#fff
@@ -104,8 +104,8 @@ Boot
            └─> Both subjects met
                 └─> "Unlocked" celebration → IPC `unlock-desktop` → main window closes
 
-[Hidden admin entry]
- Bottom-right 60×60 transparent zone — 5 clicks within 3s → password modal → admin UI
+[Admin entry]
+ Bottom-right Settings button → password modal → admin UI
 ```
 
 ### 1.3 Architectural Decisions (Non-negotiable)
@@ -191,7 +191,7 @@ Quizy/
 | --- | --- |
 | `main.js` | Creates the **Quiz window** (fullscreen / `frame:false` / `closable:false` / `alwaysOnTop`); `close` listener blocks exit; `blur` listener re-grabs focus (**exception**: when the Admin window is open, focus is not re-stolen, so the admin UI is reachable); spawns the **Admin window** on demand (900×700, `alwaysOnTop`); registers no-op global shortcuts for `Alt+F4` / `Ctrl+W` / `Ctrl+R` / `F5` / `F11`; reacts to **`unlock-desktop`** (closes the lock window) and to the hidden **`emergency-quit`** (`Ctrl+Q` / `Cmd+Q` — quits the app, useful when truly stuck). |
 | `db.js` | Initializes `quizy.db`, creates `questions` / `records` tables + indices; random question pick (with `excludeIds`), answer-record write/read, question CRUD, per-(subject, grade) counts; **exposes `closeDb()`**; supports test injection via env: `QUIZY_TEST_USERDATA` (overrides DB path), `QUIZY_SKIP_SEED` (skip seed import), `QUIZY_SEED_PATH` (custom seed file). |
-| `store.js` | Uses `electron-store` for: `grade` (default 3), `adminPassword` (default `123456`), `unlockRequirements` (default `{chinese:5, math:5}`), `adminSecretClickCount` (default 5); `initStore(options?)` forwards `cwd` / `name` / `projectVersion`, enabling isolated test stores. |
+| `store.js` | Uses `electron-store` for: `grade` (default 3), `adminPassword` (default `123456`), `unlockRequirements` (default `{chinese:5, math:5}`); `initStore(options?)` forwards `cwd` / `name` / `projectVersion`, enabling isolated test stores. |
 | `autoLaunch.js` | Calls `app.setLoginItemSettings({openAtLogin:true})`; **auto-skipped in dev mode** to avoid polluting the developer's login items. |
 | `ipcHandlers.js` | Registers all IPC channels (see §3.4). |
 
@@ -207,7 +207,7 @@ Quizy/
 | Instant feedback (`#feedback`) | `⭐` on correct / `💔` on wrong, 0.8s scale-fade animation |
 | Wrong-answer handling | Card `shake` + highlight correct option, auto-advance after 1.2s |
 | Pass overlay (`#unlock-overlay`) | Shown when both quotas hit with a primary button; clicking it sends `unlock-desktop` and exits the app |
-| Hidden admin trigger (`#admin-trigger`) | Bottom-right 60×60 transparent zone — 5 clicks in 3s opens the password modal |
+| Settings entry (`#settings-btn`) | Bottom-right **Settings** button — click opens the password modal |
 | Admin modal (`#admin-modal`) | Password → `verifyPassword` → on success, `openAdmin` IPC opens the admin window |
 | Bypass guards | Suppresses right-click menu, `F12` / `F5` / `F11`, `Ctrl+R` / `Ctrl+W` / `Ctrl+Q` |
 
@@ -238,7 +238,7 @@ Quizy/
 
 | Channel | Caller | Purpose |
 | --- | --- | --- |
-| `get-config` | quiz / admin | Read config (grade / unlockRequirements / adminPassword / adminSecretClickCount) |
+| `get-config` | quiz / admin | Read config (grade / unlockRequirements / adminPassword) |
 | `set-config` | admin | Set a single config key |
 | `verify-password` | quiz | String-compare against `adminPassword` |
 | `get-question` | quiz | Random question by `subject` + `grade` + `excludeIds` |
@@ -390,15 +390,13 @@ Output: `dist/win-unpacked/` — double-click `Quizy.exe` to test.
 
 ---
 
-## 7. Hidden Entry & Default Credentials
+## 7. Settings Entry & Default Credentials
 
 | Item | Default | How to change |
 | --- | --- | --- |
 | Admin password | `123456` | Admin UI · Basic Settings tab |
-| Hidden-trigger click count | `5` clicks within 3s | Not exposed in UI — edit `adminSecretClickCount` in `%APPDATA%\Quizy\config.json` |
-| Trigger position | Bottom-right 60×60 transparent zone | Not movable |
 
-**Steps**: tap the bottom-right zone 5 times within 3 seconds → password modal → correct password → admin window opens. The admin window coexists with the lock window; closing it refocuses the lock screen.
+**Steps**: click the bottom-right **Settings** button → password modal → correct password → admin window opens. The admin window coexists with the lock window; closing it refocuses the lock screen.
 
 ---
 

@@ -1,4 +1,5 @@
 node_modules/
+.vs/
 dist/
 *.db
 *.db-shm

@@ -1,8 +1,9 @@
 const { ipcMain } = require('electron');
 const { getConfig, setConfig } = require('./store');
 const {
-  getRandomQuestion, addRecord, getRecords, getRecordDates,
-  getAllQuestions, addQuestion, updateQuestion, deleteQuestion, getQuestionCount
+  getRandomQuestion, getCorrectQuestionIds, addRecord, getRecords, getRecordDates,
+  getAllQuestions, addQuestion, updateQuestion, deleteQuestion, getQuestionCount,
+  getQuestionAnswerStats
 } = require('./db');
 
 function registerIpcHandlers({ getQuizWindow, getAdminWindow, createAdminWindow }) {
@@ -21,14 +22,30 @@ function registerIpcHandlers({ getQuizWindow, getAdminWindow, createAdminWindow 
     return a === b;
   });
 
-  ipcMain.handle('get-question', (_, subject, grade, excludeIds) => {
-    return getRandomQuestion(subject, grade, excludeIds || []);
+  ipcMain.handle('get-question', (_, subject, grade, sessionExcludeIds) => {
+    const config = getConfig();
+    const sessionIds = sessionExcludeIds || [];
+    const mastered = config.excludeCorrectlyAnswered
+      ? getCorrectQuestionIds(subject, grade)
+      : [];
+    const excludeIds = [...new Set([...sessionIds, ...mastered])];
+    let q = getRandomQuestion(subject, grade, excludeIds, config.questionTypes);
+    if (!q && mastered.length > 0) {
+      q = getRandomQuestion(subject, grade, sessionIds, config.questionTypes);
+    }
+    return q;
   });
 
   ipcMain.handle('submit-answer', (_, subject, questionId, isCorrect) => {
     addRecord(subject, questionId, isCorrect);
+    const adminWin = getAdminWindow();
+    if (adminWin && !adminWin.isDestroyed()) {
+      adminWin.webContents.send('question-stats-changed', { questionId });
+    }
     return true;
   });
+
+  ipcMain.handle('get-question-answer-stats', () => getQuestionAnswerStats());
 
   ipcMain.handle('get-records', (_, date) => getRecords(date));
 

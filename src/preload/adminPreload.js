@@ -10,5 +10,14 @@ contextBridge.exposeInMainWorld('adminAPI', {
   deleteQuestion: (id) => ipcRenderer.invoke('delete-question', id),
   getQuestionCount: (subject, grade) => ipcRenderer.invoke('get-question-count', subject, grade),
   getRecords: (date) => ipcRenderer.invoke('get-records', date),
-  getRecordDates: () => ipcRenderer.invoke('get-record-dates')
+  getRecordDates: () => ipcRenderer.invoke('get-record-dates'),
+  getQuestionAnswerStats: () => ipcRenderer.invoke('get-question-answer-stats'),
+  onQuestionStatsChanged: (fn) => {
+    ipcRenderer.on('question-stats-changed', (_, payload) => {
+      Promise.resolve()
+        .then(() => fn(payload))
+        .catch((e) => console.error(e));
+    });
+  },
+  forceQuitApp: () => ipcRenderer.send('force-quit-app')
 });

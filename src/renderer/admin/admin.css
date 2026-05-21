@@ -26,6 +26,26 @@ header {
   gap: 24px;
   flex-shrink: 0;
 }
+header nav {
+  flex: 1;
+}
+.btn-force-quit {
+  margin-left: auto;
+  flex-shrink: 0;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 200, 200, 0.7);
+  background: rgba(231, 76, 60, 0.35);
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+  transition: background 0.2s, border-color 0.2s;
+}
+.btn-force-quit:hover {
+  background: rgba(192, 57, 43, 0.75);
+  border-color: #fff;
+}
 header h1 {
   font-size: 22px;
   white-space: nowrap;
@@ -77,6 +97,25 @@ h3 {
   gap: 16px;
 }
 .form-row .form-group { flex: 1; }
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+}
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+  user-select: none;
+}
+.checkbox-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
 .form-group label {
   display: block;
   font-size: 14px;
@@ -223,11 +262,45 @@ h3 {
   gap: 12px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
+.hint-line {
+  font-size: 13px;
+  color: #888;
+  margin: 0 0 12px;
+}
 .q-meta {
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
-  min-width: 160px;
+  min-width: 180px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.q-rate-wrap {
+  width: 100%;
+  margin-top: 4px;
+}
+.q-rate {
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.q-rate-none {
+  background: #f0f2f5;
+  color: #999;
+}
+.q-rate-high {
+  background: #e8faf0;
+  color: #1e8449;
+}
+.q-rate-mid {
+  background: #fff8e6;
+  color: #b7791f;
+}
+.q-rate-low {
+  background: #fff0f0;
+  color: #c0392b;
 }
 .tag {
   font-size: 12px;

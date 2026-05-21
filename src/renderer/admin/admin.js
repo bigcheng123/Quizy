@@ -2,8 +2,22 @@
 
 const SUBJECT_LABELS = { chinese: '语文', math: '数学' };
 const TYPE_LABELS = { choice: '选择题', judge: '判断题', fill: '填空题', image: '看图题' };
+const ALL_SUBJECTS = ['chinese', 'math'];
+const ALL_QUESTION_TYPES = ['choice', 'judge', 'fill', 'image'];
+
+function getCheckedValues(name) {
+  return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map((el) => el.value);
+}
+
+function setCheckedValues(name, values) {
+  const set = new Set(values || []);
+  document.querySelectorAll(`input[name="${name}"]`).forEach((el) => {
+    el.checked = set.has(el.value);
+  });
+}
 
 let lastQuestions = [];
+let statsByQuestionId = {};
 
 function showMsg(el, text, type) {
   if (!el) return;
@@ -41,26 +55,62 @@ function showTab(name) {
 async function loadSettingsForm() {
   const cfg = await window.adminAPI.getConfig();
   document.getElementById('grade-select').value = String(cfg.grade);
+  setCheckedValues('cfg-subject', cfg.subjects || ALL_SUBJECTS);
+  setCheckedValues('cfg-qtype', cfg.questionTypes || ALL_QUESTION_TYPES);
+  document.getElementById('exclude-correct').checked = cfg.excludeCorrectlyAnswered !== false;
   const req = cfg.unlockRequirements || { chinese: 5, math: 5 };
   document.getElementById('req-chinese').value = req.chinese;
   document.getElementById('req-math').value = req.math;
   document.getElementById('new-password').value = '';
   document.getElementById('confirm-password').value = '';
+  updateRequirementFieldsVisibility(cfg.subjects || ALL_SUBJECTS);
+}
+
+function updateRequirementFieldsVisibility(subjects) {
+  const showChinese = subjects.includes('chinese');
+  const showMath = subjects.includes('math');
+  document.getElementById('req-chinese').closest('.form-group').style.display = showChinese ? '' : 'none';
+  document.getElementById('req-math').closest('.form-group').style.display = showMath ? '' : 'none';
+}
+
+async function refreshQuestionAnswerStats() {
+  statsByQuestionId = await window.adminAPI.getQuestionAnswerStats();
+}
+
+function questionRateHtml(questionId) {
+  const s = statsByQuestionId[questionId];
+  if (!s || !s.total) {
+    return '<span class="q-rate q-rate-none">未作答</span>';
+  }
+  let tier = 'mid';
+  if (s.rate >= 80) tier = 'high';
+  else if (s.rate < 50) tier = 'low';
+  return (
+    `<span class="q-rate q-rate-${tier}" title="累计 ${s.correct_count} 次答对 / ${s.total} 次作答">` +
+    `答对率 ${s.rate}%（${s.correct_count}/${s.total}）` +
+    `</span>`
+  );
+}
+
+function patchQuestionRateInList(questionId) {
+  const wrap = document.querySelector(`.question-item[data-id="${questionId}"] .q-rate-wrap`);
+  if (wrap) wrap.innerHTML = questionRateHtml(questionId);
 }
 
 async function refreshStats() {
+  const cfg = await window.adminAPI.getConfig();
+  const subjects = cfg.subjects || ALL_SUBJECTS;
+  const grade = cfg.grade;
   const grid = document.getElementById('stats-grid');
   grid.innerHTML = '';
-  for (let g = 1; g <= 6; g++) {
-    for (const sub of ['chinese', 'math']) {
-      const cnt = await window.adminAPI.getQuestionCount(sub, g);
+  for (const sub of subjects) {
+    const cnt = await window.adminAPI.getQuestionCount(sub, grade);
       const card = document.createElement('div');
       card.className = 'stat-card';
       card.innerHTML =
         `<div class="stat-num">${cnt}</div>` +
-        `<div class="stat-label">${g}年级 · ${SUBJECT_LABELS[sub]}</div>`;
+        `<div class="stat-label">${grade}年级 · ${SUBJECT_LABELS[sub]}</div>`;
       grid.appendChild(card);
-    }
   }
 }
 
@@ -69,6 +119,9 @@ async function saveSettings() {
   showMsg(msgEl, '', 'ok');
 
   const grade = parseInt(document.getElementById('grade-select').value, 10);
+  const subjects = getCheckedValues('cfg-subject').filter((s) => ALL_SUBJECTS.includes(s));
+  const questionTypes = getCheckedValues('cfg-qtype').filter((t) => ALL_QUESTION_TYPES.includes(t));
+  const excludeCorrect = document.getElementById('exclude-correct').checked;
   const chinese = parseInt(document.getElementById('req-chinese').value, 10);
   const math = parseInt(document.getElementById('req-math').value, 10);
   const pwd = document.getElementById('new-password').value;
@@ -78,11 +131,19 @@ async function saveSettings() {
     showMsg(msgEl, '请选择有效年级。', 'error');
     return;
   }
-  if (!Number.isInteger(chinese) || chinese < 1 || chinese > 20) {
+  if (!subjects.length) {
+    showMsg(msgEl, '请至少选择一门练习科目。', 'error');
+    return;
+  }
+  if (!questionTypes.length) {
+    showMsg(msgEl, '请至少选择一种题目类型。', 'error');
+    return;
+  }
+  if (subjects.includes('chinese') && (!Number.isInteger(chinese) || chinese < 1 || chinese > 20)) {
     showMsg(msgEl, '语文每日题量须为 1–20 的整数。', 'error');
     return;
   }
-  if (!Number.isInteger(math) || math < 1 || math > 20) {
+  if (subjects.includes('math') && (!Number.isInteger(math) || math < 1 || math > 20)) {
     showMsg(msgEl, '数学每日题量须为 1–20 的整数。', 'error');
     return;
   }
@@ -95,6 +156,9 @@ async function saveSettings() {
 
   try {
     await window.adminAPI.setConfig('grade', grade);
+    await window.adminAPI.setConfig('subjects', subjects);
+    await window.adminAPI.setConfig('questionTypes', questionTypes);
+    await window.adminAPI.setConfig('excludeCorrectlyAnswered', excludeCorrect);
     await window.adminAPI.setConfig('unlockRequirements', { chinese, math });
     if (pwd) await window.adminAPI.setConfig('adminPassword', pwd);
     showMsg(msgEl, '保存成功。', 'ok');
@@ -142,6 +206,7 @@ function hideForm() {
 }
 
 async function loadQuestions() {
+  await refreshQuestionAnswerStats();
   const subject = document.getElementById('filter-subject').value || undefined;
   const gradeRaw = document.getElementById('filter-grade').value;
   const grade = gradeRaw ? parseInt(gradeRaw, 10) : undefined;
@@ -161,12 +226,14 @@ async function loadQuestions() {
   lastQuestions.forEach((row) => {
     const div = document.createElement('div');
     div.className = 'question-item';
+    div.dataset.id = String(row.id);
     div.innerHTML =
       `<div class="q-meta">` +
       `<span class="tag">#${row.id}</span>` +
       `<span class="tag ${row.subject}">${SUBJECT_LABELS[row.subject] || row.subject}</span>` +
       `<span class="tag grade">${row.grade}年级</span>` +
       `<span class="tag">${TYPE_LABELS[row.type] || row.type}</span>` +
+      `<div class="q-rate-wrap">${questionRateHtml(row.id)}</div>` +
       `</div>` +
       `<div class="q-content">${escapeHtml(trunc(row.content, 50))}` +
       `<div class="q-answer">答案：${escapeHtml(trunc(row.answer, 20))}</div></div>` +
@@ -371,6 +438,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   document.getElementById('btn-save-settings').addEventListener('click', () => void saveSettings());
+  document.getElementById('btn-force-quit').addEventListener('click', () => {
+    if (!confirm('确定要强制结束 Quizy 吗？\n\n程序将完全退出，锁屏解除，孩子可正常使用电脑。')) return;
+    window.adminAPI.forceQuitApp();
+  });
+  document.querySelectorAll('input[name="cfg-subject"]').forEach((el) => {
+    el.addEventListener('change', () => {
+      updateRequirementFieldsVisibility(getCheckedValues('cfg-subject'));
+    });
+  });
 
   document.getElementById('btn-filter-questions').addEventListener('click', () => void loadQuestions());
   document.getElementById('btn-add-question').addEventListener('click', () => showAddForm());
@@ -379,7 +455,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('btn-cancel-question-form').addEventListener('click', () => hideForm());
   document.getElementById('records-date-select').addEventListener('change', () => void loadRecords());
 
+  window.adminAPI.onQuestionStatsChanged(async ({ questionId }) => {
+    await refreshQuestionAnswerStats();
+    if (document.getElementById('tab-questions').classList.contains('active')) {
+      patchQuestionRateInList(questionId);
+    }
+  });
+
   await loadSettingsForm();
+  await refreshQuestionAnswerStats();
   await refreshStats();
   await refreshRecordDates();
 });

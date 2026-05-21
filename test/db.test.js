@@ -43,6 +43,46 @@ test('addQuestion and getAllQuestions', () => {
   assert.equal(list[0].options, null);
 });
 
+test('getRandomQuestion filters by question types', () => {
+  dbm.addQuestion({
+    subject: 'math',
+    grade: 2,
+    type: 'fill',
+    content: 'fill',
+    options: null,
+    answer: '1',
+    image_path: null
+  });
+  dbm.addQuestion({
+    subject: 'math',
+    grade: 2,
+    type: 'choice',
+    content: 'choice',
+    options: ['a', 'b', 'c', 'd'],
+    answer: 'a',
+    image_path: null
+  });
+  const onlyFill = dbm.getRandomQuestion('math', 2, [], ['fill']);
+  assert.equal(onlyFill.type, 'fill');
+});
+
+test('getCorrectQuestionIds returns mastered questions for subject and grade', () => {
+  const id = dbm.addQuestion({
+    subject: 'chinese',
+    grade: 3,
+    type: 'judge',
+    content: 'T',
+    options: null,
+    answer: '正确',
+    image_path: null
+  });
+  dbm.addRecord('chinese', id, true);
+  dbm.addRecord('chinese', id, false);
+  const ids = dbm.getCorrectQuestionIds('chinese', 3);
+  assert.deepEqual(ids, [id]);
+  assert.deepEqual(dbm.getCorrectQuestionIds('math', 3), []);
+});
+
 test('getRandomQuestion respects excludeIds and exhausts pool', () => {
   const id1 = dbm.addQuestion({
     subject: 'chinese',
@@ -91,6 +131,28 @@ test('addRecord getRecords getRecordDates', () => {
   assert.ok(recs.every((r) => r.subject === 'math'));
 });
 
+test('repo seed.json exists at path used by resolveSeedPath', () => {
+  const seedPath = path.join(__dirname, '..', 'data', 'seed.json');
+  assert.ok(fs.existsSync(seedPath), `missing seed: ${seedPath}`);
+});
+
+test('mergeSeedIfBehind adds only missing seed rows', () => {
+  delete process.env.QUIZY_SKIP_SEED;
+  process.env.QUIZY_SEED_PATH = path.join(__dirname, 'fixtures', 'mini-seed.json');
+  dbm.addQuestion({
+    subject: 'chinese',
+    grade: 3,
+    type: 'choice',
+    content: '测试题 A',
+    options: ['A', 'B', 'C', 'D'],
+    answer: 'A',
+    image_path: null
+  });
+  dbm.closeDb();
+  dbm.initDb();
+  assert.equal(dbm.getAllQuestions({}).length, 2);
+});
+
 test('seedIfEmpty imports when QUIZY_SEED_PATH set', () => {
   delete process.env.QUIZY_SKIP_SEED;
   process.env.QUIZY_SEED_PATH = path.join(__dirname, 'fixtures', 'mini-seed.json');
@@ -98,6 +160,24 @@ test('seedIfEmpty imports when QUIZY_SEED_PATH set', () => {
   dbm.initDb();
   const n = dbm.getQuestionCount('chinese', 3);
   assert.equal(n, 2);
+});
+
+test('getQuestionAnswerStats aggregates per question', () => {
+  const id = dbm.addQuestion({
+    subject: 'math',
+    grade: 2,
+    type: 'fill',
+    content: '1+1',
+    options: null,
+    answer: '2',
+    image_path: null
+  });
+  dbm.addRecord('math', id, true);
+  dbm.addRecord('math', id, true);
+  dbm.addRecord('math', id, false);
+  const stats = dbm.getQuestionAnswerStats();
+  assert.deepEqual(stats[id], { total: 3, correct_count: 2, rate: 67 });
+  assert.equal(stats[99999], undefined);
 });
 
 test('updateQuestion deleteQuestion getQuestionCount', () => {

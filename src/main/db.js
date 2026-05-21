@@ -56,6 +56,19 @@ function initDb() {
   `);
 
   seedIfEmpty();
+  mergeSeedIfBehind();
+}
+
+function resolveSeedPath() {
+  if (process.env.QUIZY_SEED_PATH) return process.env.QUIZY_SEED_PATH;
+  const candidates = [
+    path.join(__dirname, '../..', 'data', 'seed.json'),
+    path.join(process.resourcesPath || '', 'data', 'seed.json')
+  ];
+  for (const p of candidates) {
+    if (p && fs.existsSync(p)) return p;
+  }
+  return null;
 }
 
 function seedIfEmpty() {
@@ -63,15 +76,8 @@ function seedIfEmpty() {
   if (count > 0) return;
   if (process.env.QUIZY_SKIP_SEED === '1') return;
 
-  const seedPath = process.env.QUIZY_SEED_PATH
-    ? process.env.QUIZY_SEED_PATH
-    : path.join(
-        process.env.NODE_ENV === 'development'
-          ? path.join(__dirname, '../../..', 'data', 'seed.json')
-          : path.join(process.resourcesPath, 'data', 'seed.json')
-      );
-
-  if (!fs.existsSync(seedPath)) return;
+  const seedPath = resolveSeedPath();
+  if (!seedPath) return;
 
   const questions = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
   const insert = db.prepare(`
@@ -96,13 +102,70 @@ function seedIfEmpty() {
   insertMany(questions);
 }
 
-function getRandomQuestion(subject, grade, excludeIds = []) {
-  const placeholders = excludeIds.length > 0 ? excludeIds.map(() => '?').join(',') : null;
-  const sql = placeholders
-    ? `SELECT * FROM questions WHERE subject = ? AND grade = ? AND id NOT IN (${placeholders}) ORDER BY RANDOM() LIMIT 1`
-    : `SELECT * FROM questions WHERE subject = ? AND grade = ? ORDER BY RANDOM() LIMIT 1`;
+/** 种子文件题目多于数据库时，按 (subject, grade, content) 补全缺失题（不删已有题与记录）。 */
+function mergeSeedIfBehind() {
+  if (process.env.QUIZY_SKIP_SEED === '1') return;
 
-  const params = placeholders ? [subject, grade, ...excludeIds] : [subject, grade];
+  const seedPath = resolveSeedPath();
+  if (!seedPath) return;
+
+  const seedQuestions = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+  if (!Array.isArray(seedQuestions) || !seedQuestions.length) return;
+
+  const dbCount = db.prepare('SELECT COUNT(*) AS cnt FROM questions').get().cnt;
+  if (dbCount >= seedQuestions.length) return;
+
+  const existing = new Set(
+    db.prepare('SELECT subject, grade, content FROM questions').all()
+      .map((r) => `${r.subject}\x1f${r.grade}\x1f${r.content}`)
+  );
+
+  const insert = db.prepare(`
+    INSERT INTO questions (subject, grade, type, content, options, answer, image_path)
+    VALUES (@subject, @grade, @type, @content, @options, @answer, @image_path)
+  `);
+
+  const insertMissing = db.transaction((qs) => {
+    let added = 0;
+    for (const q of qs) {
+      const key = `${q.subject}\x1f${q.grade}\x1f${q.content}`;
+      if (existing.has(key)) continue;
+      insert.run({
+        subject: q.subject,
+        grade: q.grade,
+        type: q.type,
+        content: q.content,
+        options: q.options ? JSON.stringify(q.options) : null,
+        answer: q.answer,
+        image_path: q.image_path || null
+      });
+      existing.add(key);
+      added++;
+    }
+    return added;
+  });
+
+  const added = insertMissing(seedQuestions);
+  if (added > 0 && process.env.NODE_ENV === 'development') {
+    console.log(`[Quizy] merged ${added} questions from seed (${dbCount} → ${dbCount + added})`);
+  }
+}
+
+function getRandomQuestion(subject, grade, excludeIds = [], types = null) {
+  const typeList = Array.isArray(types) && types.length
+    ? types
+    : ['choice', 'judge', 'fill', 'image'];
+  const typePh = typeList.map(() => '?').join(',');
+  const excludePh = excludeIds.length > 0 ? excludeIds.map(() => '?').join(',') : null;
+
+  let sql = `SELECT * FROM questions WHERE subject = ? AND grade = ? AND type IN (${typePh})`;
+  const params = [subject, grade, ...typeList];
+  if (excludePh) {
+    sql += ` AND id NOT IN (${excludePh})`;
+    params.push(...excludeIds);
+  }
+  sql += ' ORDER BY RANDOM() LIMIT 1';
+
   const row = db.prepare(sql).get(...params);
   if (!row) return null;
 
@@ -110,6 +173,16 @@ function getRandomQuestion(subject, grade, excludeIds = []) {
     ...row,
     options: row.options ? JSON.parse(row.options) : null
   };
+}
+
+function getCorrectQuestionIds(subject, grade) {
+  const rows = db.prepare(`
+    SELECT DISTINCT r.question_id AS id
+    FROM records r
+    INNER JOIN questions q ON q.id = r.question_id
+    WHERE r.is_correct = 1 AND q.subject = ? AND q.grade = ?
+  `).all(subject, grade);
+  return rows.map((r) => r.id);
 }
 
 function addRecord(subject, questionId, isCorrect) {
@@ -189,10 +262,32 @@ function getQuestionCount(subject, grade) {
   return db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE subject = ? AND grade = ?').get(subject, grade).cnt;
 }
 
+function getQuestionAnswerStats() {
+  const rows = db.prepare(`
+    SELECT question_id,
+           COUNT(*) AS total,
+           SUM(is_correct) AS correct_count
+    FROM records
+    GROUP BY question_id
+  `).all();
+  const stats = {};
+  for (const r of rows) {
+    const total = r.total;
+    const correctCount = r.correct_count;
+    stats[r.question_id] = {
+      total,
+      correct_count: correctCount,
+      rate: total ? Math.round((correctCount / total) * 100) : 0
+    };
+  }
+  return stats;
+}
+
 module.exports = {
   initDb,
   closeDb,
   getRandomQuestion,
+  getCorrectQuestionIds,
   addRecord,
   getRecords,
   getRecordDates,
@@ -200,5 +295,6 @@ module.exports = {
   addQuestion,
   updateQuestion,
   deleteQuestion,
-  getQuestionCount
+  getQuestionCount,
+  getQuestionAnswerStats
 };

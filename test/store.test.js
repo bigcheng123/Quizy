@@ -38,9 +38,11 @@ test('initStore with temp cwd: defaults, getConfig, setConfig', (t) => {
   });
   const cfg = storeMod.getConfig();
   assert.equal(cfg.grade, 3);
+  assert.deepEqual(cfg.subjects, ['chinese', 'math']);
+  assert.deepEqual(cfg.questionTypes, ['choice', 'judge', 'fill', 'image']);
+  assert.equal(cfg.excludeCorrectlyAnswered, true);
   assert.equal(cfg.adminPassword, '123456');
   assert.deepEqual(cfg.unlockRequirements, { chinese: 5, math: 5 });
-  assert.equal(cfg.adminSecretClickCount, 5);
 
   storeMod.setConfig('grade', 6);
   assert.equal(storeMod.getConfig().grade, 6);
