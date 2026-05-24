@@ -22,6 +22,26 @@ function closeDb() {
   }
 }
 
+function getDbPath() {
+  return path.join(getUserDataPath(), 'quizy.db');
+}
+
+function deleteDbFiles() {
+  const dbPath = getDbPath();
+  for (const p of [dbPath, `${dbPath}-wal`, `${dbPath}-shm`]) {
+    if (fs.existsSync(p)) fs.unlinkSync(p);
+  }
+}
+
+/** 删除本地 quizy.db 并从 seed 重新导入（会清空答题记录与手动增删的题目）。 */
+function resetDbAndReloadSeed() {
+  closeDb();
+  deleteDbFiles();
+  initDb();
+  const questionCount = db.prepare('SELECT COUNT(*) AS cnt FROM questions').get().cnt;
+  return { questionCount };
+}
+
 function initDb() {
   if (process.env.QUIZY_TEST_USERDATA && db) {
     closeDb();
@@ -59,16 +79,46 @@ function initDb() {
   mergeSeedIfBehind();
 }
 
-function resolveSeedPath() {
-  if (process.env.QUIZY_SEED_PATH) return process.env.QUIZY_SEED_PATH;
-  const candidates = [
-    path.join(__dirname, '../..', 'data', 'seed.json'),
-    path.join(process.resourcesPath || '', 'data', 'seed.json')
-  ];
-  for (const p of candidates) {
-    if (p && fs.existsSync(p)) return p;
+const SEED_SUBJECTS = ['chinese', 'math'];
+
+function resolveSeedPaths() {
+  if (process.env.QUIZY_SEED_PATH) return [process.env.QUIZY_SEED_PATH];
+  const dirs = [];
+  if (process.env.QUIZY_SEED_DIR) dirs.push(process.env.QUIZY_SEED_DIR);
+  dirs.push(
+    path.join(__dirname, '../..', 'data'),
+    path.join(process.resourcesPath || '', 'data')
+  );
+  for (const dir of dirs) {
+    if (!dir || !fs.existsSync(dir)) continue;
+    const subjectFiles = [];
+    for (let g = 1; g <= 6; g++) {
+      for (const subj of SEED_SUBJECTS) {
+        const p = path.join(dir, `seed-grade-${g}-${subj}.json`);
+        if (fs.existsSync(p)) subjectFiles.push(p);
+      }
+    }
+    if (subjectFiles.length) return subjectFiles;
+    const gradeFiles = [];
+    for (let g = 1; g <= 6; g++) {
+      const p = path.join(dir, `seed-grade-${g}.json`);
+      if (fs.existsSync(p)) gradeFiles.push(p);
+    }
+    if (gradeFiles.length) return gradeFiles;
+    const legacy = path.join(dir, 'seed.json');
+    if (fs.existsSync(legacy)) return [legacy];
   }
-  return null;
+  return [];
+}
+
+function loadSeedQuestions() {
+  const paths = resolveSeedPaths();
+  const all = [];
+  for (const p of paths) {
+    const qs = JSON.parse(fs.readFileSync(p, 'utf-8'));
+    if (Array.isArray(qs)) all.push(...qs);
+  }
+  return all;
 }
 
 function seedIfEmpty() {
@@ -76,10 +126,11 @@ function seedIfEmpty() {
   if (count > 0) return;
   if (process.env.QUIZY_SKIP_SEED === '1') return;
 
-  const seedPath = resolveSeedPath();
-  if (!seedPath) return;
+  const seedPaths = resolveSeedPaths();
+  if (!seedPaths.length) return;
 
-  const questions = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+  const questions = loadSeedQuestions();
+  if (!questions.length) return;
   const insert = db.prepare(`
     INSERT INTO questions (subject, grade, type, content, options, answer, image_path)
     VALUES (@subject, @grade, @type, @content, @options, @answer, @image_path)
@@ -106,11 +157,11 @@ function seedIfEmpty() {
 function mergeSeedIfBehind() {
   if (process.env.QUIZY_SKIP_SEED === '1') return;
 
-  const seedPath = resolveSeedPath();
-  if (!seedPath) return;
+  const seedPaths = resolveSeedPaths();
+  if (!seedPaths.length) return;
 
-  const seedQuestions = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
-  if (!Array.isArray(seedQuestions) || !seedQuestions.length) return;
+  const seedQuestions = loadSeedQuestions();
+  if (!seedQuestions.length) return;
 
   const dbCount = db.prepare('SELECT COUNT(*) AS cnt FROM questions').get().cnt;
   if (dbCount >= seedQuestions.length) return;
@@ -286,6 +337,9 @@ function getQuestionAnswerStats() {
 module.exports = {
   initDb,
   closeDb,
+  getDbPath,
+  deleteDbFiles,
+  resetDbAndReloadSeed,
   getRandomQuestion,
   getCorrectQuestionIds,
   addRecord,

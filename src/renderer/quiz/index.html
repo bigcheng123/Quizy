@@ -31,15 +31,20 @@
       <button class="tab-btn" id="tab-math" onclick="switchSubject('math')">数学</button>
     </div>
 
-    <!-- 题目卡片 -->
-    <div id="question-card">
+    <!-- 题目卡片（试卷风格） -->
+    <div id="question-card" class="exam-paper">
+      <div id="exam-paper-banner" class="exam-paper-banner" aria-hidden="true">
+        <span id="exam-subject-tag" class="exam-subject-tag"></span>
+        <h2 id="exam-paper-title" class="exam-paper-title">学业质量测评</h2>
+        <p id="exam-paper-meta" class="exam-paper-meta">时间：60 分钟　满分：100 分</p>
+      </div>
       <div id="question-meta">
         <span id="q-grade-label"></span>
         <span id="q-type-label"></span>
       </div>
-      <div id="question-content"></div>
-      <div id="question-image-wrap" style="display:none">
-        <img id="question-image" src="" alt="题目图片">
+      <div id="question-content" class="exam-content"></div>
+      <div id="question-image-wrap" class="exam-figure-main" style="display:none">
+        <img id="question-image" src="" alt="题目插图">
       </div>
       <div id="options-area"></div>
       <div id="fill-area" style="display:none">
@@ -76,6 +81,7 @@
     </div>
   </div>
 
+  <script src="exam-render.js"></script>
   <script src="quiz.js"></script>
 </body>
 </html>

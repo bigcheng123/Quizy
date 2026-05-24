@@ -162,7 +162,10 @@ Quizy/
 │           └── admin.js            # 管理后台逻辑（三 Tab：设置 / 题库 / 记录）
 │
 ├── data/
-│   └── seed.json                   # 初始题库（72 道）；dev 读仓库根，prod 读 resourcesPath
+│   ├── seed-grade-1-chinese.json   # 一年级语文
+│   ├── seed-grade-1-math.json      # 一年级数学
+│   ├── seed-grade-2-chinese.json   # 二年级 …
+│   ├── …                           # 共 12 个文件（6 年级 × 语文/数学），启动时合并导入
 │
 ├── assets/                         # T5：应用图标 + 答题反馈音效（可替换为自家素材）
 │   ├── icons/icon.ico              # 打包用 Windows 图标（可换品牌图）
@@ -190,7 +193,7 @@ Quizy/
 | 文件 | 功能 |
 | --- | --- |
 | `main.js` | 创建 **Quiz 窗口**（全屏/frame:false/closable:false/alwaysOnTop）；`close` 监听阻止退出，`blur` 监听抢回前台（**例外**：当 Admin 窗口存在时不再 refocus，避免抢占后台焦点）；按需创建 **Admin 窗口**（900×700 alwaysOnTop）；注册 `Alt+F4`/`Ctrl+W`/`Ctrl+R`/`F5`/`F11` 空处理；接收 **`unlock-desktop`** 关窗，接收隐藏的 **`emergency-quit`**（`Ctrl+Q`/`Cmd+Q`）触发应急退出 |
-| `db.js` | 初始化 `quizy.db`，建表 `questions` / `records` + 索引；随机抽题（支持 `excludeIds`）、答题记录读写、题目 CRUD、按科目+年级计数；**暴露 `closeDb()`**；支持测试注入：`QUIZY_TEST_USERDATA`（数据库路径覆盖）、`QUIZY_SKIP_SEED`（跳过种子）、`QUIZY_SEED_PATH`（指定种子文件） |
+| `db.js` | 初始化 `quizy.db`，建表 `questions` / `records` + 索引；随机抽题（支持 `excludeIds`）、答题记录读写、题目 CRUD、按科目+年级计数；**暴露 `closeDb()`**；支持测试注入：`QUIZY_TEST_USERDATA`（数据库路径覆盖）、`QUIZY_SKIP_SEED`（跳过种子）、`QUIZY_SEED_PATH`（指定单个种子文件）、`QUIZY_SEED_DIR`（指定种子目录，读取 `seed-grade-{1-6}-{chinese|math}.json`） |
 | `store.js` | 用 `electron-store` 管理：`grade`（默认 3）、`adminPassword`（默认 `123456`）、`unlockRequirements`（默认 `{chinese:5, math:5}`）；`initStore(options?)` 透传 `cwd`/`name`/`projectVersion`，便于测试隔离 |
 | `autoLaunch.js` | 调用 `app.setLoginItemSettings({openAtLogin:true})`；**dev 模式下自动跳过**，避免污染开发者的登录项 |
 | `ipcHandlers.js` | 注册所有 IPC 通道（见 3.4） |
@@ -276,7 +279,8 @@ is_correct   INTEGER  -- 0 | 1
 answered_at  TEXT     -- ISO 时间戳
 ```
 
-**seed.json**（数组，每项对应一条 question）
+**seed-grade-{1-6}-{chinese|math}.json**（按年级+学科拆分的题库数组，每项对应一条 question；应用启动时会合并导入全部 12 个文件）
+
 ```json
 {
   "subject": "chinese",
@@ -288,6 +292,23 @@ answered_at  TEXT     -- ISO 时间戳
   "image_path": null
 }
 ```
+
+**重新生成题库**（从 `knowleage_structure/guangdong-primary-knowledge-by-semester.md` 解析并写入 `data/seed-grade-*-{chinese|math}.json`）：
+
+```bash
+node scripts/generate-seed-from-semester-md.js
+```
+
+**修改 seed 后如何让本地数据库生效**
+
+| 场景 | 做法 |
+| --- | --- |
+| 首次安装 / 空库 | 自动导入，无需操作 |
+| 本地已有题库，想**完全**换成新 seed | 关闭 Quizy → 删除 `%APPDATA%\Quizy\quizy.db`（及同目录下 `.db-shm`、`.db-wal` 若存在）→ 重启应用。**会丢失答题记录** |
+| 本地已有题库，只想**追加** seed 中新增的题目 | 重启 dev 模式即可。Quizy 会尝试 `mergeSeedIfBehind()`：当 seed 总题数多于数据库时，按 `(subject, grade, content)` 补全缺失行，不删已有题 |
+| 只改某一个年级/学科 | 编辑对应的 `data/seed-grade-N-chinese.json` 或 `seed-grade-N-math.json`，再按上表选择「完全替换」或依赖增量合并 |
+
+> 开发模式读 `<repo>/data/seed-grade-*-*.json`；打包后读 `process.resourcesPath/data/` 下同名文件。也可用环境变量 `QUIZY_SEED_DIR` 或 `QUIZY_SEED_PATH` 覆盖。仍兼容旧版 `seed-grade-N.json`（按年级单文件）。
 
 ---
 
@@ -314,7 +335,7 @@ npm run dev
 - `NODE_ENV=development`
 - 自动打开 DevTools（detached 模式）
 - **不**触发开机自启注册
-- 种子文件从 `<repo>/data/seed.json` 读取
+- 种子文件从 `<repo>/data/seed-grade-*-{chinese|math}.json` 读取（按年级+学科拆分，启动时合并导入）
 
 ### 4.4 生产模式（不打包，直接跑）
 
@@ -323,7 +344,7 @@ npm start
 ```
 - 触发开机自启注册
 - 不打开 DevTools
-- 种子文件从 `process.resourcesPath/data/seed.json` 读取（仅打包后存在）
+- 种子文件从 `process.resourcesPath/data/seed-grade-*-*.json` 读取（仅打包后存在）
 
 ### 4.5 自动化测试（T7）
 
@@ -375,7 +396,7 @@ npm run build:dir
 - 两个 preload 桥（`quizPreload / adminPreload`）
 - 答题窗口完整 HTML + CSS + JS
 - 管理后台 HTML + CSS + **`admin.js`（业务逻辑）**
-- **`data/seed.json`**（示例题库：各年级语文/数学各 6 题，覆盖四种题型；仅题库为空时导入一次）
+- **`data/seed-grade-{1-6}-{chinese|math}.json`**（按年级+学科拆分的题库；一年级含第四单元学业质量测评标杆题；仅题库为空时导入一次）
 - **`assets/`**（`icons/icon.ico` + `sounds/correct.mp3` / `wrong.mp3`，满足打包与答题音效）
 - `package.json` + `.gitignore`
 - **`test/`** + **`npm test`**（`db` 抽题/记录/种子、`electron-store` 配置与 schema）
@@ -404,7 +425,7 @@ npm run build:dir
 A：在另一可访问的 Windows 账户或安全模式下，删除/编辑 `%APPDATA%\Quizy\config.json` 中的 `adminPassword` 字段，重启 Quizy 即恢复默认 `123456`。
 
 **Q2：题库为空，孩子答不了题？**
-A：确认仓库内存在 `data/seed.json`（本仓库已附带示例种子）。若曾手动删库或题库已有数据，种子不会重复导入，请在管理后台「题库管理」中新增题目，或清空 `%APPDATA%\Quizy\quizy.db` 后重启以重新触发首次导入（会丢失已有记录）。
+A：确认仓库内存在 `data/seed-grade-{1-6}-{chinese|math}.json`（共 12 个种子文件）。若曾手动删库或题库已有数据，种子不会重复导入，请在管理后台「题库管理」中新增题目，或**删除 `%APPDATA%\Quizy\quizy.db` 后重启**以重新触发首次导入（会丢失已有答题记录）。详见上文「修改 seed 后如何让本地数据库生效」。
 
 **Q3：锁屏卡死、无法解锁？**
 A：在**答题全屏页**连按 **`Ctrl+Q`**（macOS 为 **`Cmd+Q`**）可触发隐藏应急退出（主进程会结束应用；勿让孩子知晓）。仍无法退出时，可按 `Ctrl+Alt+Del` 打开任务管理器强制结束 `Quizy.exe`。

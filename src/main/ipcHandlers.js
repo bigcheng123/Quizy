@@ -1,9 +1,10 @@
 const { ipcMain } = require('electron');
 const { getConfig, setConfig } = require('./store');
+const { applyAutoLaunch } = require('./autoLaunch');
 const {
   getRandomQuestion, getCorrectQuestionIds, addRecord, getRecords, getRecordDates,
   getAllQuestions, addQuestion, updateQuestion, deleteQuestion, getQuestionCount,
-  getQuestionAnswerStats
+  getQuestionAnswerStats, resetDbAndReloadSeed
 } = require('./db');
 
 function registerIpcHandlers({ getQuizWindow, getAdminWindow, createAdminWindow }) {
@@ -12,6 +13,9 @@ function registerIpcHandlers({ getQuizWindow, getAdminWindow, createAdminWindow 
 
   ipcMain.handle('set-config', (_, key, value) => {
     setConfig(key, value);
+    if (key === 'openAtLogin') {
+      applyAutoLaunch(value);
+    }
     return true;
   });
 
@@ -66,6 +70,8 @@ function registerIpcHandlers({ getQuizWindow, getAdminWindow, createAdminWindow 
   });
 
   ipcMain.handle('get-question-count', (_, subject, grade) => getQuestionCount(subject, grade));
+
+  ipcMain.handle('reset-db-reload-seed', () => resetDbAndReloadSeed());
 
   ipcMain.on('open-admin-window', () => createAdminWindow());
 

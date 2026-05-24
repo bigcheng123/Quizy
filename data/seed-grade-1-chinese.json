@@ -1,0 +1,2624 @@
+[
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"天地人\"中的\"天\"是什么意思？",
+    "options": [
+      "大地",
+      "人类",
+      "天空",
+      "海洋"
+    ],
+    "answer": "天空",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "把下面的字补充完整：天（ ）、（ ）人。",
+    "options": null,
+    "answer": "地、你",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"天地人\"中的\"地\"指的是人类。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个字在\"天地人，你我他\"中没有出现？",
+    "options": [
+      "天",
+      "我",
+      "他",
+      "水"
+    ],
+    "answer": "水",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"一二三四五\"中，排在第二的是数字（ ）。",
+    "options": null,
+    "answer": "二",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"天地分上下\"的下一句是什么？",
+    "options": [
+      "金木水火土",
+      "日月照今古",
+      "一二三四五",
+      "天地分左右"
+    ],
+    "answer": "日月照今古",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"金木水火土\"这五个字代表的是五种颜色。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"日月照今古\"中，\"日\"指的是（ ），\"月\"指的是（ ）。",
+    "options": null,
+    "answer": "太阳、月亮",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"站如松\"是什么意思？",
+    "options": [
+      "站着不动",
+      "站得像松树一样挺拔",
+      "站在松树旁边",
+      "坐在松树上"
+    ],
+    "answer": "站得像松树一样挺拔",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"站如松\"的下一句是\"坐如（ ）\"。",
+    "options": null,
+    "answer": "钟",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"行如风\"是说走路要像风一样快，不用管安全。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"卧如弓\"中的\"卧\"是什么意思？",
+    "options": [
+      "站着",
+      "坐着",
+      "走路",
+      "躺下"
+    ],
+    "answer": "躺下",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个字是象形字？",
+    "options": [
+      "的",
+      "我",
+      "日",
+      "们"
+    ],
+    "answer": "日",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"日月水火，山石田土\"中，与\"火\"字形最像的是（ ）（象形字，像火焰的形状）。",
+    "options": null,
+    "answer": "火",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"日\"字的形状来源于圆圆的太阳。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"山石田土\"中，下面哪个字最容易写成象形字？",
+    "options": [
+      "山",
+      "的",
+      "了",
+      "在"
+    ],
+    "answer": "山",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "课文中，秋天来了，天气怎么样了？",
+    "options": [
+      "热了",
+      "凉了",
+      "暖了",
+      "冷了"
+    ],
+    "answer": "凉了",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "大雁往南飞，一会儿排成个\"（ ）\"字，一会儿排成个\"（ ）\"字。",
+    "options": null,
+    "answer": "人、一",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "秋天到了，树叶变绿了。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"一片片叶子从树上落下来\"，这句话中\"一片片\"说明叶子落得怎样？",
+    "options": [
+      "只落了一片",
+      "落了很多片",
+      "没有落",
+      "不知道"
+    ],
+    "answer": "落了很多片",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "课文中\"小小的船\"实际上指的是什么？",
+    "options": [
+      "小船",
+      "月儿",
+      "星星",
+      "云朵"
+    ],
+    "answer": "月儿",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"弯弯的月儿小小的船，小小的船儿两头（ ）\"。",
+    "options": null,
+    "answer": "尖",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "这首儿歌的作者是叶圣陶。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"我在小小的船里坐，只看见闪闪的星星蓝蓝的天\"，\"我\"坐在哪里？",
+    "options": [
+      "真的船里",
+      "月亮上（想象中）",
+      "床上",
+      "飞机上"
+    ],
+    "answer": "月亮上（想象中）",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《江南》这首古诗属于什么类型的诗歌？",
+    "options": [
+      "唐诗",
+      "宋词",
+      "汉乐府",
+      "现代诗"
+    ],
+    "answer": "汉乐府",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"江南可采莲\"的下一句是\"莲叶何（ ）\"。",
+    "options": null,
+    "answer": "田田",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"鱼戏莲叶间\"是写鱼儿在莲叶之间游来游去玩耍。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "诗中鱼在莲叶的哪些方向游来游去？",
+    "options": [
+      "东和西",
+      "东、西、南、北",
+      "上和下",
+      "左和右"
+    ],
+    "answer": "东、西、南、北",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "课文中，代表春天说话的是谁？",
+    "options": [
+      "荷叶",
+      "谷穗",
+      "雪人",
+      "草芽"
+    ],
+    "answer": "草芽",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "谷穗弯弯，他鞠着躬说：\"我是（ ）。\"",
+    "options": null,
+    "answer": "秋天",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "雪人说\"我就是冬天\"的时候，是大肚子一挺，很顽皮的样子。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"荷叶圆圆，他对青蛙说：'我是夏天。'\"，荷叶是什么季节的景物？",
+    "options": [
+      "春天",
+      "夏天",
+      "秋天",
+      "冬天"
+    ],
+    "answer": "夏天",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《咏鹅》的作者是谁？",
+    "options": [
+      "李白",
+      "杜甫",
+      "骆宾王",
+      "白居易"
+    ],
+    "answer": "骆宾王",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "补充诗句：\"白毛浮（ ）水，红掌拨（ ）波。\"",
+    "options": null,
+    "answer": "绿、清",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"曲项向天歌\"中的\"曲项\"指的是鹅弯曲的脖子。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "诗中描写了鹅的哪几种颜色？",
+    "options": [
+      "只有白色",
+      "白色、绿色、红色",
+      "白色、黑色",
+      "灰色、蓝色"
+    ],
+    "answer": "白色、绿色、红色",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"春风吹\"的下一句是？",
+    "options": [
+      "秋霜降",
+      "夏雨落",
+      "冬雪飘",
+      "秋风吹"
+    ],
+    "answer": "夏雨落",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "把季节和对应的天气连起来：春天——吹（ ），夏天——下（ ），秋天——降（ ），冬天——飘（ ）。",
+    "options": null,
+    "answer": "风、雨、霜、雪",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"池草青、山花红、鱼出水、鸟入林\"描写的是冬天的景象。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"鸟入林\"的\"入\"是什么意思？",
+    "options": [
+      "出来",
+      "进去",
+      "飞",
+      "叫"
+    ],
+    "answer": "进去",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"木子李\"中的\"木\"和\"子\"合起来是什么字？",
+    "options": [
+      "张",
+      "李",
+      "胡",
+      "吴"
+    ],
+    "answer": "李",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"（ ）月胡，（ ）天吴\"，请填上正确的字。",
+    "options": null,
+    "answer": "古、口",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"言午许\"是说姓许的\"许\"由\"言\"字旁和\"午\"字组成。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"赵钱孙李，周吴郑王\"出自哪本书？",
+    "options": [
+      "《三字经》",
+      "《百家姓》",
+      "《千字文》",
+      "《弟子规》"
+    ],
+    "answer": "《百家姓》",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "课文中，小青蛙做了什么好事情？",
+    "options": [
+      "唱歌",
+      "保护禾苗吃害虫",
+      "游泳",
+      "吃果子"
+    ],
+    "answer": "保护禾苗吃害虫",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"河水清清天气晴\"中，\"清\"的偏旁是（ ），\"晴\"的偏旁是（ ）。",
+    "options": null,
+    "answer": "氵（三点水）、日（日字旁）",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "课文告诉我们，要伤害小青蛙，不让它吃害虫。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个字和\"清\"同音，都是 qīng？",
+    "options": [
+      "情",
+      "晴",
+      "青",
+      "以上都是"
+    ],
+    "answer": "以上都是",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "第一则谜语\"左边绿，右边红，左右相遇起凉风\"，谜底是哪个字？",
+    "options": [
+      "请",
+      "清",
+      "秋",
+      "情"
+    ],
+    "answer": "秋",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "第二则谜语中，\"言\"来互相尊重——（ ），\"心\"至令人感动——（ ），\"日\"出万里无云——（ ），\"水\"到纯净透明——（ ）。",
+    "options": null,
+    "answer": "请、情、晴、清",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "第一则谜语中\"绿的喜欢及时雨\"指的是\"禾\"（禾苗需要雨水），\"红的最怕水来攻\"指的是\"火\"。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "第二则谜语的四个谜底都有一个共同的偏旁，是什么？",
+    "options": [
+      "氵",
+      "日",
+      "青",
+      "讠"
+    ],
+    "answer": "青",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "谁带领战士和乡亲们挖了水井？",
+    "options": [
+      "周恩来",
+      "朱德",
+      "毛主席",
+      "邓小平"
+    ],
+    "answer": "毛主席",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "石碑上刻着：\"吃水不忘（ ），时刻想念（ ）。\"",
+    "options": null,
+    "answer": "挖井人、毛主席",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "这个故事发生在瑞金城外的沙洲坝。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"吃水不忘挖井人\"这句话告诉我们什么道理？",
+    "options": [
+      "要节约用水",
+      "要学会感恩",
+      "要自己挖井",
+      "要去远处挑水"
+    ],
+    "answer": "要学会感恩",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "课文里，妈妈告诉\"我\"，北京城里有什么？",
+    "options": [
+      "天山",
+      "雪莲",
+      "天安门",
+      "大海"
+    ],
+    "answer": "天安门",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "爸爸告诉\"我\"，遥远的新疆有美丽的（ ），雪山上盛开着洁白的（ ）。",
+    "options": null,
+    "answer": "天山、雪莲",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "课文里的小朋友既想去北京，又想去新疆。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "文中反复说\"我多想去看看\"，表达了\"我\"怎样的心情？",
+    "options": [
+      "害怕",
+      "向往和渴望",
+      "生气",
+      "不喜欢"
+    ],
+    "answer": "向往和渴望",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "这篇课文的作者是谁？",
+    "options": [
+      "叶圣陶",
+      "金子美铃",
+      "冰心",
+      "金波"
+    ],
+    "answer": "金子美铃",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "课文中，小孩正玩着踩影子，大人叫他去上学。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "文中小孩的心情变化：先是\"唉\"（惋惜），然后想到另一件快乐的事，又开心起来。比如：不能多玩一会儿，但（ ）；不想上学，但（ ）。",
+    "options": null,
+    "answer": "可以做各种各样的梦、能见到小伙伴",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "课文告诉我们什么道理？",
+    "options": [
+      "不要听大人的话",
+      "每件事都有好的一面",
+      "一直玩最好",
+      "不做梦最好"
+    ],
+    "answer": "每件事都有好的一面",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"我\"给夏天画了什么颜色的太阳？",
+    "options": [
+      "红色",
+      "金黄",
+      "绿色",
+      "彩色"
+    ],
+    "answer": "绿色",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"我\"画了四个太阳：夏天画（ ）的，秋天画（ ）的，冬天画（ ）的，春天画（ ）的。",
+    "options": null,
+    "answer": "绿绿、金黄、红红、彩色",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "给秋天画金黄的太阳，因为秋天果园里的果子熟了。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "为什么春天要画彩色的太阳？",
+    "options": [
+      "因为春天只有一个颜色",
+      "因为春天是个多彩的季节",
+      "因为彩色最好看",
+      "因为\"我\"喜欢画画"
+    ],
+    "answer": "因为春天是个多彩的季节",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "小公鸡在草地找到了什么吃？",
+    "options": [
+      "鱼",
+      "虫子",
+      "米",
+      "草"
+    ],
+    "answer": "虫子",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "小鸭子能（ ），小公鸡不能（ ）；小公鸡（ ），小鸭子（ ）。",
+    "options": null,
+    "answer": "游泳、游泳、会捉虫、不会捉虫",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "小公鸡偷偷下了水，最后是小鸭子救了它。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "这个故事告诉我们什么道理？",
+    "options": [
+      "鸡比鸭子厉害",
+      "每个人都有自己的长处，朋友之间要互相帮助",
+      "不要吃虫子",
+      "不要去草地"
+    ],
+    "answer": "每个人都有自己的长处，朋友之间要互相帮助",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "从前只有一棵树和一只喜鹊时，它们感觉怎样？",
+    "options": [
+      "很快乐",
+      "很孤单",
+      "很热闹",
+      "很开心"
+    ],
+    "answer": "很孤单",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "后来种了好多好多树，树有了（ ），喜鹊也有了（ ）。",
+    "options": null,
+    "answer": "邻居、邻居",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "有了邻居之后，树和喜鹊都变得很快乐。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "课文告诉我们什么道理？",
+    "options": [
+      "一个人最好",
+      "有朋友才快乐",
+      "树越多越好",
+      "不要养鸟"
+    ],
+    "answer": "有朋友才快乐",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《静夜思》的作者是谁？",
+    "options": [
+      "杜甫",
+      "白居易",
+      "李白",
+      "王维"
+    ],
+    "answer": "李白",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"床前明月光\"的下一句是\"疑是地上（ ）\"。",
+    "options": null,
+    "answer": "霜",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"举头望明月\"中的\"举头\"是低头的意思。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "\"低头思故乡\"表达的是诗人什么样的感情？",
+    "options": [
+      "开心",
+      "生气",
+      "思念家乡",
+      "喜欢月亮"
+    ],
+    "answer": "思念家乡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《春晓》的作者是谁？",
+    "options": [
+      "李白",
+      "孟浩然",
+      "杜甫",
+      "骆宾王"
+    ],
+    "answer": "孟浩然",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "\"春眠不觉晓\"的下一句是\"处处闻（ ）\"。",
+    "options": null,
+    "answer": "啼鸟",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"夜来风雨声，花落知多少\"表达了诗人对花儿落了的怜惜之情。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "诗中哪一句写出了诗人醒来后首先听到的声音？",
+    "options": [
+      "春眠不觉晓",
+      "处处闻啼鸟",
+      "夜来风雨声",
+      "花落知多少"
+    ],
+    "answer": "处处闻啼鸟",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「日」字属于什么造字方法？",
+    "options": [
+      "象形",
+      "形声",
+      "会意",
+      "指事"
+    ],
+    "answer": "象形",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "「人」字第一笔是（ ）。",
+    "options": null,
+    "answer": "撇",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「口」字共有几画？",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「横、竖、撇、捺」是基本笔画。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《天地人》中，「天」的上面是（ ）。",
+    "options": null,
+    "answer": "一",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「《天地人》《金木水火土》《口耳目》《日月…」时，下面哪项做法最合适？",
+    "options": [
+      "只抄字不思考",
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「《天地人》《金木水火土》《口耳目》《日月…」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "本学期知识点包含：（ ）",
+    "options": null,
+    "answer": "积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《天地人》《金木水火土》《口耳目》《日月…」相关的学习活动是？",
+    "options": [
+      "完全不看课本",
+      "只玩不看",
+      "随便乱写",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「象形字认识」时，下面哪项做法最合适？",
+    "options": [
+      "认真阅读课文并积累词句",
+      "只抄字不思考",
+      "不用朗读",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「象形字认识」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「象形字认识」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "完全不看课本",
+      "朗读与理解课文",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「笔画：横竖撇捺」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "只抄字不思考"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「笔画：横竖撇捺」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「笔画：横竖撇捺」相关的学习活动是？",
+    "options": [
+      "随便乱写",
+      "朗读与理解课文",
+      "完全不看课本",
+      "只玩不看"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面读音完全正确的一项是？",
+    "options": [
+      "①大(dà) 地(dì)",
+      "②爸(bà) 妈(mā)",
+      "③我(wó) 你(nǐ)",
+      "④书(shú) 包(bāo)"
+    ],
+    "answer": "②爸(bà) 妈(mā)",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下列词语中，加点字读轻声的是？",
+    "options": [
+      "①天地",
+      "②妈妈",
+      "③人口",
+      "④手足"
+    ],
+    "answer": "②妈妈",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "单韵母 a、o、e 属于（ ）韵母。",
+    "options": null,
+    "answer": "单",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "声母和韵母相拼可以读出汉字的音。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "整体认读音节的特点是？",
+    "options": [
+      "直接认读，不用拼",
+      "只能单独出现",
+      "没有声调",
+      "都是两个字母"
+    ],
+    "answer": "直接认读，不用拼",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "学好语文要关注：（ ）",
+    "options": null,
+    "answer": "认真阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「单韵母 a o e、i u ü」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "跳过课文",
+      "只抄字不思考"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「单韵母 a o e、i u ü」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「单韵母 a o e、i u ü」相关的学习活动是？",
+    "options": [
+      "完全不看课本",
+      "随便乱写",
+      "朗读与理解课文",
+      "只玩不看"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「声母 b p m f 等」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "只抄字不思考",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「声母 b p m f 等」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「声母 b p m f 等」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "朗读与理解课文",
+      "完全不看课本",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「整体认读 zhi chi shi 等」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "跳过课文",
+      "只抄字不思考",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「整体认读 zhi chi shi 等」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「整体认读 zhi chi shi 等」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "随便乱写",
+      "完全不看课本",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "照样子，写一写：一片片 → （ ）",
+    "options": null,
+    "answer": "一朵朵",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "照样子，写一写：弯弯的 → （ ）的",
+    "options": null,
+    "answer": "长长",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「一片片」是什么结构的词语？",
+    "options": [
+      "AA的",
+      "ABB",
+      "AABB",
+      "ABAB"
+    ],
+    "answer": "AA的",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "朗读《秋天》时要注意读出季节的特点。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《小小的船》中，「小小的」是（ ）式词语。",
+    "options": null,
+    "answer": "AA",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「朗读《秋天》《小小的船》《江南》《四季》」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "跳过课文",
+      "只抄字不思考"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「朗读《秋天》《小小的船》《江南》《四季》」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「朗读《秋天》《小小的船》《江南》《四季》」相关的学习活动是？",
+    "options": [
+      "完全不看课本",
+      "随便乱写",
+      "朗读与理解课文",
+      "只玩不看"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「常用词：一片片、弯弯」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "只抄字不思考",
+      "认真阅读课文并积累词句",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「常用词：一片片、弯弯」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「常用词：一片片、弯弯」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "朗读与理解课文",
+      "完全不看课本",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "看图写话：首先要做什么？",
+    "options": [
+      "看清图意",
+      "随便乱写",
+      "只写一个字",
+      "抄课文"
+    ],
+    "answer": "看清图意",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "自我介绍时，首先要说出自己的（ ）。",
+    "options": null,
+    "answer": "名字",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "看图说话时要先仔细观察图片。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "看图写话时，应该？",
+    "options": [
+      "展开想象写清楚",
+      "不用看图",
+      "只写标点",
+      "抄别人的"
+    ],
+    "answer": "展开想象写清楚",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「自我介绍；看图说话一句」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "跳过课文",
+      "只抄字不思考",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「自我介绍；看图说话一句」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「自我介绍；看图说话一句」相关的学习活动是？",
+    "options": [
+      "完全不看课本",
+      "随便乱写",
+      "只玩不看",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《咏鹅》：鹅，鹅，鹅，曲项向天（ ）。",
+    "options": null,
+    "answer": "歌",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《咏鹅》的作者是唐代诗人骆宾王。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《咏鹅》描写的动物是？",
+    "options": [
+      "鹅",
+      "鸭",
+      "鸡",
+      "鹤"
+    ],
+    "answer": "鹅",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《咏鹅》：白毛浮绿水，红掌拨（ ）波。",
+    "options": null,
+    "answer": "清",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "学习「《咏鹅》背诵与理解」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "只抄字不思考",
+      "不用朗读",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「《咏鹅》背诵与理解」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《咏鹅》背诵与理解」相关的学习活动是？",
+    "options": [
+      "随便乱写",
+      "完全不看课本",
+      "只玩不看",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "{{header:|一、基础知识。|72 分}}\n1. 下面加点字的读音完全正确的一项是？（2 分）",
+    "options": [
+      "①疑问(yí) 端午(duān)",
+      "②睡觉(jiào) 勇敢(yǒng)",
+      "③举手(jǔ) 新鲜(xiān)",
+      "④部分(bù) 了解(le)"
+    ],
+    "answer": "③举手(jǔ) 新鲜(xiān)",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "2. 下列词语中，加点字不全读轻声的一项是？（2 分）",
+    "options": [
+      "①粽子 镜子 窗子",
+      "②哥哥 姐姐 妈妈",
+      "③眼睛 散步 思念",
+      "④招呼 喜欢 眉毛"
+    ],
+    "answer": "③眼睛 散步 思念",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "拼一拼，写一写：中秋（ ）的夜晚，我们在屋前赏月。",
+    "options": null,
+    "answer": "节",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "拼一拼，写一写：圆圆的（ ）儿挂在天上。",
+    "options": null,
+    "answer": "月",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "拼一拼，写一写：我们分（ ）月饼，一起庆祝。",
+    "options": null,
+    "answer": "吃",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「春」字的第一笔是？",
+    "options": [
+      "横",
+      "撇",
+      "点",
+      "竖"
+    ],
+    "answer": "横",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「姓」字左边偏旁是？",
+    "options": [
+      "女",
+      "木",
+      "口",
+      "氵"
+    ],
+    "answer": "女",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "识字时要读准字音，认清字形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《姓氏歌》帮助我们认识不同的（ ）。",
+    "options": null,
+    "answer": "姓氏",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「青」字做偏旁时，常出现在字的哪边？",
+    "options": [
+      "左边",
+      "右边",
+      "上边",
+      "下边"
+    ],
+    "answer": "左边",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "4. 分一分，写一写：下列汉字中，先写「点」的是？",
+    "options": [
+      "衣",
+      "我",
+      "式",
+      "书"
+    ],
+    "answer": "衣",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "分一分，写一写：下列汉字中，后写「点」的是？",
+    "options": [
+      "衣",
+      "间",
+      "我",
+      "床"
+    ],
+    "answer": "我",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "带「虫」字旁的字，大多与什么有关？",
+    "options": [
+      "昆虫或动物",
+      "花草",
+      "金属",
+      "水流"
+    ],
+    "answer": "昆虫或动物",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "带「扌」旁的字，大多与什么有关？",
+    "options": [
+      "手的动作",
+      "声音",
+      "颜色",
+      "数量"
+    ],
+    "answer": "手的动作",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「清、情、晴、请」的共同偏旁是？",
+    "options": [
+      "青",
+      "虫",
+      "扌",
+      "氵"
+    ],
+    "answer": "青",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "「打、拍、抱」都带有（ ）旁，与手的动作有关。",
+    "options": null,
+    "answer": "扌",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「蛙、蝶、蚁」都带有虫字旁。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下列哪个字的偏旁是「青」？",
+    "options": [
+      "请",
+      "蛙",
+      "打",
+      "抱"
+    ],
+    "answer": "请",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "写「间」字时，「点」要（ ）写。",
+    "options": null,
+    "answer": "先",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "写「书」字时，「点」要（ ）写。",
+    "options": null,
+    "answer": "后",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "{{header:|5. 【新课标 情境题】跟着小全学习分类认识汉字，选一选。|18 分}}\n[[img:../../assets/exam/grade1-chinese-unit4/homophone-table.png|alt:同音字形近字分类表|class:exam-figure]]\n同音字选一选：我（ ）也不躺（ ）床上看书了。",
+    "options": [
+      "再、在",
+      "在、再",
+      "再、再",
+      "在、在"
+    ],
+    "answer": "再、在",
+    "image_path": "../../assets/exam/grade1-chinese-unit4/homophone-table.png"
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "形近字选一选：洗衣（ ）旁边有一只（ ）（ ）叫的小鸟。",
+    "options": [
+      "机、叽叽",
+      "叽、机机",
+      "机、机机",
+      "叽、叽叽"
+    ],
+    "answer": "机、叽叽",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "形近字选一选：妹妹学着小（ ）的（ ）子，发出咩咩的叫声。",
+    "options": [
+      "羊、样",
+      "样、羊",
+      "羊、羊",
+      "样、样"
+    ],
+    "answer": "羊、样",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《吃水不忘挖井人》告诉我们要（ ）帮助过我们的人。",
+    "options": null,
+    "answer": "感谢",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《我多想去看看》表达了小朋友想去远方看看的愿望。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《一个接一个》中，小朋友虽然想出去玩，但还是（ ）地继续生活。",
+    "options": null,
+    "answer": "快乐",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《我多想去看看》中，小朋友想去（ ）看天安门。",
+    "options": null,
+    "answer": "北京",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《吃水不忘挖井人》的故事发生在？",
+    "options": [
+      "江西",
+      "北京",
+      "上海",
+      "广东"
+    ],
+    "answer": "江西",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《家》的作者是？",
+    "options": [
+      "杨唤",
+      "李白",
+      "孟浩然",
+      "金波"
+    ],
+    "answer": "杨唤",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "image",
+    "content": "{{header:|三、看图写话。|10 分}}\n[[img:../../assets/exam/grade1-chinese-unit4/watermelon-family.png|alt:一家人分吃西瓜|class:exam-figure]]\n一家人分吃西瓜，他们是怎样做的？「我」会怎样做呢？",
+    "options": [
+      "先让长辈吃",
+      "自己先吃",
+      "扔掉西瓜",
+      "不看图乱写"
+    ],
+    "answer": "先让长辈吃",
+    "image_path": "../../assets/exam/grade1-chinese-unit4/watermelon-family.png"
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "[[img:../../assets/exam/grade1-chinese-unit4/animal-homes.png|alt:动物的家|class:exam-figure exam-fig-right]]\n（ ）跑东跑西也找不到一个地方休息。",
+    "options": [
+      "蚂蚁",
+      "蜻蜓",
+      "风",
+      "小鸟"
+    ],
+    "answer": "风",
+    "image_path": "../../assets/exam/grade1-chinese-unit4/animal-homes.png"
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "小弟弟和小妹妹最幸福，因为（ ）。",
+    "options": [
+      "他们生下来就有爸爸妈妈给准备好的家",
+      "他们需要自己去寻找家",
+      "他们住在云朵上",
+      "他们没有家"
+    ],
+    "answer": "他们生下来就有爸爸妈妈给准备好的家",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《家》这首诗中，小毛虫的家是？",
+    "options": [
+      "树叶",
+      "鸟窝",
+      "花朵",
+      "河水"
+    ],
+    "answer": "树叶",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "天一阴，漂流的云就（ ）了。",
+    "options": null,
+    "answer": "哭",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "朗读「吃水不忘挖井人」时，正确的停顿是？",
+    "options": [
+      "吃水/不忘/挖井人",
+      "吃/水不忘/挖井人",
+      "吃水不忘/挖/井人",
+      "吃水/不/忘挖井人"
+    ],
+    "answer": "吃水/不忘/挖井人",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "朗读课文时要注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「床前明月光，疑是地上霜」朗读时应在哪处停顿？",
+    "options": [
+      "床前/明月光",
+      "床/前明月光",
+      "床前明/月光",
+      "不用停顿"
+    ],
+    "answer": "床前/明月光",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《家》这首诗告诉我们：小朋友有温暖的家，是最幸福的。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下列哪项是良好的朗读习惯？",
+    "options": [
+      "先理解内容再朗读",
+      "不看书直接读",
+      "越快越好",
+      "只用耳听不张嘴"
+    ],
+    "answer": "先理解内容再朗读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "朗读时要注意读出课文的（ ）和感情。",
+    "options": null,
+    "answer": "节奏",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "同音字选一选：做完这道列算（ ）的题目后，我打开了电（ ）。",
+    "options": [
+      "式、视",
+      "视、式",
+      "式、式",
+      "视、视"
+    ],
+    "answer": "式、视",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《四个太阳》中，「我」画了（ ）个不同颜色的太阳。",
+    "options": null,
+    "answer": "四",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《小公鸡和小鸭子》告诉我们同伴之间要互相帮助。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《树和喜鹊》中，树和喜鹊后来有了邻居，变得很（ ）。",
+    "options": null,
+    "answer": "快乐",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《四个太阳》中，夏天画的是什么颜色的太阳？",
+    "options": [
+      "绿",
+      "红",
+      "黄",
+      "蓝"
+    ],
+    "answer": "绿",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《小公鸡和小鸭子》中，谁不会游泳？",
+    "options": [
+      "小公鸡",
+      "小鸭子",
+      "都会",
+      "都不会"
+    ],
+    "answer": "小公鸡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《树和喜鹊》中，没有伙伴时树和喜鹊很孤单。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《小公鸡和小鸭子》里，小鸭子救起了掉进水里的（ ）。",
+    "options": null,
+    "answer": "小公鸡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《四个太阳》是什么体裁？",
+    "options": [
+      "童话",
+      "古诗",
+      "寓言",
+      "说明文"
+    ],
+    "answer": "童话",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《树和喜鹊》的作者是（ ）。",
+    "options": null,
+    "answer": "金波",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "照样子，写一写：红红的枣 → （ ）的云朵",
+    "options": null,
+    "answer": "白白",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "照样子，写一写：红红的枣 → （ ）的月亮",
+    "options": null,
+    "answer": "弯弯",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「红红的」是什么结构的词语？",
+    "options": [
+      "AA的",
+      "ABB",
+      "AABB",
+      "ABAB"
+    ],
+    "answer": "AA的",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "照样子写词语：高兴 → （ ）",
+    "options": null,
+    "answer": "高高兴兴",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下列哪个是 ABB 式词语？",
+    "options": [
+      "绿油油",
+      "高高兴兴",
+      "来回",
+      "明亮"
+    ],
+    "answer": "绿油油",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "妈妈把勇敢的故事讲了（ ）讲。",
+    "options": null,
+    "answer": "又",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "外婆包的粽子（ ）好吃。",
+    "options": null,
+    "answer": "十分",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "「弯弯的月亮像小船」中「弯弯的」是叠词。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "照样子写词语：快乐 → （ ）",
+    "options": null,
+    "answer": "快快乐乐",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「亮晶晶」属于哪种词语结构？",
+    "options": [
+      "ABB",
+      "AA的",
+      "AABB",
+      "ABAC"
+    ],
+    "answer": "ABB",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《静夜思》：床前明月光，疑是地上霜。举头望（ ），低头思故乡。",
+    "options": null,
+    "answer": "明月",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《静夜思》：床前明月光，疑是地上霜。举头望明月，低头（ ）故乡。",
+    "options": null,
+    "answer": "思",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《春晓》：春眠不觉晓，处处闻啼（ ）。",
+    "options": null,
+    "answer": "鸟",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《静夜思》的作者是李白。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《春晓》的作者是孟浩然。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《静夜思》中「疑是地上霜」的「疑」意思是？",
+    "options": [
+      "好像",
+      "怀疑",
+      "疑问",
+      "疑惑"
+    ],
+    "answer": "好像",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《春晓》描写的是什么季节？",
+    "options": [
+      "春天",
+      "夏天",
+      "秋天",
+      "冬天"
+    ],
+    "answer": "春天",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《静夜思》写的是诗人思念家乡的感情。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《春晓》：夜来风雨声，花落知（ ）。",
+    "options": null,
+    "answer": "多少",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《静夜思》表达了诗人怎样的感情？",
+    "options": [
+      "思念家乡",
+      "赞美春天",
+      "喜爱夏天",
+      "怀念朋友"
+    ],
+    "answer": "思念家乡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《春晓》中「处处闻啼鸟」描写的是？",
+    "options": [
+      "春天的早晨",
+      "秋天的夜晚",
+      "冬天的早晨",
+      "夏天的中午"
+    ],
+    "answer": "春天的早晨",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "看到明月，诗人李白想起了故乡。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《静夜思》中，诗人看到明月，想起了（ ）。",
+    "options": null,
+    "answer": "故乡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "下列哪句诗写的是春天？",
+    "options": [
+      "春眠不觉晓",
+      "床前明月光",
+      "疑是地上霜",
+      "举头望明月"
+    ],
+    "answer": "春眠不觉晓",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "《春晓》中「夜来风雨声」写的是（ ）天的景象。",
+    "options": null,
+    "answer": "春",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "judge",
+    "content": "《春晓》中「花落知多少」表达了对落花的惋惜。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "「举头望明月，低头思故乡」中「举头」的意思是？",
+    "options": [
+      "抬起头",
+      "低下头",
+      "摇摇头",
+      "摆摆手"
+    ],
+    "answer": "抬起头",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "中秋节的夜晚赏月，让人想起「举头望明月，低头（ ）故乡」。",
+    "options": null,
+    "answer": "思",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "《静夜思》和《春晓》的共同点是？",
+    "options": [
+      "都是古诗",
+      "都是童话",
+      "都是寓言",
+      "都是说明文"
+    ],
+    "answer": "都是古诗",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "{{header:|6. 选择恰当的量词填在括号里。|10 分}}\n[[img:../../assets/exam/grade1-chinese-unit4/shopping-list.png|alt:购物清单|class:exam-figure]]\n一（ ）电视",
+    "options": [
+      "①件",
+      "②台",
+      "③部",
+      "④条",
+      "⑤支"
+    ],
+    "answer": "②台",
+    "image_path": "../../assets/exam/grade1-chinese-unit4/shopping-list.png"
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "选择恰当的量词：二（ ）手机",
+    "options": [
+      "①件",
+      "②台",
+      "③部",
+      "④条",
+      "⑤支"
+    ],
+    "answer": "③部",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "选择恰当的量词：四（ ）上衣",
+    "options": [
+      "①件",
+      "②台",
+      "③部",
+      "④条",
+      "⑤支"
+    ],
+    "answer": "①件",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "选择恰当的量词：六（ ）裤子",
+    "options": [
+      "①件",
+      "②台",
+      "③部",
+      "④条",
+      "⑤支"
+    ],
+    "answer": "④条",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "选择恰当的量词：十（ ）铅笔",
+    "options": [
+      "①件",
+      "②台",
+      "③部",
+      "④条",
+      "⑤支"
+    ],
+    "answer": "⑤支",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "{{header:|7. 将下面的词语补充完整，再选词填空。|10 分}}\n[[img:../../assets/exam/grade1-chinese-unit4/idiom-children.png|alt:词语补充|class:exam-figure exam-fig-right]]\n将词语补充完整：血浓于（ ）",
+    "options": null,
+    "answer": "水",
+    "image_path": "../../assets/exam/grade1-chinese-unit4/idiom-children.png"
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "将词语补充完整：欢聚（ ）堂",
+    "options": null,
+    "answer": "一",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "赛场上只要我们（ ），就一定能取得胜利。",
+    "options": null,
+    "answer": "同心协力",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "fill",
+    "content": "我们在除夕夜（ ），迎接新年的到来。",
+    "options": null,
+    "answer": "欢聚一堂",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 1,
+    "type": "choice",
+    "content": "见到老师应该说？",
+    "options": [
+      "老师好",
+      "你好啊",
+      "不管",
+      "再见"
+    ],
+    "answer": "老师好",
+    "image_path": null
+  }
+]

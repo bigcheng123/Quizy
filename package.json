@@ -11,6 +11,12 @@
     "postinstall": "cross-env CL=/std:c++20 electron-rebuild -f -w better-sqlite3",
     "rebuild:electron": "cross-env CL=/std:c++20 electron-rebuild -f -w better-sqlite3",
     "test": "cross-env ELECTRON_RUN_AS_NODE=1 electron --test ./test/db.test.js ./test/store.test.js",
+    "generate-seed": "node scripts/generate-seed-from-semester-md.js",
+    "extract-exam-figures": "python scripts/extract-exam-figures.py",
+    "extract-exam-figures-chinese": "python scripts/extract-exam-figures-chinese.py",
+    "patch-exam-seed": "node scripts/patch-exam-seed-grade1.js",
+    "import-knowledge-exam": "node scripts/import-knowledge-exam.js",
+    "reload-seed": "cross-env ELECTRON_RUN_AS_NODE=1 electron reload-seed.js",
     "build": "electron-builder --win --x64",
     "build:dir": "electron-builder --win --x64 --dir"
   },

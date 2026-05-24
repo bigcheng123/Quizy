@@ -18,7 +18,8 @@ const schema = {
   unlockRequirements: {
     type: 'object',
     default: { chinese: 5, math: 5 }
-  }
+  },
+  openAtLogin: { type: 'boolean', default: true }
 };
 
 let store;
@@ -46,7 +47,8 @@ function getConfig() {
     questionTypes: normalizeQuestionTypes(store.get('questionTypes')),
     excludeCorrectlyAnswered: store.get('excludeCorrectlyAnswered') !== false,
     adminPassword: store.get('adminPassword'),
-    unlockRequirements: store.get('unlockRequirements')
+    unlockRequirements: store.get('unlockRequirements'),
+    openAtLogin: store.get('openAtLogin') !== false
   };
 }
 

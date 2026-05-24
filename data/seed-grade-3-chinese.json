@@ -1,0 +1,1829 @@
+[
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "大青树下的小学是一所什么样的学校？",
+    "options": [
+      "城市里的小学",
+      "边疆的小学",
+      "海边的小学",
+      "草原上的小学"
+    ],
+    "answer": "边疆的小学",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "同学们上课朗读课文时，跑来了什么动物？",
+    "options": [
+      "小鸟",
+      "松鼠",
+      "猴子",
+      "蝴蝶"
+    ],
+    "answer": "猴子",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "大青树下的小学里只有汉族学生，没有其他民族的学生。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "下课了，大家在大青树下跳（ ）、摔跤、做游戏。",
+    "options": null,
+    "answer": "孔雀舞",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "《花的学校》中，花儿什么时候放假？",
+    "options": [
+      "刮风时",
+      "下雨时",
+      "出太阳时",
+      "下雪时"
+    ],
+    "answer": "下雨时",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "花孩子们冲出来时穿了什么颜色的衣裳？",
+    "options": [
+      "红色、黄色、蓝色",
+      "紫色、黄色、白色",
+      "紫色、红色、白色",
+      "粉色、黄色、蓝色"
+    ],
+    "answer": "紫色、黄色、白色",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "花孩子们的家是在地下的学校里。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "《花的学校》的作者是印度诗人（ ）。",
+    "options": null,
+    "answer": "泰戈尔",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "孙中山小时候在哪里读书？",
+    "options": [
+      "学堂",
+      "私塾",
+      "书院",
+      "学校"
+    ],
+    "answer": "私塾",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "孙中山为什么要向先生提问？",
+    "options": [
+      "他背不出课文",
+      "他觉得背书太无聊",
+      "他不懂书里的意思",
+      "他想考考先生"
+    ],
+    "answer": "他不懂书里的意思",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "孙中山向先生提问后，先生用戒尺打了他。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "孙中山说：\"学问学问，（ ）就要问。\"",
+    "options": null,
+    "answer": "不懂",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "老屋一共帮助了几种动物？",
+    "options": [
+      "两种",
+      "三种",
+      "四种",
+      "五种"
+    ],
+    "answer": "三种",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "老母鸡想在老屋里做什么？",
+    "options": [
+      "躲雨",
+      "孵小鸡",
+      "吃东西",
+      "睡觉"
+    ],
+    "answer": "孵小鸡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "老屋最后终于倒下了。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "老屋第一次准备倒下时，是（ ）请求它再站一个晚上。",
+    "options": null,
+    "answer": "小猫",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "种子最初的想法是什么？",
+    "options": [
+      "要变成一朵花",
+      "要站起来呼吸空气",
+      "要去旅行",
+      "要开花结果"
+    ],
+    "answer": "要站起来呼吸空气",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "手推车最后变成了什么？",
+    "options": [
+      "桌子",
+      "床",
+      "椅子",
+      "柜子"
+    ],
+    "answer": "椅子",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "木地板最后觉得自己又变成了一棵树。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "种子→大树→手推车→（ ）→木地板。",
+    "options": null,
+    "answer": "椅子",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "乌龟陶陶要去参加什么？",
+    "options": [
+      "动物大会",
+      "生日聚会",
+      "狮王的婚礼",
+      "运动会"
+    ],
+    "answer": "狮王的婚礼",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "谁告诉陶陶走的方向反了？",
+    "options": [
+      "蜘蛛发发",
+      "蜗牛师师",
+      "壁虎茨茨",
+      "乌鸦阿嚏"
+    ],
+    "answer": "蜗牛师师",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "乌龟陶陶最后参加了狮王二十八世的婚礼。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "陶陶说：\"只要坚持，一步一步总能（ ）。\"",
+    "options": null,
+    "answer": "到达",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"霜叶红于二月花\"中的\"于\"是什么意思？",
+    "options": [
+      "在",
+      "从",
+      "比",
+      "和"
+    ],
+    "answer": "比",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "诗人为什么停下车来？",
+    "options": [
+      "车坏了",
+      "看到了人家",
+      "喜爱傍晚的枫林",
+      "山路太陡"
+    ],
+    "answer": "喜爱傍晚的枫林",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《山行》描写的是春天的景色。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "远上寒山石径斜，（ ）。",
+    "options": null,
+    "answer": "白云深处有人家",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"荷尽已无擎雨盖\"中的\"擎雨盖\"指什么？",
+    "options": [
+      "雨伞",
+      "荷叶",
+      "荷花",
+      "雨棚"
+    ],
+    "answer": "荷叶",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "苏轼认为一年中最好的景色是什么时候？",
+    "options": [
+      "春天",
+      "夏天",
+      "橙黄橘绿时",
+      "冬天"
+    ],
+    "answer": "橙黄橘绿时",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "\"菊残犹有傲霜枝\"意思是菊花虽然凋残了，但枝干还在霜中傲然挺立。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "一年好景君须记，最是（ ）。",
+    "options": null,
+    "answer": "橙黄橘绿时",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"白银盘里一青螺\"中的\"青螺\"指什么？",
+    "options": [
+      "一只螺蛳",
+      "洞庭湖中的君山",
+      "一块青色的玉",
+      "天上的月亮"
+    ],
+    "answer": "洞庭湖中的君山",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"潭面无风镜未磨\"形容的是什么？",
+    "options": [
+      "湖水清澈见底",
+      "湖面平静但有些朦胧",
+      "风浪很大",
+      "镜子没打磨好"
+    ],
+    "answer": "湖面平静但有些朦胧",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "湖光（ ）两相和，潭面无风镜未磨。",
+    "options": null,
+    "answer": "秋月",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《望洞庭》描写的是洞庭湖秋天的夜景。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "燕子的尾巴像什么？",
+    "options": [
+      "扇子",
+      "剪刀",
+      "叉子",
+      "针"
+    ],
+    "answer": "剪刀",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "飞倦了的燕子停在哪里休息？",
+    "options": [
+      "树枝上",
+      "房檐下",
+      "电线上",
+      "草地上"
+    ],
+    "answer": "电线上",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "燕子有一对笨重的翅膀。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "一身（ ）的羽毛，一对轻快有力的翅膀，加上剪刀似的尾巴，凑成了那样可爱的活泼的小燕子。",
+    "options": null,
+    "answer": "乌黑",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "作者把自己想象成了什么？",
+    "options": [
+      "一条小鱼",
+      "一只蜻蜓",
+      "一朵荷花",
+      "一片荷叶"
+    ],
+    "answer": "一朵荷花",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "课文中荷叶像什么？",
+    "options": [
+      "碧绿的大圆盘",
+      "绿色的小伞",
+      "绿色的扇子",
+      "碧绿的盘子"
+    ],
+    "answer": "碧绿的大圆盘",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "作者一进公园大门就闻到了荷花的清香。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "有的还是花骨朵儿，看起来（ ）得马上要破裂似的。",
+    "options": null,
+    "answer": "饱胀",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"兔走触株\"中的\"走\"在古文中是什么意思？",
+    "options": [
+      "走路",
+      "跑",
+      "跳",
+      "散步"
+    ],
+    "answer": "跑",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "农夫为什么被宋国人笑话？",
+    "options": [
+      "他不会种田",
+      "他长得太丑",
+      "他放下农具等兔子",
+      "他把兔子吃了"
+    ],
+    "answer": "他放下农具等兔子",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "农夫最后又等到了第二只兔子。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "\"因释其（ ）而守株，冀复得兔。\"",
+    "options": null,
+    "answer": "耒",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "凌晨四点，什么花吹起了紫色的小喇叭？",
+    "options": [
+      "蔷薇",
+      "睡莲",
+      "牵牛花",
+      "万寿菊"
+    ],
+    "answer": "牵牛花",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "昙花大约在什么时候开放？",
+    "options": [
+      "傍晚六点",
+      "晚上八点",
+      "九点左右",
+      "七点左右"
+    ],
+    "answer": "九点左右",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "一天之内，不同的花开放的时间是不同的。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "七点，（ ）从梦中醒来。",
+    "options": null,
+    "answer": "睡莲",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "法布尔做蜜蜂实验走了多远的路？",
+    "options": [
+      "两公里",
+      "四公里",
+      "六公里",
+      "八公里"
+    ],
+    "answer": "四公里",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "法布尔的结论是蜜蜂靠什么找到家的？",
+    "options": [
+      "超常的记忆力",
+      "敏锐的视力",
+      "一种本能",
+      "气味"
+    ],
+    "answer": "一种本能",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "法布尔实验的二十只蜜蜂全部飞回了家。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "蜜蜂靠的不是超常的（ ），而是一种我无法解释的本能。",
+    "options": null,
+    "answer": "记忆力",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"泥融飞燕子\"描写的是燕子做什么？",
+    "options": [
+      "在天空飞翔",
+      "衔泥筑巢",
+      "捕食虫子",
+      "在唱歌"
+    ],
+    "answer": "衔泥筑巢",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"沙暖睡鸳鸯\"描写了什么画面？",
+    "options": [
+      "鸳鸯在飞翔",
+      "鸳鸯在捕鱼",
+      "鸳鸯在沙滩上安睡",
+      "鸳鸯在游泳"
+    ],
+    "answer": "鸳鸯在沙滩上安睡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "迟日江山丽，春风（ ）。",
+    "options": null,
+    "answer": "花草香",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《绝句》（迟日江山丽）描写的是春天的景色。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"路上行人欲断魂\"中的\"断魂\"形容什么样的心情？",
+    "options": [
+      "开心喜悦",
+      "伤心忧愁",
+      "愤怒生气",
+      "惊讶好奇"
+    ],
+    "answer": "伤心忧愁",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "牧童为行人指出了什么地方？",
+    "options": [
+      "酒楼",
+      "杏花村",
+      "山顶",
+      "河边"
+    ],
+    "answer": "杏花村",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "（ ），路上行人欲断魂。",
+    "options": null,
+    "answer": "清明时节雨纷纷",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《清明》描写的是重阳节的景象。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"九月九日\"是什么传统节日？",
+    "options": [
+      "中秋节",
+      "端午节",
+      "重阳节",
+      "春节"
+    ],
+    "answer": "重阳节",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "诗人此时在什么地方？",
+    "options": [
+      "家乡",
+      "异乡",
+      "山东",
+      "长安"
+    ],
+    "answer": "异乡",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "（ ），每逢佳节倍思亲。",
+    "options": null,
+    "answer": "独在异乡为异客",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "\"遍插茱萸少一人\"中缺少的那个人是诗人的一位朋友。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "课文《大青树下的小学》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "朗读课文《大青树下的小学》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "《大青树下的小学》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《大青树下的小学》，篇名是《（ ）》",
+    "options": null,
+    "answer": "大青树下的小学",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学好《大青树下的小学》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《大青树下的小学》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "《大青树下的小学》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "想象课本插图与《大青树下的小学》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "本学期知识点包含：（ ）",
+    "options": null,
+    "answer": "积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《大青树下的小学》《花的学校》《不懂就要…」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "随便乱写",
+      "完全不看课本",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "「湖光秋月两相和，潭面无风镜未磨」写的是？",
+    "options": [
+      "洞庭湖夜景",
+      "西湖春景",
+      "长江日出",
+      "黄河瀑布"
+    ],
+    "answer": "洞庭湖夜景",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《望洞庭》的作者是刘禹锡。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「《望洞庭》《山行》《赠刘景文》★ 默写」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「《望洞庭》《山行》《赠刘景文》★ 默写」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "学好语文要关注：（ ）",
+    "options": null,
+    "answer": "认真阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「《望洞庭》《山行》《赠刘景文》★ 默写」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "认真阅读课文并积累词句",
+      "不用朗读",
+      "只抄字不思考"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《望洞庭》《山行》《赠刘景文》★ 默写」相关的学习活动是？",
+    "options": [
+      "随便乱写",
+      "完全不看课本",
+      "朗读与理解课文",
+      "只玩不看"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "课文《总也倒不了的老屋》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "朗读课文《总也倒不了的老屋》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "《总也倒不了的老屋》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《总也倒不了的老屋》，篇名是《（ ）》",
+    "options": null,
+    "answer": "总也倒不了的老屋",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学好《总也倒不了的老屋》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《总也倒不了的老屋》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "《总也倒不了的老屋》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "想象课本插图与《总也倒不了的老屋》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《总也倒不了的老屋》《那一定会很好》《犟…」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "随便乱写",
+      "朗读与理解课文",
+      "完全不看课本"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "阅读时看到题目和插图先猜想内容，属于哪种阅读策略？",
+    "options": [
+      "预测",
+      "抄写",
+      "默背字典",
+      "查部首"
+    ],
+    "answer": "预测",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "边读边在头脑中想象画面，有助于？",
+    "options": [
+      "理解内容",
+      "加快速度跳过",
+      "不用思考",
+      "只记生字"
+    ],
+    "answer": "理解内容",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "说明文中「列数字」的作用是？",
+    "options": [
+      "使说明更准确具体",
+      "增加悬念",
+      "表达情感",
+      "制造比喻"
+    ],
+    "answer": "使说明更准确具体",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「根据题目、插图预测内容」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「根据题目、插图预测内容」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "只抄字不思考"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「根据题目、插图预测内容」相关的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "完全不看课本",
+      "随便乱写",
+      "只玩不看"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「猜猜他是谁（写外貌特点）」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "只抄字不思考",
+      "认真阅读课文并积累词句",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "与「猜猜他是谁（写外貌特点）」相关的学习要求是？",
+    "options": [
+      "只抄字不思考",
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「猜猜他是谁（写外貌特点）」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「猜猜他是谁（写外貌特点）」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「猜猜他是谁（写外貌特点）」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "朗读与理解课文",
+      "完全不看课本",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "「你会去哪里（ ）」句末应填？",
+    "options": null,
+    "answer": "？",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "陈述一件事，句末一般用？",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "「今天天气真好（ ）」句末应填？",
+    "options": null,
+    "answer": "。",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「摘抄好句；标点：逗号、句号、问号」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「摘抄好句；标点：逗号、句号、问号」时，下面哪项做法最合适？",
+    "options": [
+      "认真阅读课文并积累词句",
+      "跳过课文",
+      "只抄字不思考",
+      "不用朗读"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「摘抄好句；标点：逗号、句号、问号」相关的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只玩不看",
+      "随便乱写",
+      "完全不看课本"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "寓言「守株待兔」告诉我们的道理是？",
+    "options": [
+      "不能心存侥幸，要靠努力",
+      "不用思考",
+      "越慢越好",
+      "只要等待就能不劳而获"
+    ],
+    "answer": "不能心存侥幸，要靠努力",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "寓言「守株待兔」的道理是：不能心存侥幸，要靠努力",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「《燕子》《荷花》《守株待兔》」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「《燕子》《荷花》《守株待兔》」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「《燕子》《荷花》《守株待兔》」时，下面哪项做法最合适？",
+    "options": [
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "只抄字不思考",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《燕子》《荷花》《守株待兔》」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "朗读与理解课文",
+      "完全不看课本",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「概括段意」时，下面哪项做法最合适？",
+    "options": [
+      "只抄字不思考",
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "与「概括段意」相关的学习要求是？",
+    "options": [
+      "只抄字不思考",
+      "不用朗读",
+      "跳过课文",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「概括段意」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「概括段意」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「概括段意」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "随便乱写",
+      "完全不看课本",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "《清明》：清明时节雨纷纷，路上行人欲断魂。借问酒家何处有？牧童遥指（ ）花村。",
+    "options": null,
+    "answer": "杏",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《清明》与清明节习俗有关。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「《绝句》（迟日江山丽）《清明》《九月九日…」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「《绝句》（迟日江山丽）《清明》《九月九日…」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「《绝句》（迟日江山丽）《清明》《九月九日…」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "不用朗读",
+      "只抄字不思考",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《绝句》（迟日江山丽）《清明》《九月九日…」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "完全不看课本",
+      "随便乱写",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "课文《花钟》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "朗读课文《花钟》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "《花钟》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《花钟》，篇名是《（ ）》",
+    "options": null,
+    "answer": "花钟",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学好《花钟》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "《花钟》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "fill",
+    "content": "《花钟》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "想象课本插图与《花钟》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《花钟》《蜜蜂》」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "完全不看课本",
+      "随便乱写",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「说明文特点初识」时，下面哪项做法最合适？",
+    "options": [
+      "认真阅读课文并积累词句",
+      "不用朗读",
+      "只抄字不思考",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "与「说明文特点初识」相关的学习要求是？",
+    "options": [
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "只抄字不思考",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「说明文特点初识」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「说明文特点初识」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「说明文特点初识」相关的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只玩不看",
+      "完全不看课本",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「中华传统节日介绍」时，下面哪项做法最合适？",
+    "options": [
+      "只抄字不思考",
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "与「中华传统节日介绍」相关的学习要求是？",
+    "options": [
+      "只抄字不思考",
+      "不用朗读",
+      "跳过课文",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「中华传统节日介绍」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「中华传统节日介绍」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「中华传统节日介绍」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "随便乱写",
+      "完全不看课本",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「看图画写清楚；做实验写过程」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "只抄字不思考"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "与「看图画写清楚；做实验写过程」相关的学习要求是？",
+    "options": [
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "跳过课文",
+      "只抄字不思考"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "认真学好「看图画写清楚；做实验写过程」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「看图画写清楚；做实验写过程」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「看图画写清楚；做实验写过程」相关的学习活动是？",
+    "options": [
+      "随便乱写",
+      "完全不看课本",
+      "朗读与理解课文",
+      "只玩不看"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "「弯弯的月亮像小船」主要运用了哪种修辞？",
+    "options": [
+      "比喻",
+      "拟人",
+      "夸张",
+      "排比"
+    ],
+    "answer": "比喻",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "「花儿在笑」主要运用了哪种修辞？",
+    "options": [
+      "拟人",
+      "比喻",
+      "排比",
+      "设问"
+    ],
+    "answer": "拟人",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「他跑得很快，像箭一样」运用的修辞是？",
+    "options": [
+      "比喻",
+      "拟人",
+      "反问",
+      "对偶"
+    ],
+    "answer": "比喻",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "judge",
+    "content": "「比喻、拟人辨析」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "choice",
+    "content": "学习「比喻、拟人辨析」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "不用朗读",
+      "只抄字不思考",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 3,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「比喻、拟人辨析」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "完全不看课本",
+      "随便乱写",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  }
+]

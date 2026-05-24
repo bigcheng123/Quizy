@@ -1,20 +1,24 @@
 const { app } = require('electron');
 
-function setupAutoLaunch() {
+function applyAutoLaunch(enabled) {
   if (process.env.NODE_ENV === 'development') return;
 
   app.setLoginItemSettings({
-    openAtLogin: true,
+    openAtLogin: !!enabled,
     name: 'Quizy',
     path: process.execPath
   });
 }
 
-function disableAutoLaunch() {
-  app.setLoginItemSettings({
-    openAtLogin: false,
-    name: 'Quizy'
-  });
+function setupAutoLaunchFromConfig(getOpenAtLogin) {
+  if (process.env.NODE_ENV === 'development') return;
+  const enabled = typeof getOpenAtLogin === 'function' ? getOpenAtLogin() : !!getOpenAtLogin;
+  applyAutoLaunch(enabled);
 }
 
-module.exports = { setupAutoLaunch, disableAutoLaunch };
+function getLoginItemOpenAtLogin() {
+  if (process.env.NODE_ENV === 'development') return false;
+  return app.getLoginItemSettings().openAtLogin;
+}
+
+module.exports = { applyAutoLaunch, setupAutoLaunchFromConfig, getLoginItemOpenAtLogin };

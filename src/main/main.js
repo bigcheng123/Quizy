@@ -1,6 +1,6 @@
 const { app, BrowserWindow, globalShortcut, ipcMain, dialog } = require('electron');
 const path = require('path');
-const { setupAutoLaunch } = require('./autoLaunch');
+const { setupAutoLaunchFromConfig } = require('./autoLaunch');
 const { initStore, getConfig } = require('./store');
 const { initDb } = require('./db');
 const { registerIpcHandlers } = require('./ipcHandlers');
@@ -104,7 +104,7 @@ function createAdminWindow() {
 app.whenReady().then(() => {
   initStore();
   initDb();
-  setupAutoLaunch();
+  setupAutoLaunchFromConfig(() => getConfig().openAtLogin);
   registerIpcHandlers({ getQuizWindow: () => quizWindow, getAdminWindow: () => adminWindow, createAdminWindow });
 
   globalShortcut.register('Alt+F4', () => {});

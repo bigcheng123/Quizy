@@ -1,0 +1,6790 @@
+[
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "从正面观察一个正方体，看到的形状是什么？",
+    "options": [
+      "长方形",
+      "正方形",
+      "圆形",
+      "三角形"
+    ],
+    "answer": "正方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "从上面观察一个圆柱，看到的形状是什么？",
+    "options": [
+      "长方形",
+      "正方形",
+      "圆形",
+      "梯形"
+    ],
+    "answer": "圆形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "从侧面观察一个圆柱，看到的形状是□形。",
+    "options": null,
+    "answer": "长方",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "从不同方向观察同一个正方体，看到的形状一定相同。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "由两个正方体拼成的长方体，从正面看是什么形状？",
+    "options": [
+      "两个分开的正方形",
+      "一个长方形",
+      "一个正方形",
+      "一个正方体"
+    ],
+    "answer": "一个长方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一个小正方体放在一个大正方体上面，从上面看可以看到□个正方形。",
+    "options": null,
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "组合体从不同方向看到的形状一定不同。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "观察一个长方体，一次最多能看到几个面？",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "用 4 个同样的小正方体拼成一个长方体，有□种不同的拼法。",
+    "options": null,
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "从任何方向观察球，看到的都是圆形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "计算 24 + 18 − 15 时，从□往□依次计算。",
+    "options": null,
+    "answer": "左、右",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "48 ÷ 6 × 2 的正确结果是？",
+    "options": [
+      "4",
+      "16",
+      "48",
+      "8"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "56 − 27 + 13 = □",
+    "options": null,
+    "answer": "42",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "在没有括号的算式里，既有乘除又有加减，应先算？",
+    "options": [
+      "加减",
+      "乘除",
+      "从左往右",
+      "哪个在前先算哪个"
+    ],
+    "answer": "乘除",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "计算 36 + 4 × 5 时，先算□法，再算□法，结果是□。",
+    "options": null,
+    "answer": "乘、加、56",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "72 ÷ 8 − 3 = □",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "算式 24 ÷ (8 − 2) 的结果是？",
+    "options": [
+      "1",
+      "4",
+      "2",
+      "6"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "计算 (45 + 27) ÷ 9 时，先算□法，再算□法，结果是□。",
+    "options": null,
+    "answer": "加、除、8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "72 − 24 ÷ 6 和 (72 − 24) ÷ 6 的结果相同。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "小明买了 3 支钢笔，每支 12 元，又买了一个 15 元的文具盒，一共花了□元。列综合算式：□。",
+    "options": null,
+    "answer": "51、3 × 12 + 15 = 51",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "妈妈带了 100 元，买了 4 千克苹果，每千克 8 元，还剩□元。列综合算式：□。",
+    "options": null,
+    "answer": "68、100 − 4 × 8 = 68",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "有 45 个苹果，吃掉 15 个，剩下的平均分给 5 个小朋友，每人几个？正确算式是？",
+    "options": [
+      "45 − 15 ÷ 5",
+      "45 ÷ 5 − 15",
+      "(45 − 15) ÷ 5",
+      "45 − 15 ÷ 5 + 5"
+    ],
+    "answer": "(45 − 15) ÷ 5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "1 厘米 = □毫米，1 分米 = □厘米。",
+    "options": null,
+    "answer": "10、10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一枚 1 分硬币的厚度大约是 1□。",
+    "options": null,
+    "answer": "毫米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个物体比较接近 1 分米？",
+    "options": [
+      "课桌高度",
+      "铅笔长度",
+      "手掌宽度",
+      "教室宽度"
+    ],
+    "answer": "手掌宽度",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "1 千米 = □米。",
+    "options": null,
+    "answer": "1000",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计量比较远的路程，通常用□作单位。",
+    "options": [
+      "毫米",
+      "厘米",
+      "分米",
+      "千米"
+    ],
+    "answer": "千米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "操场一圈是 400 米，跑两圈半就是 1 千米。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 厘米 = □毫米，5000 米 = □千米。",
+    "options": null,
+    "answer": "30、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2 米 = □分米 = □厘米。",
+    "options": null,
+    "answer": "20、200",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面长度最长的是？",
+    "options": [
+      "300 厘米",
+      "30 分米",
+      "3 千米",
+      "3000 毫米"
+    ],
+    "answer": "3 千米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "数学课本的厚度大约是 7□，长度大约是 26□。",
+    "options": null,
+    "answer": "毫米、厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一块橡皮长约 4□。",
+    "options": null,
+    "answer": "厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "1 分硬币的厚度大约是 1 毫米。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "1 只羊的重量 = 2 只狗的重量，1 只狗的重量 = 3 只兔的重量。1 只羊的重量等于几只兔的重量？",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "1 个菠萝 = 3 个苹果，1 个苹果 = 2 个橘子。1 个菠萝 = □个橘子。",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "△ + □ = 10，□ + ○ = 8，△ + ○ = 6。△ = □，□ = □，○ = □。",
+    "options": null,
+    "answer": "4、6、2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "曹冲称象把大象换成□来称，这是用□的数学思想。",
+    "options": null,
+    "answer": "石头、等量代换",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "1 壶水可以倒满 4 杯，1 桶水可以倒满 3 壶。1 桶水可以倒满多少杯？",
+    "options": [
+      "7",
+      "12",
+      "10",
+      "8"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "等量代换就是用一个量代替和它相等的另一个量。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "40 × 3 = □，想：□个十乘 3 得□个十，就是□。",
+    "options": null,
+    "answer": "120、4、12、120",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "200 × 4 = □",
+    "options": null,
+    "answer": "800",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "口算 30 × 6 时，下面哪种想法正确？",
+    "options": [
+      "3+6=9",
+      "3×6=18，再添 0",
+      "30+6=36",
+      "36+0=36"
+    ],
+    "answer": "3×6=18，再添 0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "用竖式计算 28 × 3 = □。",
+    "options": null,
+    "answer": "84",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "用竖式计算 146 × 5 = □。",
+    "options": null,
+    "answer": "730",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算 68 × 7 时，个位 8×7=56，向十位进几？",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "4"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "最大的一位数乘最大的三位数，积是□。",
+    "options": null,
+    "answer": "8991",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "0 × 5 = □，8 × 0 = □。",
+    "options": null,
+    "answer": "0、0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "0 乘任何数都得原来的数。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个算式的结果不是 0？",
+    "options": [
+      "0 × 9",
+      "5 × 0",
+      "6 + 0",
+      "0 × 345"
+    ],
+    "answer": "6 + 0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "学校买来 6 箱矿泉水，每箱 24 瓶，一共买了□瓶。",
+    "options": null,
+    "answer": "144",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一辆公交车准乘 48 人，8 辆这样的公交车能坐□人。",
+    "options": null,
+    "answer": "384",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "一本连环画 8 元，买 125 本要多少钱？正确的算式是？",
+    "options": [
+      "125 + 8",
+      "125 − 8",
+      "125 × 8",
+      "125 ÷ 8"
+    ],
+    "answer": "125 × 8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "身份证号码的第 7~14 位表示□。",
+    "options": null,
+    "answer": "出生日期",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "身份证号码的倒数第二位（第 17 位）表示什么？",
+    "options": [
+      "年龄",
+      "性别",
+      "省份",
+      "校验码"
+    ],
+    "answer": "性别",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "邮政编码通常由□位数字组成。",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "学号 20240315 中，\"2024\"可能表示□，\"0315\"可能表示□。",
+    "options": null,
+    "answer": "入学年份、班级序号",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个不是生活中常见的数字编码？",
+    "options": [
+      "身份证号",
+      "车牌号",
+      "学号",
+      "奇数偶数"
+    ],
+    "answer": "奇数偶数",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "同一个学校的学号可以随意重复。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "线段有□个端点，射线有□个端点。",
+    "options": null,
+    "answer": "2、1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪种线可以向一端无限延长？",
+    "options": [
+      "线段",
+      "射线",
+      "直线",
+      "折线"
+    ],
+    "answer": "射线",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "直线比射线长。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "过一点可以画□条直线，过两点只能画□条直线。",
+    "options": null,
+    "answer": "无数、1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "从一点引出两条□所组成的图形叫做角。",
+    "options": null,
+    "answer": "射线",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "角的大小与什么有关？",
+    "options": [
+      "边的长短",
+      "两边张开的大小",
+      "顶点位置",
+      "边的粗细"
+    ],
+    "answer": "两边张开的大小",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "角的两条边越长，角就越大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "量角时，量角器的中心点要和角的□重合，0 刻度线要和角的□重合。",
+    "options": null,
+    "answer": "顶点、一条边",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "使用量角器量角时，如果角的一条边对准内圈 0 度，应该看哪一圈的刻度？",
+    "options": [
+      "外圈",
+      "内圈",
+      "任意一圈",
+      "先看外圈再看内圈"
+    ],
+    "answer": "内圈",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "三角尺上最大的角是□度。",
+    "options": null,
+    "answer": "90",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "等于 90° 的角是□角，小于 90° 的角是□角。",
+    "options": null,
+    "answer": "直、锐",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "一个大于 90° 且小于 180° 的角叫什么？",
+    "options": [
+      "锐角",
+      "直角",
+      "钝角",
+      "平角"
+    ],
+    "answer": "钝角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "平角就是一条直线。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "周角 = □度 = □个直角。",
+    "options": null,
+    "answer": "360、4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "把一个蛋糕平均分成 3 份，每份是这个蛋糕的□分之一，写作□。",
+    "options": null,
+    "answer": "三、1/3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面图形中，涂色部分用 1/4 表示，应该把图形平均分成几份？",
+    "options": [
+      "3 份",
+      "4 份",
+      "5 份",
+      "1 份"
+    ],
+    "answer": "4 份",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "1/5 中，分子是□，分母是□。",
+    "options": null,
+    "answer": "1、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "把一个长方形平均分成 8 份，取其中的 3 份，用分数表示是□。",
+    "options": null,
+    "answer": "3/8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个分数表示取 4 份中的 3 份？",
+    "options": [
+      "1/3",
+      "3/4",
+      "4/3",
+      "4/1"
+    ],
+    "answer": "3/4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "5/6 里面有□个 1/6。",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "在 ○ 里填 > 或 <：1/4 ○ 1/3",
+    "options": null,
+    "answer": "<",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个分数最大？",
+    "options": [
+      "1/8",
+      "1/5",
+      "1/3",
+      "1/2"
+    ],
+    "answer": "1/2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "同样大小的图形，分母越大，每份就越大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2/7 + 3/7 = □/7",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "5/8 − 2/8 = □/8",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "8/9 − 4/9 = ？",
+    "options": [
+      "5/9",
+      "4/9",
+      "12/9",
+      "3/9"
+    ],
+    "answer": "4/9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "计算 256 × 3 时，积是□位数。",
+    "options": null,
+    "answer": "三",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "35 + 4 × 6 的运算结果是□。",
+    "options": null,
+    "answer": "59",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面算式先算乘法的是？",
+    "options": [
+      "24 + 16 − 8",
+      "72 ÷ 9 × 3",
+      "30 + 5 × 7",
+      "(30 + 5) × 7"
+    ],
+    "answer": "30 + 5 × 7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "量比较短的物体，通常用□作单位；量比较长的路程，通常用□作单位。",
+    "options": null,
+    "answer": "厘米、千米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面说法正确的是？",
+    "options": [
+      "线段只有一个端点",
+      "直线有两个端点",
+      "射线有一个端点",
+      "射线有两个端点"
+    ],
+    "answer": "射线有一个端点",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "从上面观察一个正方体，看到的是□形。",
+    "options": null,
+    "answer": "正方",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一本故事书共 200 页，小明每天看 25 页，一星期（7 天）能看□页，还剩□页。",
+    "options": null,
+    "answer": "175、25",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "1 头猪 = 3 只羊，1 只羊 = 2 只兔。1 头猪 = □只兔。",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "一根绳子对折再对折后，每段长 15 厘米，这根绳子原来长多少？",
+    "options": [
+      "30 厘米",
+      "45 厘米",
+      "60 厘米",
+      "15 厘米"
+    ],
+    "answer": "60 厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪种现象属于平移？",
+    "options": [
+      "风车转动",
+      "电梯上下移动",
+      "钟表指针运动",
+      "荡秋千"
+    ],
+    "answer": "电梯上下移动",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "物体沿□方向运动，本身方向不改变，这种运动叫做□。",
+    "options": null,
+    "answer": "直线、平移",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "拉开抽屉的运动是□现象。",
+    "options": null,
+    "answer": "平移",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪种现象属于旋转？",
+    "options": [
+      "推拉门",
+      "电梯上升",
+      "风扇叶片运动",
+      "火车行驶"
+    ],
+    "answer": "风扇叶片运动",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "物体围绕一个□转动，这种运动叫做旋转。",
+    "options": null,
+    "answer": "点",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "汽车方向盘的转动是平移现象。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "如果一个图形沿着一条直线对折，两边能够完全□，这个图形就是轴对称图形。",
+    "options": null,
+    "answer": "重合",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个图形不是轴对称图形？",
+    "options": [
+      "正方形",
+      "长方形",
+      "一般的平行四边形",
+      "圆形"
+    ],
+    "answer": "一般的平行四边形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "长方形有□条对称轴。",
+    "options": null,
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "在方格纸上，把一个图形向上平移 3 格，图形的每个点都向□移动□格。",
+    "options": null,
+    "answer": "上、3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "图形平移后，大小和形状都会发生变化。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一个点原来在方格纸上第 2 列第 3 行，向右平移 4 格后到达第□列第□行。",
+    "options": null,
+    "answer": "6、3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "60 ÷ 3 = □，想：□个十除以 3 得□个十。",
+    "options": null,
+    "answer": "20、6、2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "400 ÷ 5 = □",
+    "options": null,
+    "answer": "80",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3600 ÷ 9 = □",
+    "options": null,
+    "answer": "400",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "用竖式计算 75 ÷ 5 = □",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "用竖式计算 128 ÷ 4 = □",
+    "options": null,
+    "answer": "32",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算 96 ÷ 3 时，先用 9 个十除以 3，商 3 写在什么位上？",
+    "options": [
+      "个位",
+      "十位",
+      "百位",
+      "任意位"
+    ],
+    "answer": "十位",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "验算 84 ÷ 4 = 21 是否正确，可以用□×□=□来验算。",
+    "options": null,
+    "answer": "21、4、84",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "没有余数的除法，可用\"□×□=□\"来验算。",
+    "options": null,
+    "answer": "商、除数、被除数",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "86 ÷ 4 = 21……2，验算正确算式是？",
+    "options": [
+      "21 × 4",
+      "21 × 4 + 2",
+      "21 + 2 × 4",
+      "4 × 2 + 21"
+    ],
+    "answer": "21 × 4 + 2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "420 ÷ 6 = □，商的末尾有□个 0。",
+    "options": null,
+    "answer": "70、1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个算式的商中间有 0？",
+    "options": [
+      "618 ÷ 3",
+      "606 ÷ 6",
+      "840 ÷ 4",
+      "525 ÷ 5"
+    ],
+    "answer": "606 ÷ 6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "0 ÷ 8 = □，0 除以任何不是 0 的数都得□。",
+    "options": null,
+    "answer": "0、0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "有 240 本图书，平均分给 6 个年级，每个年级分得□本。",
+    "options": null,
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "小明 3 分钟打了 237 个字，平均每分钟打□个字。",
+    "options": null,
+    "answer": "79",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "5 个足球共 295 元，每个足球多少元？正确列式是？",
+    "options": [
+      "295 + 5",
+      "295 × 5",
+      "295 ÷ 5",
+      "295 − 5"
+    ],
+    "answer": "295 ÷ 5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "长方形有□条边，对边□；有□个角，都是□角。",
+    "options": null,
+    "answer": "4、相等、4、直",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "正方形的□条边都相等，四个角都是□角。",
+    "options": null,
+    "answer": "4、直",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "正方形是特殊的长方形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "封闭图形一周的长度，就是它的□。",
+    "options": null,
+    "answer": "周长",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "测量周长的方法不包括？",
+    "options": [
+      "用绳绕一周再量绳长",
+      "直接量各边长再相加",
+      "用尺子直接量一周",
+      "称重量"
+    ],
+    "answer": "称重量",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "一个图形的周长越长，它所占的纸面就越大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "长方形的周长 = □。",
+    "options": null,
+    "answer": "（长+宽）×2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "正方形的周长 = □。",
+    "options": null,
+    "answer": "边长 × 4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "一个长方形长 8 厘米，宽 5 厘米，周长是多少？",
+    "options": [
+      "13 厘米",
+      "26 厘米",
+      "40 厘米",
+      "16 厘米"
+    ],
+    "answer": "26 厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "正方形边长是 9 分米，周长是□分米。",
+    "options": null,
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "□的大小，就是它们的面积。",
+    "options": null,
+    "answer": "物体表面或封闭图形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "周长相等的两个图形，面积一定相等。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面说法正确的是？",
+    "options": [
+      "面积和周长是一回事",
+      "面积比周长难算",
+      "面积是面的大小，周长是边线长度",
+      "面积越大周长一定越长"
+    ],
+    "answer": "面积是面的大小，周长是边线长度",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "常用的面积单位有□、□和□。",
+    "options": null,
+    "answer": "平方厘米、平方分米、平方米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "边长为 1 厘米的正方形，面积是□。",
+    "options": null,
+    "answer": "1 平方厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "课桌桌面的面积大约是 30□。",
+    "options": [
+      "平方厘米",
+      "平方分米",
+      "平方米",
+      "千米"
+    ],
+    "answer": "平方分米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "长方形的面积 = □。",
+    "options": null,
+    "answer": "长 × 宽",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "正方形的面积 = □。",
+    "options": null,
+    "answer": "边长 × 边长",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "一块长方形菜地长 12 米，宽 8 米，它的面积是多少？",
+    "options": [
+      "40 平方米",
+      "96 平方米",
+      "20 平方米",
+      "80 平方米"
+    ],
+    "answer": "96 平方米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "1 平方米 = □平方分米，1 平方分米 = □平方厘米。",
+    "options": null,
+    "answer": "100、100",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "5 平方米 = □平方分米。",
+    "options": null,
+    "answer": "500",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "600 平方厘米 = □平方分米。",
+    "options": [
+      "6",
+      "60",
+      "600",
+      "60000"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "统计时，常用的记录数据的方法有画□字、画□等。",
+    "options": null,
+    "answer": "正、√",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "用\"正\"字法统计，一个\"正\"字代表几个数据？",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "10"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "调查喜欢的水果时，可以举手□，这是收集数据的常用方法。",
+    "options": null,
+    "answer": "计数",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "把两个或两个以上的单式统计表合并成一个，就是□统计表。",
+    "options": null,
+    "answer": "复式",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "复式统计表与单式统计表相比，优点是？",
+    "options": [
+      "更容易画",
+      "信息更多，便于对比",
+      "表格更小",
+      "不需要表头"
+    ],
+    "answer": "信息更多，便于对比",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "复式统计表可以对多组数据进行对比分析。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "看统计表时，先看□，了解统计内容，再看数据进行分析。",
+    "options": null,
+    "answer": "表头",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "某班男生 25 人喜欢足球，18 人喜欢篮球；女生 12 人喜欢足球，22 人喜欢篮球。全班喜欢篮球的共有几人？",
+    "options": [
+      "37",
+      "43",
+      "40",
+      "30"
+    ],
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "统计表中，合计一行表示的是各项数据的□。",
+    "options": null,
+    "answer": "总和",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一年有□个月，大月有□天，小月有□天。",
+    "options": null,
+    "answer": "12、31、30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一年中大月有□个，分别是 1月、3月、5月、7月、□月、10 月、12 月。",
+    "options": null,
+    "answer": "7、8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个不是大月？",
+    "options": [
+      "1 月",
+      "3 月",
+      "6 月",
+      "8 月"
+    ],
+    "answer": "6 月",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "平年全年有□天，闰年全年有□天。",
+    "options": null,
+    "answer": "365、366",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个年份是闰年？",
+    "options": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "answer": "2024",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "判断闰年：公历年份是 4 的倍数的一般是闰年，但整百年必须是□的倍数才是闰年。",
+    "options": null,
+    "answer": "400",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "下午 3 时用 24 时计时法表示是□时。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "晚上 9 时用 24 时计时法表示是？",
+    "options": [
+      "9 时",
+      "19 时",
+      "21 时",
+      "22 时"
+    ],
+    "answer": "21 时",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "火车 14:30 出发，用普通计时法表示是下午□时□分。",
+    "options": null,
+    "answer": "2、30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "上午 8:00 到下午 4:00，经过了□小时。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "0.5 读作□，它表示十分之□。",
+    "options": null,
+    "answer": "零点五、五",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "零点三写作□。",
+    "options": null,
+    "answer": "0.3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小数点左边是□部分，右边是□部分。",
+    "options": [
+      "小数、整数",
+      "整数、小数",
+      "全部是整数",
+      "全部是小数"
+    ],
+    "answer": "整数、小数",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "在 ○ 里填 >、< 或 =：0.7 ○ 0.5",
+    "options": null,
+    "answer": ">",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪个小数最大？",
+    "options": [
+      "0.3",
+      "0.9",
+      "0.6",
+      "1.0"
+    ],
+    "answer": "1.0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "把 0.2、0.8、0.5 按从小到大的顺序排列：□<□<□。",
+    "options": null,
+    "answer": "0.2、0.5、0.8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "0.4 + 0.3 = □",
+    "options": null,
+    "answer": "0.7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "0.9 − 0.5 = □",
+    "options": null,
+    "answer": "0.4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明买一支笔用了 0.8 元，买一个橡皮用了 0.6 元，一共用了多少元？",
+    "options": [
+      "0.2",
+      "1.2",
+      "2.0",
+      "1.4"
+    ],
+    "answer": "1.4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "最大的三位数除以最大的一位数，商是□。",
+    "options": null,
+    "answer": "111",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "24 × 6 = □，144 ÷ 6 = □。",
+    "options": null,
+    "answer": "144、24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面算式中，商是两位数的是？",
+    "options": [
+      "480 ÷ 6",
+      "96 ÷ 3",
+      "123 ÷ 3",
+      "63 ÷ 7"
+    ],
+    "answer": "96 ÷ 3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "一个长方形长 15 米，宽 10 米，它的周长是□米，面积是□平方米。",
+    "options": null,
+    "answer": "50、150",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列说法正确的是？",
+    "options": [
+      "正方形是特殊的长方形",
+      "长方形周长长面积一定大",
+      "面积单位进率都是 100",
+      "周长=面积"
+    ],
+    "answer": "正方形是特殊的长方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "从一张长 20 厘米、宽 15 厘米的长方形纸上剪下最大的正方形，正方形的面积是□平方厘米。",
+    "options": null,
+    "answer": "225",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "统计三（1）班男、女生最喜欢的水果，用□统计表更合适。",
+    "options": null,
+    "answer": "复式",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "\"正正正\"表示的数据个数是？",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "3"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "分析复式统计表中的数据，可以横向对比不同□，纵向对比不同□。",
+    "options": null,
+    "answer": "类别、组别",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "小明从家到学校要走 1.5 千米，已经走了 0.8 千米，还剩□千米。",
+    "options": null,
+    "answer": "0.7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2024 年 2 月有□天，这一年有□天。",
+    "options": null,
+    "answer": "29、366",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "长方形菜地长 25 米，宽 16 米。围上篱笆，篱笆长□米；菜地面积是□平方米。",
+    "options": null,
+    "answer": "82、400",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "下午 3:30 到下午 4:45，经过了□小时□分钟。",
+    "options": null,
+    "answer": "1、15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "一个正方形和一个长方形周长相等。正方形边长 10 厘米，长方形长 12 厘米，长方形宽是多少？",
+    "options": [
+      "8 厘米",
+      "10 厘米",
+      "6 厘米",
+      "5 厘米"
+    ],
+    "answer": "8 厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 7 = ？",
+    "options": [
+      "10",
+      "9",
+      "21",
+      "11"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 8 = ？",
+    "options": [
+      "10",
+      "24",
+      "12",
+      "11"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 9 = 13",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 1 = 5",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 2 = （ ）",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 3 = （ ）",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 3 = ？",
+    "options": [
+      "6",
+      "9",
+      "7",
+      "5"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 4 = 8",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 5 = （ ）",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 3 行 4 列圆点，共有多少个？",
+    "options": [
+      "12",
+      "13",
+      "7",
+      "11"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 + 2 = ？",
+    "options": [
+      "13",
+      "15",
+      "24",
+      "14"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：8 + 6 = ？",
+    "options": [
+      "14",
+      "13",
+      "48",
+      "15"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "12 + 1 = 14",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "12 + 9 = 22",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 8 = （ ）",
+    "options": null,
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 7 = （ ）",
+    "options": null,
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 + 6 = ？",
+    "options": [
+      "72",
+      "19",
+      "17",
+      "18"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "12 + 6 = 19",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 5 = （ ）",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 2 行 5 列圆点，共有多少个？",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "7"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 7 = ？",
+    "options": [
+      "16",
+      "70",
+      "18",
+      "17"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 6 = ？",
+    "options": [
+      "16",
+      "60",
+      "17",
+      "15"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "10 + 6 = 17",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "10 + 5 = 16",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "10 + 4 = （ ）",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "10 + 3 = （ ）",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 2 = ？",
+    "options": [
+      "13",
+      "11",
+      "20",
+      "12"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "10 + 1 = 12",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "10 + 1 = （ ）",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 2 行 2 列圆点，共有多少个？",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "8"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 3 × 4 = ？",
+    "options": [
+      "31",
+      "16",
+      "21",
+      "48"
+    ],
+    "answer": "21",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 2 × 2 = ？",
+    "options": [
+      "20",
+      "13",
+      "22",
+      "17"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 2 × 3 = ？",
+    "options": [
+      "14",
+      "15",
+      "21",
+      "33"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 2 × 4 = ？",
+    "options": [
+      "15",
+      "22",
+      "17",
+      "44"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 5 × 1 = ？",
+    "options": [
+      "15",
+      "14",
+      "46",
+      "18"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 5 × 3 = ？",
+    "options": [
+      "24",
+      "17",
+      "48",
+      "42"
+    ],
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 4 × 4 = ？",
+    "options": [
+      "17",
+      "40",
+      "25",
+      "52"
+    ],
+    "answer": "25",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 4 × 1 = ？",
+    "options": [
+      "37",
+      "14",
+      "13",
+      "17"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 4 × 2 = ？",
+    "options": [
+      "15",
+      "26",
+      "38",
+      "17"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 3 行 3 列圆点，共有多少个？",
+    "options": [
+      "8",
+      "9",
+      "6",
+      "10"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 3 × 1 = ？",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "9"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 3 × 4 = ？",
+    "options": [
+      "20",
+      "10",
+      "9",
+      "14"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 3 × 3 = ？",
+    "options": [
+      "15",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 4 × 1 = ？",
+    "options": [
+      "7",
+      "9",
+      "6",
+      "10"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 4 × 4 = ？",
+    "options": [
+      "12",
+      "24",
+      "10",
+      "18"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 5 × 3 = ？",
+    "options": [
+      "21",
+      "10",
+      "13",
+      "17"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 5 × 1 = ？",
+    "options": [
+      "8",
+      "11",
+      "7",
+      "11"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 5 × 4 = ？",
+    "options": [
+      "14",
+      "28",
+      "11",
+      "22"
+    ],
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 2 × 3 = ？",
+    "options": [
+      "7",
+      "12",
+      "8",
+      "12"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 2 × 2 = ？",
+    "options": [
+      "8",
+      "6",
+      "9",
+      "10"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 + 8 = ？",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "96"
+    ],
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 + 9 = ？",
+    "options": [
+      "22",
+      "21",
+      "108",
+      "20"
+    ],
+    "answer": "21",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 2 = （ ）",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 3 = （ ）",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 + 4 = ？",
+    "options": [
+      "48",
+      "17",
+      "15",
+      "16"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "12 + 4 = 17",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 18 个苹果，分给 3 个小朋友每人同样多，每人几个？",
+    "options": [
+      "6",
+      "3",
+      "21",
+      "15"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：7 + 4 = ？",
+    "options": [
+      "28",
+      "11",
+      "10",
+      "12"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 18 个苹果，分给 4 个小朋友每人同样多，每人几个？",
+    "options": [
+      "14",
+      "4",
+      "22",
+      "8"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 18 个苹果，分给 5 个小朋友每人同样多，每人几个？",
+    "options": [
+      "5",
+      "13",
+      "3",
+      "23"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "7 + 6 = （ ）",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 18 个苹果，分给 6 个小朋友每人同样多，每人几个？",
+    "options": [
+      "12",
+      "24",
+      "3",
+      "6"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 18 个苹果，分给 7 个小朋友每人同样多，每人几个？",
+    "options": [
+      "7",
+      "11",
+      "2",
+      "25"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 18 个苹果，分给 8 个小朋友每人同样多，每人几个？",
+    "options": [
+      "10",
+      "26",
+      "8",
+      "2"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "7 + 9 = （ ）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 18 个苹果，分给 9 个小朋友每人同样多，每人几个？",
+    "options": [
+      "27",
+      "2",
+      "9",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "1 元 = ？角",
+    "options": [
+      "5",
+      "100",
+      "1",
+      "10"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 4 = ？",
+    "options": [
+      "36",
+      "14",
+      "12",
+      "13"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "9 + 3 = 13",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "9 + 2 = （ ）",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "9 + 1 = （ ）",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 9 = ？",
+    "options": [
+      "81",
+      "18",
+      "19",
+      "17"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "9 + 8 = 18",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "9 + 8 = （ ）",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "9 米 = ？厘米",
+    "options": [
+      "109",
+      "900",
+      "90",
+      "9"
+    ],
+    "answer": "900",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：4 + 4 = ？",
+    "options": [
+      "9",
+      "7",
+      "8",
+      "16"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "4 + 4 = 9",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "4 + 5 = 10",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "4 + 6 = （ ）",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "4 + 7 = （ ）",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：4 + 8 = ？",
+    "options": [
+      "12",
+      "11",
+      "32",
+      "13"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "4 + 8 = 13",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "4 + 9 = （ ）",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 6 = ？",
+    "options": [
+      "7",
+      "9",
+      "12",
+      "8"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：11 + 4 = ？",
+    "options": [
+      "16",
+      "44",
+      "15",
+      "14"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "2 + 7 = 10",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "2 + 8 = 11",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2 + 9 = （ ）",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2 + 1 = （ ）",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 2 = ？",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "8"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "2 + 2 = 5",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2 + 3 = （ ）",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 2 行 3 列圆点，共有多少个？",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "10"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "直角是多少度？",
+    "options": [
+      "60",
+      "45",
+      "90",
+      "180"
+    ],
+    "answer": "90",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 1 = ？",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "10 + 2 = 13",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 5 = ？",
+    "options": [
+      "14",
+      "16",
+      "15",
+      "50"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "10 + 6 = （ ）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 4 行 2 列圆点，共有多少个？",
+    "options": [
+      "6",
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：14 + 8 = ？",
+    "options": [
+      "23",
+      "22",
+      "112",
+      "21"
+    ],
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 5 = ？",
+    "options": [
+      "8",
+      "7",
+      "15",
+      "9"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "14 + 9 = 24",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "14 + 1 = 16",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "14 + 2 = （ ）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "14 + 3 = （ ）",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：14 + 3 = ？",
+    "options": [
+      "18",
+      "16",
+      "17",
+      "42"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "14 + 4 = 19",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "14 + 5 = （ ）",
+    "options": null,
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 4 行 3 列圆点，共有多少个？",
+    "options": [
+      "7",
+      "11",
+      "13",
+      "12"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 8 个苹果，分给 4 个小朋友每人同样多，每人几个？",
+    "options": [
+      "4",
+      "2",
+      "12",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 8 个苹果，分给 3 个小朋友每人同样多，每人几个？",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "11"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 8 个苹果，分给 2 个小朋友每人同样多，每人几个？",
+    "options": [
+      "10",
+      "6",
+      "4",
+      "2"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 8 个苹果，分给 9 个小朋友每人同样多，每人几个？",
+    "options": [
+      "17",
+      "-1",
+      "9",
+      "0"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "8 + 3 = （ ）",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 8 个苹果，分给 8 个小朋友每人同样多，每人几个？",
+    "options": [
+      "16",
+      "0",
+      "1",
+      "8"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 8 个苹果，分给 7 个小朋友每人同样多，每人几个？",
+    "options": [
+      "15",
+      "7",
+      "1",
+      "5"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 8 个苹果，分给 6 个小朋友每人同样多，每人几个？",
+    "options": [
+      "6",
+      "14",
+      "1",
+      "2"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 3 行 2 列圆点，共有多少个？",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 × 9 = ？",
+    "options": [
+      "18",
+      "11",
+      "16",
+      "27"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 × 3 = ？",
+    "options": [
+      "6",
+      "9",
+      "5",
+      "4"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 × 4 = ？",
+    "options": [
+      "6",
+      "12",
+      "8",
+      "12"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 × 5 = ？",
+    "options": [
+      "15",
+      "10",
+      "8",
+      "7"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 × 6 = ？",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "18"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 × 7 = ？",
+    "options": [
+      "21",
+      "12",
+      "14",
+      "9"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 × 4 = ？",
+    "options": [
+      "16",
+      "7",
+      "9",
+      "12"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "6 + 4 = 11",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 × 5 = ？",
+    "options": [
+      "8",
+      "12",
+      "15",
+      "20"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 × 6 = ？",
+    "options": [
+      "24",
+      "15",
+      "9",
+      "18"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "6 + 6 = （ ）",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 × 7 = ？",
+    "options": [
+      "10",
+      "18",
+      "21",
+      "28"
+    ],
+    "answer": "21",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 × 8 = ？",
+    "options": [
+      "32",
+      "21",
+      "11",
+      "24"
+    ],
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 × 9 = ？",
+    "options": [
+      "24",
+      "36",
+      "27",
+      "12"
+    ],
+    "answer": "27",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：6 + 1 = ？",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "11"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：6 + 9 = ？",
+    "options": [
+      "14",
+      "54",
+      "15",
+      "16"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "6 + 9 = 16",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "6 + 8 = 15",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "6 + 7 = （ ）",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：6 + 5 = ？",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "30"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "6 + 4 = （ ）",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 4 行 5 列圆点，共有多少个？",
+    "options": [
+      "9",
+      "20",
+      "21",
+      "19"
+    ],
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：4 + 1 = ？",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：4 + 9 = ？",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "36"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "4 + 7 = 12",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：4 + 5 = ？",
+    "options": [
+      "8",
+      "20",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：7 + 3 = ？",
+    "options": [
+      "10",
+      "11",
+      "21",
+      "9"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：7 + 2 = ？",
+    "options": [
+      "10",
+      "14",
+      "8",
+      "9"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "7 + 1 = 9",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "10 + 4 = 15",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "7 + 8 = （ ）",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：7 + 7 = ？",
+    "options": [
+      "14",
+      "49",
+      "15",
+      "13"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "7 + 6 = 14",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "7 + 5 = （ ）",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "4 + 5 = （ ）",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "4 + 3 = 8",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "4 + 3 = （ ）",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 2 = 6",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 9 = （ ）",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 8 = （ ）",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 7 = 11",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 6 = （ ）",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 2 行 4 列圆点，共有多少个？",
+    "options": [
+      "8",
+      "6",
+      "9",
+      "7"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 9 = ？",
+    "options": [
+      "19",
+      "90",
+      "20",
+      "18"
+    ],
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 4 = ？",
+    "options": [
+      "40",
+      "13",
+      "15",
+      "14"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：13 + 7 = ？",
+    "options": [
+      "19",
+      "21",
+      "20",
+      "91"
+    ],
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "13 + 6 = 20",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "13 + 5 = （ ）",
+    "options": null,
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "13 + 4 = （ ）",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：13 + 3 = ？",
+    "options": [
+      "39",
+      "16",
+      "15",
+      "17"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "13 + 2 = 16",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "13 + 2 = （ ）",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 3 行 5 列圆点，共有多少个？",
+    "options": [
+      "15",
+      "14",
+      "8",
+      "16"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "把一块蛋糕平均分成 3 份，取其中 1 份，用分数表示是？",
+    "options": [
+      "3/1",
+      "1/3",
+      "1/1",
+      "NaN"
+    ],
+    "answer": "1/3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：14 + 9 = ？",
+    "options": [
+      "23",
+      "24",
+      "22",
+      "126"
+    ],
+    "answer": "23",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "把一块蛋糕平均分成 3 份，取其中 2 份，用分数表示是？",
+    "options": [
+      "3/2",
+      "2/3",
+      "1/3",
+      "2/2"
+    ],
+    "answer": "2/3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "14 + 7 = 22",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "14 + 7 = （ ）",
+    "options": null,
+    "answer": "21",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "14 + 6 = （ ）",
+    "options": null,
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：14 + 5 = ？",
+    "options": [
+      "19",
+      "70",
+      "18",
+      "20"
+    ],
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "把一块蛋糕平均分成 6 份，取其中 1 份，用分数表示是？",
+    "options": [
+      "1/6",
+      "1/1",
+      "6/1",
+      "NaN"
+    ],
+    "answer": "1/6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "把一块蛋糕平均分成 6 份，取其中 5 份，用分数表示是？",
+    "options": [
+      "5/6",
+      "1/6",
+      "6/5",
+      "5/5"
+    ],
+    "answer": "5/6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "把一块蛋糕平均分成 6 份，取其中 4 份，用分数表示是？",
+    "options": [
+      "6/4",
+      "1/6",
+      "4/6",
+      "4/4"
+    ],
+    "answer": "4/6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "把一块蛋糕平均分成 6 份，取其中 3 份，用分数表示是？",
+    "options": [
+      "3/6",
+      "1/6",
+      "3/3",
+      "6/3"
+    ],
+    "answer": "3/6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "把一块蛋糕平均分成 6 份，取其中 2 份，用分数表示是？",
+    "options": [
+      "1/6",
+      "2/6",
+      "2/2",
+      "6/2"
+    ],
+    "answer": "2/6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 2 = ？",
+    "options": [
+      "10",
+      "12",
+      "11",
+      "18"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 1 = ？",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "14"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "9 + 9 = 19",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "9 + 7 = （ ）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 6 = ？",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "54"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "9 + 5 = 15",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "9 + 4 = （ ）",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "image",
+    "content": "想象图中有 4 行 4 列圆点，共有多少个？",
+    "options": [
+      "17",
+      "15",
+      "16",
+      "8"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 3 = 7",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 1 = （ ）",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 7 = （ ）",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 + 7 = ？",
+    "options": [
+      "17",
+      "15",
+      "16",
+      "63"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "9 + 9 = （ ）",
+    "options": null,
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：5 + 5 = ？",
+    "options": [
+      "25",
+      "10",
+      "9",
+      "11"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "5 + 4 = 10",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "5 + 3 = 9",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "5 + 2 = （ ）",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：5 + 1 = ？",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "10"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "5 + 9 = 15",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "5 + 8 = （ ）",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 5 个苹果，分给 7 个小朋友每人同样多，每人几个？",
+    "options": [
+      "0",
+      "-2",
+      "12",
+      "7"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 5 个苹果，分给 6 个小朋友每人同样多，每人几个？",
+    "options": [
+      "-1",
+      "6",
+      "11",
+      "0"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "11 + 2 = 14",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 5 个苹果，分给 5 个小朋友每人同样多，每人几个？",
+    "options": [
+      "1",
+      "0",
+      "10",
+      "5"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 5 个苹果，分给 4 个小朋友每人同样多，每人几个？",
+    "options": [
+      "4",
+      "9",
+      "1",
+      "5"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "11 + 8 = （ ）",
+    "options": null,
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 5 个苹果，分给 3 个小朋友每人同样多，每人几个？",
+    "options": [
+      "1",
+      "2",
+      "8",
+      "3"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 5 个苹果，分给 2 个小朋友每人同样多，每人几个？",
+    "options": [
+      "7",
+      "3",
+      "2",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 5 个苹果，分给 9 个小朋友每人同样多，每人几个？",
+    "options": [
+      "0",
+      "9",
+      "14",
+      "-4"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列现象中，属于平移的是？",
+    "options": [
+      "钟表指针走动",
+      "电风扇叶片转动",
+      "电梯上下移动",
+      "打开冰箱门"
+    ],
+    "answer": "电梯上下移动",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：8 + 7 = ？",
+    "options": [
+      "16",
+      "14",
+      "56",
+      "15"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "8 + 6 = 15",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "8 + 5 = （ ）",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "8 + 4 = （ ）",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：8 + 3 = ？",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "24"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "8 + 2 = 11",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "8 + 1 = （ ）",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "12 + 7 = 20",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 6 = （ ）",
+    "options": null,
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "12 + 3 = 16",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "6 + 3 = 10",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "6 + 3 = （ ）",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "6 + 2 = （ ）",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "6 + 8 = （ ）",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 6 = 10",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "3 + 4 = （ ）",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 4 = ？",
+    "options": [
+      "7",
+      "12",
+      "8",
+      "6"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：18 ÷ 3 = ？",
+    "options": [
+      "18",
+      "3",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：21 ÷ 3 = ？",
+    "options": [
+      "3",
+      "8",
+      "21",
+      "7"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：24 ÷ 3 = ？",
+    "options": [
+      "9",
+      "24",
+      "8",
+      "3"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：27 ÷ 3 = ？",
+    "options": [
+      "27",
+      "3",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "7 + 7 = （ ）",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：6 ÷ 3 = ？",
+    "options": [
+      "3",
+      "2",
+      "6",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：9 ÷ 3 = ？",
+    "options": [
+      "9",
+      "3",
+      "4",
+      "7"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "7 + 5 = 13",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 ÷ 3 = ？",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "12"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：15 ÷ 3 = ？",
+    "options": [
+      "15",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：54 ÷ 6 = ？",
+    "options": [
+      "54",
+      "6",
+      "10",
+      "9"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：14 + 4 = ？",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "56"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 ÷ 6 = ？",
+    "options": [
+      "12",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：18 ÷ 6 = ？",
+    "options": [
+      "18",
+      "6",
+      "4",
+      "3"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：24 ÷ 6 = ？",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "24"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "14 + 8 = （ ）",
+    "options": null,
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：30 ÷ 6 = ？",
+    "options": [
+      "30",
+      "6",
+      "5",
+      "9"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：36 ÷ 6 = ？",
+    "options": [
+      "6",
+      "7",
+      "36",
+      "10"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：42 ÷ 6 = ？",
+    "options": [
+      "8",
+      "7",
+      "42",
+      "6"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：48 ÷ 6 = ？",
+    "options": [
+      "9",
+      "8",
+      "6",
+      "48"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "8 + 3 = 12",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "8 + 9 = （ ）",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 9 = ？",
+    "options": [
+      "12",
+      "11",
+      "27",
+      "13"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 8 = 12",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 9 个小朋友每人同样多，每人几个？",
+    "options": [
+      "21",
+      "3",
+      "1",
+      "9"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 2 个小朋友每人同样多，每人几个？",
+    "options": [
+      "2",
+      "14",
+      "6",
+      "10"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 3 个小朋友每人同样多，每人几个？",
+    "options": [
+      "9",
+      "15",
+      "3",
+      "4"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 4 个小朋友每人同样多，每人几个？",
+    "options": [
+      "16",
+      "8",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "9 + 5 = （ ）",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 5 个小朋友每人同样多，每人几个？",
+    "options": [
+      "17",
+      "5",
+      "7",
+      "2"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 6 个小朋友每人同样多，每人几个？",
+    "options": [
+      "6",
+      "2",
+      "18",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 7 个小朋友每人同样多，每人几个？",
+    "options": [
+      "19",
+      "7",
+      "5",
+      "1"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 12 个苹果，分给 8 个小朋友每人同样多，每人几个？",
+    "options": [
+      "1",
+      "20",
+      "4",
+      "8"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "12 + 2 = 15",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 9 = （ ）",
+    "options": null,
+    "answer": "21",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：12 + 7 = ？",
+    "options": [
+      "19",
+      "84",
+      "18",
+      "20"
+    ],
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 厘米、宽 2 厘米，周长是多少厘米？",
+    "options": [
+      "7",
+      "14",
+      "10",
+      "18"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "正方形边长 5 厘米，周长是多少厘米？",
+    "options": [
+      "10",
+      "9",
+      "20",
+      "24"
+    ],
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 厘米、宽 4 厘米，周长是多少厘米？",
+    "options": [
+      "18",
+      "9",
+      "20",
+      "10"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 厘米、宽 6 厘米，周长是多少厘米？",
+    "options": [
+      "10",
+      "11",
+      "30",
+      "22"
+    ],
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 厘米、宽 7 厘米，周长是多少厘米？",
+    "options": [
+      "10",
+      "24",
+      "35",
+      "12"
+    ],
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "3 + 5 = 9",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 厘米、宽 9 厘米，周长是多少厘米？",
+    "options": [
+      "28",
+      "45",
+      "14",
+      "10"
+    ],
+    "answer": "28",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "关于「正方形」的说法，正确的是？",
+    "options": [
+      "四条边都相等",
+      "没有角",
+      "边数不固定",
+      "一定能滚动"
+    ],
+    "answer": "四条边都相等",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：11 + 1 = ？",
+    "options": [
+      "13",
+      "11",
+      "12",
+      "16"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "11 + 9 = 21",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "11 + 7 = （ ）",
+    "options": null,
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：11 + 6 = ？",
+    "options": [
+      "18",
+      "16",
+      "17",
+      "66"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "11 + 5 = 17",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "11 + 5 = （ ）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 6 cm，面积是多少 cm²？",
+    "options": [
+      "25",
+      "20",
+      "24",
+      "10"
+    ],
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 7 cm，面积是多少 cm²？",
+    "options": [
+      "29",
+      "22",
+      "11",
+      "28"
+    ],
+    "answer": "28",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 8 cm，面积是多少 cm²？",
+    "options": [
+      "32",
+      "24",
+      "12",
+      "33"
+    ],
+    "answer": "32",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 9 cm，面积是多少 cm²？",
+    "options": [
+      "26",
+      "36",
+      "37",
+      "13"
+    ],
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2 + 8 = （ ）",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 10 cm，面积是多少 cm²？",
+    "options": [
+      "40",
+      "28",
+      "14",
+      "41"
+    ],
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 2 cm，面积是多少 cm²？",
+    "options": [
+      "9",
+      "8",
+      "6",
+      "12"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 3 cm，面积是多少 cm²？",
+    "options": [
+      "13",
+      "14",
+      "7",
+      "12"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 4 cm、宽 4 cm，面积是多少 cm²？",
+    "options": [
+      "16",
+      "8",
+      "17",
+      "20"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 4 cm，面积是多少 cm²？",
+    "options": [
+      "15",
+      "45",
+      "44",
+      "30"
+    ],
+    "answer": "44",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 5 cm，面积是多少 cm²？",
+    "options": [
+      "16",
+      "32",
+      "55",
+      "56"
+    ],
+    "answer": "55",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 6 cm，面积是多少 cm²？",
+    "options": [
+      "17",
+      "67",
+      "66",
+      "34"
+    ],
+    "answer": "66",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 7 cm，面积是多少 cm²？",
+    "options": [
+      "36",
+      "78",
+      "77",
+      "18"
+    ],
+    "answer": "77",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 8 cm，面积是多少 cm²？",
+    "options": [
+      "19",
+      "38",
+      "89",
+      "88"
+    ],
+    "answer": "88",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 9 cm，面积是多少 cm²？",
+    "options": [
+      "99",
+      "40",
+      "100",
+      "20"
+    ],
+    "answer": "99",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 10 cm，面积是多少 cm²？",
+    "options": [
+      "42",
+      "111",
+      "21",
+      "110"
+    ],
+    "answer": "110",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 11 cm、宽 2 cm，面积是多少 cm²？",
+    "options": [
+      "26",
+      "22",
+      "13",
+      "23"
+    ],
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "关于「长方形」的说法，正确的是？",
+    "options": [
+      "对边相等，四个角都是直角",
+      "没有角",
+      "面都是三角形",
+      "边数不固定"
+    ],
+    "answer": "对边相等，四个角都是直角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：2 + 1 = ？",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "7"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "2 + 9 = 12",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2 + 7 = （ ）",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "2 + 5 = 8",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "2 + 4 = （ ）",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 8 cm，面积是多少 cm²？",
+    "options": [
+      "16",
+      "64",
+      "32",
+      "65"
+    ],
+    "answer": "64",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：5 + 7 = ？",
+    "options": [
+      "13",
+      "35",
+      "12",
+      "11"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 7 cm，面积是多少 cm²？",
+    "options": [
+      "56",
+      "30",
+      "57",
+      "15"
+    ],
+    "answer": "56",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 6 cm，面积是多少 cm²？",
+    "options": [
+      "28",
+      "48",
+      "14",
+      "49"
+    ],
+    "answer": "48",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 5 cm，面积是多少 cm²？",
+    "options": [
+      "41",
+      "26",
+      "13",
+      "40"
+    ],
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 4 cm，面积是多少 cm²？",
+    "options": [
+      "32",
+      "24",
+      "33",
+      "12"
+    ],
+    "answer": "32",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：5 + 2 = ？",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "7"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 3 cm，面积是多少 cm²？",
+    "options": [
+      "25",
+      "22",
+      "11",
+      "24"
+    ],
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 2 cm，面积是多少 cm²？",
+    "options": [
+      "16",
+      "20",
+      "17",
+      "10"
+    ],
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 8 cm、宽 10 cm，面积是多少 cm²？",
+    "options": [
+      "81",
+      "80",
+      "18",
+      "36"
+    ],
+    "answer": "80",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：13 + 6 = ？",
+    "options": [
+      "18",
+      "78",
+      "20",
+      "19"
+    ],
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "13 + 5 = 19",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "13 + 4 = 18",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "13 + 3 = （ ）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：13 + 1 = ？",
+    "options": [
+      "15",
+      "14",
+      "13",
+      "18"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "13 + 1 = 15",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "13 + 9 = （ ）",
+    "options": null,
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 8 人喜欢足球、6 人喜欢篮球，共多少人？",
+    "options": [
+      "8",
+      "14",
+      "2",
+      "48"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 8 人喜欢足球、5 人喜欢篮球，共多少人？",
+    "options": [
+      "13",
+      "40",
+      "3",
+      "8"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 8 人喜欢足球、4 人喜欢篮球，共多少人？",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "32"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 8 人喜欢足球、3 人喜欢篮球，共多少人？",
+    "options": [
+      "24",
+      "8",
+      "11",
+      "5"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 8 人喜欢足球、2 人喜欢篮球，共多少人？",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "16"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "10 + 3 = 14",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 8 人喜欢足球、7 人喜欢篮球，共多少人？",
+    "options": [
+      "56",
+      "1",
+      "8",
+      "15"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：6 + 2 = ？",
+    "options": [
+      "8",
+      "12",
+      "7",
+      "9"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "6 + 1 = 8",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：6 + 7 = ？",
+    "options": [
+      "14",
+      "13",
+      "12",
+      "42"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "6 + 6 = 13",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "6 + 5 = （ ）",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 6 = ？",
+    "options": [
+      "8",
+      "10",
+      "18",
+      "9"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：3 + 2 = ？",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下面哪一年是闰年？",
+    "options": [
+      "2022",
+      "1900",
+      "2023",
+      "2024"
+    ],
+    "answer": "2024",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：8 + 9 = ？",
+    "options": [
+      "72",
+      "16",
+      "18",
+      "17"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "8 + 1 = 10",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "8 + 2 = （ ）",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：8 + 4 = ？",
+    "options": [
+      "12",
+      "32",
+      "11",
+      "13"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "8 + 5 = 14",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "8 + 6 = （ ）",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下午 3 时用 24 时计时法表示是？",
+    "options": [
+      "13:00",
+      "15:00",
+      "3:00",
+      "12:00"
+    ],
+    "answer": "15:00",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "10 + 7 = （ ）",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "10 + 8 = （ ）",
+    "options": null,
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：10 + 8 = ？",
+    "options": [
+      "80",
+      "18",
+      "17",
+      "19"
+    ],
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "judge",
+    "content": "10 + 9 = 20",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "数字 169 读作下面哪一项是正确的？",
+    "options": [
+      "171",
+      "169",
+      "168",
+      "173"
+    ],
+    "answer": "169",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "在数位顺序中，169 的个位数字是？",
+    "options": [
+      "1",
+      "9",
+      "0",
+      "13"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "在数位顺序中，168 的个位数字是？",
+    "options": [
+      "0",
+      "9",
+      "8",
+      "12"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "数字 168 读作下面哪一项是正确的？",
+    "options": [
+      "170",
+      "168",
+      "169",
+      "167"
+    ],
+    "answer": "168",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "在数位顺序中，167 的个位数字是？",
+    "options": [
+      "8",
+      "9",
+      "0",
+      "7"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "数字 167 读作下面哪一项是正确的？",
+    "options": [
+      "170",
+      "169",
+      "167",
+      "166"
+    ],
+    "answer": "167",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "在数位顺序中，166 的个位数字是？",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "0"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "数字 166 读作下面哪一项是正确的？",
+    "options": [
+      "168",
+      "166",
+      "165",
+      "170"
+    ],
+    "answer": "166",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "5.6",
+      "0.01",
+      "0.1",
+      "3"
+    ],
+    "answer": "5.6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "0.1",
+      "0.01",
+      "2.6",
+      "3.1"
+    ],
+    "answer": "3.1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "9.6",
+      "0.01",
+      "3.1",
+      "0.1"
+    ],
+    "answer": "9.6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "0.01",
+      "0.1",
+      "6.7",
+      "3.2"
+    ],
+    "answer": "6.7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "0.01",
+      "3.3",
+      "0.1",
+      "3.7"
+    ],
+    "answer": "3.7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "9.7",
+      "0.01",
+      "3.4",
+      "0.1"
+    ],
+    "answer": "9.7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "0.1",
+      "6.8",
+      "0.01",
+      "3.5"
+    ],
+    "answer": "6.8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "0.1",
+      "3.6",
+      "0.01",
+      "3.8"
+    ],
+    "answer": "3.8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "14 + 9 = （ ）",
+    "options": null,
+    "answer": "23",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "下列小数中，最大的是？",
+    "options": [
+      "7.9",
+      "0.1",
+      "0.01",
+      "3.8"
+    ],
+    "answer": "7.9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：72 ÷ 9 = ？",
+    "options": [
+      "8",
+      "9",
+      "72",
+      "12"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：63 ÷ 9 = ？",
+    "options": [
+      "9",
+      "63",
+      "8",
+      "7"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：54 ÷ 9 = ？",
+    "options": [
+      "9",
+      "6",
+      "54",
+      "7"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：45 ÷ 9 = ？",
+    "options": [
+      "9",
+      "45",
+      "6",
+      "5"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：36 ÷ 9 = ？",
+    "options": [
+      "9",
+      "4",
+      "36",
+      "5"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：11 + 3 = ？",
+    "options": [
+      "15",
+      "14",
+      "13",
+      "33"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：27 ÷ 9 = ？",
+    "options": [
+      "9",
+      "3",
+      "4",
+      "27"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：18 ÷ 9 = ？",
+    "options": [
+      "9",
+      "2",
+      "18",
+      "3"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "计算：81 ÷ 9 = ？",
+    "options": [
+      "81",
+      "9",
+      "10",
+      "13"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 8 cm，面积是多少 cm²？",
+    "options": [
+      "40",
+      "13",
+      "26",
+      "41"
+    ],
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 7 cm，面积是多少 cm²？",
+    "options": [
+      "12",
+      "36",
+      "24",
+      "35"
+    ],
+    "answer": "35",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 6 cm，面积是多少 cm²？",
+    "options": [
+      "30",
+      "31",
+      "22",
+      "11"
+    ],
+    "answer": "30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 5 cm，面积是多少 cm²？",
+    "options": [
+      "25",
+      "10",
+      "26",
+      "20"
+    ],
+    "answer": "25",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 4 cm，面积是多少 cm²？",
+    "options": [
+      "20",
+      "21",
+      "18",
+      "9"
+    ],
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 3 cm，面积是多少 cm²？",
+    "options": [
+      "15",
+      "8",
+      "16",
+      "19"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 2 cm，面积是多少 cm²？",
+    "options": [
+      "7",
+      "10",
+      "14",
+      "11"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 10 cm，面积是多少 cm²？",
+    "options": [
+      "50",
+      "51",
+      "30",
+      "15"
+    ],
+    "answer": "50",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "长方形长 5 cm、宽 9 cm，面积是多少 cm²？",
+    "options": [
+      "45",
+      "46",
+      "14",
+      "28"
+    ],
+    "answer": "45",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 7 人喜欢足球、4 人喜欢篮球，共多少人？",
+    "options": [
+      "3",
+      "11",
+      "7",
+      "28"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 7 人喜欢足球、3 人喜欢篮球，共多少人？",
+    "options": [
+      "4",
+      "10",
+      "21",
+      "7"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 7 人喜欢足球、2 人喜欢篮球，共多少人？",
+    "options": [
+      "7",
+      "9",
+      "14",
+      "5"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "fill",
+    "content": "12 + 4 = （ ）",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 7 人喜欢足球、7 人喜欢篮球，共多少人？",
+    "options": [
+      "7",
+      "49",
+      "0",
+      "14"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 7 人喜欢足球、6 人喜欢篮球，共多少人？",
+    "options": [
+      "7",
+      "13",
+      "1",
+      "42"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "班里有 7 人喜欢足球、5 人喜欢篮球，共多少人？",
+    "options": [
+      "7",
+      "35",
+      "2",
+      "12"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 7 个小朋友每人同样多，每人几个？",
+    "options": [
+      "7",
+      "13",
+      "-1",
+      "0"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 8 个小朋友每人同样多，每人几个？",
+    "options": [
+      "8",
+      "0",
+      "-2",
+      "14"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 9 个小朋友每人同样多，每人几个？",
+    "options": [
+      "9",
+      "-3",
+      "15",
+      "0"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 2 个小朋友每人同样多，每人几个？",
+    "options": [
+      "4",
+      "3",
+      "8",
+      "2"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 3 个小朋友每人同样多，每人几个？",
+    "options": [
+      "2",
+      "9",
+      "3",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 4 个小朋友每人同样多，每人几个？",
+    "options": [
+      "2",
+      "1",
+      "10",
+      "4"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 5 个小朋友每人同样多，每人几个？",
+    "options": [
+      "1",
+      "5",
+      "11",
+      "5"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 3,
+    "type": "choice",
+    "content": "小明有 6 个苹果，分给 6 个小朋友每人同样多，每人几个？",
+    "options": [
+      "6",
+      "0",
+      "12",
+      "1"
+    ],
+    "answer": "1",
+    "image_path": null
+  }
+]

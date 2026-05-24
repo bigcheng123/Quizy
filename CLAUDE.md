@@ -12,7 +12,7 @@ Primary product spec & open task list: `DEVELOPMENT_TASKS.md` (repo root). That 
 
 ```bash
 npm install            # installs deps; postinstall runs electron-rebuild for better-sqlite3 (Electron ABI, not system Node)
-npm run dev            # NODE_ENV=development; opens DevTools detached; disables auto-launch; reads seed from <repo>/data/seed.json
+npm run dev            # NODE_ENV=development; opens DevTools detached; disables auto-launch; reads seed from <repo>/data/seed-grade-*-{chinese|math}.json
 npm start              # runs electron . without dev flag (acts like production: auto-launch on, no DevTools, seed from resourcesPath)
 npm run build          # electron-builder NSIS installer (Windows x64) → dist/
 npm run build:dir      # unpacked build for quick smoke testing → dist/win-unpacked/
@@ -31,7 +31,7 @@ Three-tier Electron app, classic main/preload/renderer split with `contextIsolat
 
 Main process wiring (`src/main/main.js`):
 1. `initStore(options?)` → electron-store with schema (default admin password `123456`, grade `3`, `unlockRequirements: {chinese: 5, math: 5}`). Production calls `initStore()` with no args; tests may pass `{ cwd, name, projectVersion }`.
-2. `initDb()` → opens `<userData>/quizy.db` (or `QUIZY_TEST_USERDATA` when set for tests), creates `questions` + `records` tables, runs `seedIfEmpty()` from `data/seed.json` (`resolveSeedPath()`: `<repo>/data/seed.json` via `src/main/../..`, then `process.resourcesPath/data/`; override with `QUIZY_SEED_PATH`; skip with `QUIZY_SKIP_SEED=1`). Use `closeDb()` only from tests or internal cleanup.
+2. `initDb()` → opens `<userData>/quizy.db` (or `QUIZY_TEST_USERDATA` when set for tests), creates `questions` + `records` tables, runs `seedIfEmpty()` from merged `data/seed-grade-{1-6}-{chinese|math}.json` (`resolveSeedPaths()`: `<repo>/data/` via `src/main/../..`, then `process.resourcesPath/data/`; override with `QUIZY_SEED_PATH` / `QUIZY_SEED_DIR`; skip with `QUIZY_SKIP_SEED=1`). Use `closeDb()` only from tests or internal cleanup.
 3. `setupAutoLaunch()` → `app.setLoginItemSettings({openAtLogin: true})` — **skipped in development** so you don't pollute your login items while iterating.
 4. `registerIpcHandlers()` → all DB/config/IPC channels in `src/main/ipcHandlers.js`.
 5. Registers no-op `globalShortcut` handlers for Alt+F4, Ctrl+W, Ctrl+R, F5, F11.
@@ -49,11 +49,17 @@ These are load-bearing for the product working at all:
 5. **Password is plaintext in `electron-store`** (`%APPDATA%/Quizy/config.json`). This is an accepted tradeoff for the home-PC threat model. Don't log the password and don't hash it without coordinating with the user — the admin verify flow does a string compare.
 6. **Subject and grade values are enums.** `subject ∈ {chinese, math}`, `grade ∈ {1..6}`, `type ∈ {choice, judge, fill, image}`. The DB has no constraints enforcing this — code does.
 
+## Quiz UI conventions
+
+- **Choice / image options use A–D labels in the quiz renderer** (`src/renderer/quiz/quiz.js` + `exam-render.js`): buttons show `A.` `B.` `C.` `D.` (not ①②③④). Do not change this to circled numbers without an explicit product decision.
+- Seed JSON and PDF-imported `options` may still store PDF-style prefixes (e.g. `①疑问…`); the UI strips leading `①–⑩` / `A.` before display but **submits the original option string** for answer matching. Keep `answer` identical to one full `options[]` entry.
+- Exam-paper styling (white card, figures, markup in `content`) is separate from option lettering — see `exam-render.js` and `.cursor/skills/pdf-exam-to-quizy/`.
+
 ## Data locations
 
 - DB: `app.getPath('userData')/quizy.db` (Windows: `%APPDATA%/Quizy/quizy.db`). WAL mode is **not** enabled but `.db-shm`/`.db-wal` are in `.gitignore` anyway.
 - Config: `%APPDATA%/Quizy/config.json` (electron-store default).
-- Seed: dev reads `<repo>/data/seed.json`; packaged build reads from `process.resourcesPath/data/seed.json` (wired via `extraResources` in `package.json`).
+- Seed: dev reads `<repo>/data/seed-grade-{1-6}-{chinese|math}.json` (12 files, merged at import); packaged build reads from `process.resourcesPath/data/`; override with `QUIZY_SEED_PATH` (single file), `QUIZY_SEED_DIR` (directory), or `QUIZY_SKIP_SEED=1`. Legacy `seed-grade-{N}.json` / `seed.json` still supported if subject-split files absent. After editing seed files, delete `%APPDATA%/Quizy/quizy.db` to re-import (loses records) — see README §3.2.
 
 ## Hidden admin entry flow
 

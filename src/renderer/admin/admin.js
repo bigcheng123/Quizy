@@ -31,17 +31,15 @@ function trunc(s, max) {
   return t.length > max ? t.slice(0, max) + '…' : t;
 }
 
-const TAB_ORDER = ['settings', 'questions', 'records'];
-
 function showTab(name) {
   document.querySelectorAll('.tab-content').forEach((sec) => {
     sec.classList.toggle('active', sec.id === `tab-${name}`);
   });
-  const navBtns = document.querySelectorAll('header nav .nav-btn');
-  navBtns.forEach((btn, i) => {
-    btn.classList.toggle('active', TAB_ORDER[i] === name);
+  document.querySelectorAll('header nav .nav-btn').forEach((btn) => {
+    btn.classList.toggle('active', btn.getAttribute('data-tab') === name);
   });
   if (name === 'questions') loadQuestions();
+  if (name === 'preview') loadPreview();
   if (name === 'records') {
     const prev = document.getElementById('records-date-select').value;
     refreshRecordDates().then(() => {
@@ -58,6 +56,7 @@ async function loadSettingsForm() {
   setCheckedValues('cfg-subject', cfg.subjects || ALL_SUBJECTS);
   setCheckedValues('cfg-qtype', cfg.questionTypes || ALL_QUESTION_TYPES);
   document.getElementById('exclude-correct').checked = cfg.excludeCorrectlyAnswered !== false;
+  document.getElementById('open-at-login').checked = cfg.openAtLogin !== false;
   const req = cfg.unlockRequirements || { chinese: 5, math: 5 };
   document.getElementById('req-chinese').value = req.chinese;
   document.getElementById('req-math').value = req.math;
@@ -114,6 +113,34 @@ async function refreshStats() {
   }
 }
 
+async function resetDbAndReloadSeed() {
+  const msgEl = document.getElementById('reload-seed-msg');
+  showMsg(msgEl, '', 'ok');
+
+  const ok = confirm(
+    '确定删除本地 quizy.db 并重新从种子文件导入题目吗？\n\n' +
+    '此操作会清空所有答题记录，以及您在后台手动新增/修改的题目，且不可恢复。'
+  );
+  if (!ok) return;
+
+  const btn = document.getElementById('btn-reset-db-reload-seed');
+  btn.disabled = true;
+  try {
+    const { questionCount } = await window.adminAPI.resetDbAndReloadSeed();
+    showMsg(msgEl, `已重新加载 ${questionCount} 道题目。`, 'ok');
+    statsByQuestionId = {};
+    await refreshStats();
+    if (document.getElementById('tab-questions').classList.contains('active')) {
+      await loadQuestions();
+    }
+    window.adminAPI.notifyQuizSessionReload();
+  } catch (e) {
+    showMsg(msgEl, '重新加载失败：' + (e.message || String(e)), 'error');
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 async function saveSettings() {
   const msgEl = document.getElementById('settings-msg');
   showMsg(msgEl, '', 'ok');
@@ -122,6 +149,7 @@ async function saveSettings() {
   const subjects = getCheckedValues('cfg-subject').filter((s) => ALL_SUBJECTS.includes(s));
   const questionTypes = getCheckedValues('cfg-qtype').filter((t) => ALL_QUESTION_TYPES.includes(t));
   const excludeCorrect = document.getElementById('exclude-correct').checked;
+  const openAtLogin = document.getElementById('open-at-login').checked;
   const chinese = parseInt(document.getElementById('req-chinese').value, 10);
   const math = parseInt(document.getElementById('req-math').value, 10);
   const pwd = document.getElementById('new-password').value;
@@ -159,6 +187,7 @@ async function saveSettings() {
     await window.adminAPI.setConfig('subjects', subjects);
     await window.adminAPI.setConfig('questionTypes', questionTypes);
     await window.adminAPI.setConfig('excludeCorrectlyAnswered', excludeCorrect);
+    await window.adminAPI.setConfig('openAtLogin', openAtLogin);
     await window.adminAPI.setConfig('unlockRequirements', { chinese, math });
     if (pwd) await window.adminAPI.setConfig('adminPassword', pwd);
     showMsg(msgEl, '保存成功。', 'ok');
@@ -375,6 +404,98 @@ function formatAnsweredAt(iso) {
   }
 }
 
+/** Seed paths use ../../assets from renderer/quiz; admin is one level deeper in path resolution. */
+function fixPreviewAssetPath(url) {
+  if (!url || /^https?:/i.test(url) || url.startsWith('file:')) return url;
+  return url.replace(/^\.\.\/\.\.\/assets\//, '../../../assets/');
+}
+
+function fixPreviewContentPaths(content) {
+  if (!content) return content;
+  return content.replace(/\[\[img:([^\]|]+)/g, (_, path) => `[[img:${fixPreviewAssetPath(path)}`);
+}
+
+function renderPreviewOptions(q) {
+  if (q.type === 'choice' || q.type === 'image') {
+    const opts = q.options || [];
+    if (!opts.length) return '';
+    const items = opts
+      .map((opt, i) => {
+        const text = ExamRender.stripOptionMarker(opt);
+        const mark = opt === q.answer ? ' preview-opt-correct' : '';
+        return (
+          `<li class="preview-opt${mark}">` +
+          `<span class="preview-opt-label">${ExamRender.optionLabel(i)}</span>` +
+          `<span>${escapeHtml(text)}</span>` +
+          `</li>`
+        );
+      })
+      .join('');
+    return `<ul class="preview-options">${items}</ul>`;
+  }
+  if (q.type === 'judge') {
+    const ok = q.answer === '正确';
+    return (
+      '<ul class="preview-options preview-options-judge">' +
+      `<li class="${ok ? 'preview-opt-correct' : ''}">✓ 正确</li>` +
+      `<li class="${!ok ? 'preview-opt-correct' : ''}">✗ 错误</li>` +
+      '</ul>'
+    );
+  }
+  return '';
+}
+
+function renderPreviewCard(q) {
+  const card = document.createElement('article');
+  card.className = 'preview-card';
+  const imgHtml =
+    q.image_path && !q.content.includes('[[img:')
+      ? `<figure class="exam-figure"><img src="${escapeHtml(fixPreviewAssetPath(q.image_path))}" alt=""></figure>`
+      : '';
+  const contentHtml = ExamRender.render(fixPreviewContentPaths(q.content));
+  card.innerHTML =
+    `<header class="preview-card-head">` +
+    `<span class="tag">#${q.id}</span>` +
+    `<span class="tag ${q.subject}">${SUBJECT_LABELS[q.subject] || q.subject}</span>` +
+    `<span class="tag grade">${q.grade}年级</span>` +
+    `<span class="tag">${TYPE_LABELS[q.type] || q.type}</span>` +
+    `</header>` +
+    `<div class="preview-card-body exam-paper-preview">` +
+    `<div class="preview-content">${contentHtml}</div>` +
+    imgHtml +
+    renderPreviewOptions(q) +
+    `<div class="preview-answer">参考答案：<strong>${escapeHtml(q.answer)}</strong></div>` +
+    `</div>`;
+  return card;
+}
+
+async function loadPreview() {
+  const grade = parseInt(document.getElementById('preview-grade').value, 10);
+  const subject = document.getElementById('preview-subject').value;
+  const listEl = document.getElementById('preview-list');
+  const countEl = document.getElementById('preview-count');
+  listEl.innerHTML = '<p class="empty-hint">加载中…</p>';
+  countEl.textContent = '';
+
+  const rows = await window.adminAPI.getAllQuestions({ subject, grade });
+  countEl.textContent = `共 ${rows.length} 道`;
+  if (!rows.length) {
+    listEl.innerHTML = '<p class="empty-hint">该年级本科目暂无题目。</p>';
+    return;
+  }
+  listEl.innerHTML = '';
+  const frag = document.createDocumentFragment();
+  rows.forEach((q) => frag.appendChild(renderPreviewCard(q)));
+  listEl.appendChild(frag);
+}
+
+async function initPreviewFiltersFromConfig() {
+  const cfg = await window.adminAPI.getConfig();
+  document.getElementById('preview-grade').value = String(cfg.grade || 1);
+  const subjects = cfg.subjects || ALL_SUBJECTS;
+  document.getElementById('preview-subject').value = subjects[0] || 'chinese';
+}
+
 async function loadRecords() {
   const date = document.getElementById('records-date-select').value;
   const summaryEl = document.getElementById('records-summary');
@@ -438,6 +559,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   document.getElementById('btn-save-settings').addEventListener('click', () => void saveSettings());
+  document.getElementById('btn-reset-db-reload-seed').addEventListener('click', () => void resetDbAndReloadSeed());
   document.getElementById('btn-force-quit').addEventListener('click', () => {
     if (!confirm('确定要强制结束 Quizy 吗？\n\n程序将完全退出，锁屏解除，孩子可正常使用电脑。')) return;
     window.adminAPI.forceQuitApp();
@@ -449,6 +571,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   document.getElementById('btn-filter-questions').addEventListener('click', () => void loadQuestions());
+  document.getElementById('btn-load-preview').addEventListener('click', () => void loadPreview());
+  document.getElementById('preview-grade').addEventListener('change', () => {
+    if (document.getElementById('tab-preview').classList.contains('active')) void loadPreview();
+  });
+  document.getElementById('preview-subject').addEventListener('change', () => {
+    if (document.getElementById('tab-preview').classList.contains('active')) void loadPreview();
+  });
   document.getElementById('btn-add-question').addEventListener('click', () => showAddForm());
   document.getElementById('q-type').addEventListener('change', onTypeChange);
   document.getElementById('btn-submit-question').addEventListener('click', () => void submitQuestion());
@@ -463,6 +592,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   await loadSettingsForm();
+  await initPreviewFiltersFromConfig();
   await refreshQuestionAnswerStats();
   await refreshStats();
   await refreshRecordDates();

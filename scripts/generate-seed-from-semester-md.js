@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Parse docs/guangdong-primary-knowledge-by-semester.md and emit data/seed.json
+ * Parse knowleage_structure/guangdong-primary-knowledge-by-semester.md and emit data/seed-grade-{1-6}-{chinese|math}.json
  * with >= 10 questions per 语文/数学 knowledge point (▸ entries).
  *
  * Usage: node scripts/generate-seed-from-semester-md.js
@@ -9,10 +9,13 @@
 
 const fs = require('fs');
 const path = require('path');
+const { byTopic: EXAM_BENCHMARKS_MATH } = require('./exam-benchmarks-grade1-unit4.js');
+const { byTopic: EXAM_BENCHMARKS_CHINESE } = require('./exam-benchmarks-grade1-chinese-unit4.js');
 
-const MD_PATH = path.join(__dirname, '../docs/guangdong-primary-knowledge-by-semester.md');
-const OUT_PATH = path.join(__dirname, '../data/seed.json');
+const MD_PATH = path.join(__dirname, '../knowleage_structure/guangdong-primary-knowledge-by-semester.md');
+const OUT_DIR = path.join(__dirname, '../data');
 const PER_POINT = 10;
+const CMP_OPTS = ['>', '<', '='];
 
 const GRADE_CN = ['', '一', '二', '三', '四', '五', '六'];
 const TYPES_CYCLE = ['choice', 'choice', 'judge', 'judge', 'fill', 'fill', 'choice', 'judge', 'fill', 'image'];
@@ -48,7 +51,7 @@ function parseKnowledgePoints(md) {
 
     for (const part of line.split('▸').map((s) => s.trim()).filter(Boolean)) {
       if (part.startsWith('|') || part.length < 2) continue;
-      const topic = part.replace(/\s*★\s*$/, '').replace(/\s+/g, ' ');
+      const topic = part.replace(/\s*\|\s*$/, '').replace(/\s*★\s*$/, '').replace(/\s+/g, ' ').trim();
       points.push({ grade, sem, subj, topic });
     }
   }
@@ -90,16 +93,6 @@ function uniqueOptions(correct, distractors, rng) {
   return opts.length >= 4 ? opts.slice(0, 4) : opts;
 }
 
-function prefix(subj, grade, sem) {
-  const name = subj === 'chinese' ? '语文' : '数学';
-  return `（${name}·${grade}年级·${sem}）`;
-}
-
-function wrap(subj, grade, sem, topic, stem) {
-  const short = topic.length > 18 ? topic.slice(0, 18) + '…' : topic;
-  return `${prefix(subj, grade, sem)}【${short}】${stem}`;
-}
-
 function q(subject, grade, type, content, answer, options = null) {
   return { subject, grade, type, content, options, answer, image_path: null };
 }
@@ -107,14 +100,16 @@ function q(subject, grade, type, content, answer, options = null) {
 /* ---------- Poem / fable banks (from doc titles) ---------- */
 const POEM_BANK = {
   咏鹅: [
-    { type: 'fill', stem: '《咏鹅》中「白毛浮绿水，红掌拨清波」的上一句是：曲项向天（ ）', answer: '歌' },
+    { type: 'fill', stem: '《咏鹅》：鹅，鹅，鹅，曲项向天（ ）。', answer: '歌' },
     { type: 'judge', stem: '《咏鹅》的作者是唐代诗人骆宾王。', answer: '正确' },
     { type: 'choice', stem: '《咏鹅》描写的动物是？', answer: '鹅', options: ['鹅', '鸭', '鸡', '鹤'] },
+    { type: 'fill', stem: '《咏鹅》：白毛浮绿水，红掌拨（ ）波。', answer: '清' },
   ],
   静夜思: [
+    { type: 'fill', stem: '《静夜思》：床前明月光，疑是地上霜。举头望（ ），低头思故乡。', answer: '明月' },
     { type: 'fill', stem: '《静夜思》：床前明月光，疑是地上霜。举头望明月，低头（ ）故乡。', answer: '思' },
     { type: 'judge', stem: '《静夜思》表达了诗人思念家乡的感情。', answer: '正确' },
-    { type: 'choice', stem: '「疑是地上霜」运用了什么修辞？', answer: '比喻', options: ['比喻', '夸张', '排比', '拟人'] },
+    { type: 'choice', stem: '「疑是地上霜」中「疑」的意思是？', answer: '好像', options: ['好像', '怀疑', '疑问', '疑惑'] },
   ],
   春晓: [
     { type: 'fill', stem: '《春晓》：春眠不觉晓，处处闻啼（ ）。', answer: '鸟' },
@@ -161,6 +156,102 @@ const FABLE_BANK = {
 };
 
 /* ---------- Math helpers ---------- */
+function benchmarkKey(point) {
+  return `${point.grade}|${point.sem}|${point.topic}`;
+}
+
+function benchmarksForPoint(point, occurrenceIndex) {
+  const key = benchmarkKey(point);
+  const pool = point.subj === 'chinese' ? EXAM_BENCHMARKS_CHINESE[key] : EXAM_BENCHMARKS_MATH[key];
+  if (!pool) return [];
+  if (key === '1|下册|整理和复习') {
+    if (point.subj !== 'math' || occurrenceIndex !== 3) return [];
+    return pool;
+  }
+  return pool;
+}
+
+function tryMathExamUnit4(topic, idx, rng) {
+  if (/口算加法/.test(topic)) {
+    const kind = idx % 6;
+    const a = randInt(rng, 10, 79);
+    const b = randInt(rng, 1, Math.min(20, 99 - a));
+    const s = a + b;
+    if (kind === 0) {
+      return q('math', 1, 'fill', `直接写出得数：${a} + ${b} = （ ）`, String(s));
+    }
+    if (kind === 1) {
+      const x = randInt(rng, 20, 60);
+      const y = randInt(rng, 3, 15);
+      const sum = x + y;
+      const wrong = sum + pick(rng, [-1, 1]);
+      const ans = sum > wrong ? '>' : sum < wrong ? '<' : '=';
+      return q('math', 1, 'choice', `在 ○ 里填 >、< 或 =：${x} + ${y} ○ ${wrong}`, ans, CMP_OPTS);
+    }
+    if (kind === 2) {
+      const missing = randInt(rng, 10, 40);
+      const addend = randInt(rng, 5, 30);
+      return q('math', 1, 'fill', `□ + ${addend} = ${missing + addend}，□ = （ ）`, String(missing));
+    }
+    if (kind === 3) {
+      const n1 = randInt(rng, 20, 50);
+      const n2 = randInt(rng, 10, 30);
+      return q('math', 1, 'fill', `一个数是 ${n1}，另一个数是 ${n2}，它们的和是（ ）。`, String(n1 + n2));
+    }
+    if (kind === 4) {
+      const base = randInt(rng, 50, 90);
+      const step = 5;
+      return q('math', 1, 'fill', `从 ${base} 开始连续加 ${step}：${base}、${base + step}、${base + 2 * step}，下一个数是（ ）。`, String(base + 3 * step));
+    }
+    const tens = randInt(rng, 2, 7) * 10;
+    const ones = randInt(rng, 1, 9);
+    return q('math', 1, 'choice', `在 ${tens}+${ones}、${tens}+${ones * 10}、${tens + ones}+10 中，十位上的数能直接相加的是？`, `${tens}+${ones * 10}`, [
+      `${tens}+${ones}`,
+      `${tens}+${ones * 10}`,
+      `${tens + ones}+10`,
+      `${ones}+${tens}`,
+    ]);
+  }
+
+  if (/口算减法/.test(topic)) {
+    const kind = idx % 6;
+    const a = randInt(rng, 20, 99);
+    const b = randInt(rng, 1, Math.min(9, a - 10));
+    const s = a - b;
+    if (kind === 0) {
+      return q('math', 1, 'fill', `直接写出得数：${a} − ${b} = （ ）`, String(s));
+    }
+    if (kind === 1) {
+      const x = randInt(rng, 40, 90);
+      const y = randInt(rng, 5, 20);
+      const diff = x - y;
+      const wrong = diff + pick(rng, [-1, 1]);
+      const ans = diff > wrong ? '>' : diff < wrong ? '<' : '=';
+      return q('math', 1, 'choice', `在 ○ 里填 >、< 或 =：${x} − ${y} ○ ${wrong}`, ans, CMP_OPTS);
+    }
+    if (kind === 2) {
+      const total = randInt(rng, 30, 60);
+      const part = randInt(rng, 5, total - 5);
+      return q('math', 1, 'fill', `一共 ${total} 颗，左边 ${part} 颗，右边有（ ）颗。`, String(total - part));
+    }
+    if (kind === 3) {
+      const n1 = randInt(rng, 30, 60);
+      const n2 = randInt(rng, 10, 25);
+      return q('math', 1, 'fill', `一个数是 ${n1}，另一个数是 ${n2}，它们的差是（ ）。`, String(n1 - n2));
+    }
+    if (kind === 4) {
+      const start = randInt(rng, 50, 90);
+      const step = 5;
+      return q('math', 1, 'fill', `从 ${start} 开始连续减 ${step}：${start}、${start - step}、${start - 2 * step}，下一个数是（ ）。`, String(start - 3 * step));
+    }
+    const expr = `${a} − ${b}`;
+    const alt = `${a - b + 1} − ${b}`;
+    return q('math', 1, 'choice', `下列算式中，得数与 ${expr} 相同的是？`, expr, [expr, alt, `${a} + ${b}`, `${a} − ${b + 1}`]);
+  }
+
+  return null;
+}
+
 function gradeRange(grade) {
   const ranges = {
     1: { max: 20, mult: [1, 5] },
@@ -179,10 +270,15 @@ function randInt(rng, min, max) {
 
 function tryMathTopic(topic, grade, sem, idx, rng) {
   const t = topic;
-  const pf = (stem, answer, options) =>
-    q('math', grade, options ? 'choice' : TYPES_CYCLE[idx % 10], wrap('math', grade, sem, topic, stem), answer, options);
+  const pf = (stem, answer, options, qtype) =>
+    q('math', grade, qtype || (options ? 'choice' : TYPES_CYCLE[idx % 10]), stem, answer, options);
 
   if (/拼音|英语|编码|身份证/.test(t)) return null;
+
+  if (grade === 1 && sem === '下册' && /口算加法|口算减法/.test(t)) {
+    const exam = tryMathExamUnit4(t, idx, rng);
+    if (exam) return exam;
+  }
 
   if (/^[0-9~～]+.*认识|数数|数的组成|数位|读写/.test(t) || /以内数的认识/.test(t)) {
     const n = randInt(rng, 1, Math.min(grade <= 1 ? 20 : grade <= 2 ? 100 : 9999, gradeRange(grade).max));
@@ -202,18 +298,26 @@ function tryMathTopic(topic, grade, sem, idx, rng) {
   }
 
   if (/加法|加、减法|口算加法|笔算加法|进位加法|整百|整千加/.test(t) && !/减法|乘|除/.test(t)) {
-    const max = grade <= 1 ? 10 : grade <= 2 ? 50 : 200;
-    const a = randInt(rng, 0, max);
-    const b = randInt(rng, 0, max);
+    const within100 = grade === 1 && sem === '下册' && /口算|笔算|100以内/.test(t);
+    const max = within100 ? 89 : grade <= 1 ? 10 : grade <= 2 ? 50 : 200;
+    const a = randInt(rng, within100 ? 10 : 0, max);
+    const b = randInt(rng, within100 ? 1 : 0, within100 ? Math.min(20, 99 - a) : max);
     const s = a + b;
+  if (within100 && idx % 3 === 0) {
+      return pf(`直接写出得数：${a} + ${b} = （ ）`, String(s), null, 'fill');
+    }
     return pf(`计算：${a} + ${b} = ？`, String(s), uniqueOptions(String(s), [String(s + 1), String(s - 1), String(s + 2)], rng));
   }
 
   if (/减法|退位减法|口算减法|笔算减法/.test(t) && !/加减混合|加、减法/.test(t)) {
-    const max = grade <= 1 ? 15 : 100;
-    const a = randInt(rng, 5, max);
-    const b = randInt(rng, 0, a);
+    const within100 = grade === 1 && sem === '下册' && /口算|笔算|退位|十几减/.test(t);
+    const max = within100 ? 99 : grade <= 1 ? 15 : 100;
+    const a = randInt(rng, within100 ? 20 : 5, max);
+    const b = randInt(rng, within100 ? 1 : 0, within100 ? Math.min(9, a - 10) : a);
     const s = a - b;
+    if (within100 && idx % 3 === 0) {
+      return pf(`直接写出得数：${a} − ${b} = （ ）`, String(s), null, 'fill');
+    }
     return pf(`计算：${a} − ${b} = ？`, String(s), uniqueOptions(String(s), [String(s + 1), String(s + 2), String(a + b)], rng));
   }
 
@@ -429,16 +533,75 @@ function tryMathTopic(topic, grade, sem, idx, rng) {
   return null;
 }
 
+function tryChineseExamGrade1(topic, sem, idx, rng) {
+  if (sem === '下册') return null;
+
+  if (/拼音|韵母|声母|整体认读/.test(topic)) {
+    const items = [
+      { type: 'choice', stem: '下面读音完全正确的一项是？', answer: '②爸(bà) 妈(mā)', options: ['①大(dà) 地(dì)', '②爸(bà) 妈(mā)', '③我(wó) 你(nǐ)', '④书(shú) 包(bāo)'] },
+      { type: 'choice', stem: '下列词语中，加点字读轻声的是？', answer: '②妈妈', options: ['①天地', '②妈妈', '③人口', '④手足'] },
+      { type: 'fill', stem: '单韵母 a、o、e 属于（ ）韵母。', answer: '单' },
+      { type: 'judge', stem: '声母和韵母相拼可以读出汉字的音。', answer: '正确' },
+      { type: 'choice', stem: '整体认读音节的特点是？', answer: '直接认读，不用拼', options: ['直接认读，不用拼', '只能单独出现', '没有声调', '都是两个字母'] },
+    ];
+    const item = items[idx % items.length];
+    return q('chinese', 1, item.type, item.stem, item.answer, item.options || null);
+  }
+
+  if (/象形字|笔画|天地人|金木水火土|口耳目|日月/.test(topic)) {
+    const items = [
+      { type: 'choice', stem: '「日」字属于什么造字方法？', answer: '象形', options: ['象形', '形声', '会意', '指事'] },
+      { type: 'fill', stem: '「人」字第一笔是（ ）。', answer: '撇' },
+      { type: 'choice', stem: '「口」字共有几画？', answer: '3', options: ['3', '2', '4', '5'] },
+      { type: 'judge', stem: '「横、竖、撇、捺」是基本笔画。', answer: '正确' },
+      { type: 'fill', stem: '《天地人》中，「天」的上面是（ ）。', answer: '一' },
+      { type: 'choice', stem: '下面哪个字是「象形字」？', answer: '月', options: ['月', '明', '好', '林'] },
+    ];
+    const item = items[idx % items.length];
+    return q('chinese', 1, item.type, item.stem, item.answer, item.options || null);
+  }
+
+  if (/朗读|秋天|小小的船|江南|四季|一片片|弯弯/.test(topic)) {
+    const items = [
+      { type: 'fill', stem: '照样子，写一写：一片片 → （ ）', answer: '一朵朵' },
+      { type: 'fill', stem: '照样子，写一写：弯弯的 → （ ）的', answer: '长长' },
+      { type: 'choice', stem: '「一片片」是什么结构的词语？', answer: 'AA的', options: ['AA的', 'ABB', 'AABB', 'ABAB'] },
+      { type: 'judge', stem: '朗读《秋天》时要注意读出季节的特点。', answer: '正确' },
+      { type: 'fill', stem: '《小小的船》中，「小小的」是（ ）式词语。', answer: 'AA' },
+    ];
+    const item = items[idx % items.length];
+    return q('chinese', 1, item.type, item.stem, item.answer, item.options || null);
+  }
+
+  if (/自我介绍|看图说话/.test(topic)) {
+    const items = [
+      { type: 'image', stem: '看图写话：首先要做什么？', answer: '看清图意', options: ['看清图意', '随便乱写', '只写一个字', '抄课文'] },
+      { type: 'fill', stem: '自我介绍时，首先要说出自己的（ ）。', answer: '名字' },
+      { type: 'judge', stem: '看图说话时要先仔细观察图片。', answer: '正确' },
+      { type: 'choice', stem: '看图写话时，应该？', answer: '展开想象写清楚', options: ['展开想象写清楚', '不用看图', '只写标点', '抄别人的'] },
+    ];
+    const item = items[idx % items.length];
+    return q('chinese', 1, item.type, item.stem, item.answer, item.options || null);
+  }
+
+  return null;
+}
+
 function tryChineseTopic(topic, grade, sem, idx, rng) {
+  if (grade === 1) {
+    const examQ = tryChineseExamGrade1(topic, sem, idx, rng);
+    if (examQ) return examQ;
+  }
+
   const type = TYPES_CYCLE[idx % 10];
   const wrapQ = (stem, answer, options) =>
-    q('chinese', grade, type, wrap('chinese', grade, sem, topic, stem), answer, options);
+    q('chinese', grade, type, stem, answer, options);
 
   for (const key of Object.keys(POEM_BANK)) {
     if (topic.includes(key)) {
       const bank = POEM_BANK[key];
       const item = bank[idx % bank.length];
-      return q('chinese', grade, item.type, wrap('chinese', grade, sem, topic, item.stem), item.answer, item.options || null);
+      return q('chinese', grade, item.type, item.stem, item.answer, item.options || null);
     }
   }
 
@@ -480,7 +643,7 @@ function tryChineseTopic(topic, grade, sem, idx, rng) {
     ];
     const item = items[idx % items.length];
     const qt = item.options === null && (item.answer === '正确' || item.answer === '错误') ? 'judge' : 'fill';
-    return q('chinese', grade, qt, wrap('chinese', grade, sem, topic, item.stem), item.answer, item.options);
+    return q('chinese', grade, qt, item.stem, item.answer, item.options);
   }
 
   if (/ABB|AABB|多音字|部首|偏旁|查字/.test(topic)) {
@@ -512,7 +675,7 @@ function tryChineseTopic(topic, grade, sem, idx, rng) {
     return wrapQ(item.stem, item.answer, item.options);
   }
 
-  if (/《/.test(topic)) {
+  if (/《/.test(topic) && !(grade === 1 && sem === '下册')) {
     const title = (topic.match(/《([^》]+)》/) || [])[1] || topic.slice(0, 6);
     const pool = [
       { type: 'judge', stem: `课文《${title}》的学习重点包括理解内容、积累词语。`, answer: '正确' },
@@ -525,7 +688,7 @@ function tryChineseTopic(topic, grade, sem, idx, rng) {
       { type: 'image', stem: `想象课本插图与《${title}》相关，最应进行的学习活动是？`, answer: '朗读与理解课文', options: ['朗读与理解课文', '只做算术题', '忽略课文', '不看书'] },
     ];
     const item = pool[idx % pool.length];
-    return q('chinese', grade, item.type, wrap('chinese', grade, sem, topic, item.stem), item.answer, item.options || null);
+    return q('chinese', grade, item.type, item.stem, item.answer, item.options || null);
   }
 
   return null;
@@ -535,26 +698,28 @@ function fallbackQuestion(point, idx) {
   const { grade, sem, subj, topic } = point;
   const rng = rngFactory(seedFrom(subj, grade, sem, topic, idx));
   const type = TYPES_CYCLE[idx % 10];
-  const p = prefix(subj, grade, sem);
   const tag = topic.length > 20 ? topic.slice(0, 20) + '…' : topic;
 
   if (subj === 'math') {
-    const a = randInt(rng, 2, 8 + grade * 2);
-    const b = randInt(rng, 1, 6 + grade);
-    const s = a + b;
+    const isSub = /减法|退位|口算减|笔算减/.test(topic);
+    const a = randInt(rng, isSub ? 15 : 2, isSub ? 50 : 8 + grade * 2);
+    const b = randInt(rng, 1, isSub ? Math.min(9, a - 1) : 6 + grade);
+    const s = isSub ? a - b : a + b;
+    const expr = isSub ? `${a} − ${b}` : `${a} + ${b}`;
     if (type === 'choice') {
-      return q('math', grade, type, `${p}【${tag}】计算：${a} + ${b} = ？`, String(s), uniqueOptions(String(s), [String(s + 1), String(s - 1), String(a * b)], rng));
+      return q('math', grade, type, `计算：${expr} = ？`, String(s), uniqueOptions(String(s), [String(s + 1), String(s - 1), String(a * b)], rng));
     }
     if (type === 'judge') {
-      return q('math', grade, type, `${p}【${tag}】${a} + ${b} = ${s + 1}`, '错误', null);
+      const wrong = isSub ? s + 1 : s + 1;
+      return q('math', grade, type, `${expr} = ${wrong}`, '错误', null);
     }
     if (type === 'fill') {
-      return q('math', grade, type, `${p}【${tag}】${a} + ${b} = （ ）（只填数字）`, String(s), null);
+      return q('math', grade, type, `${expr} = （ ）`, String(s), null);
     }
     const rows = randInt(rng, 2, 4);
     const cols = randInt(rng, 2, 5);
     const total = rows * cols;
-    return q('math', grade, 'image', `${p}【${tag}】想象图中有 ${rows} 行 ${cols} 列圆点，共有多少个？`, String(total), uniqueOptions(String(total), [String(total + 1), String(total - 1), String(rows + cols)], rng));
+    return q('math', grade, 'image', `想象图中有 ${rows} 行 ${cols} 列圆点，共有多少个？`, String(total), uniqueOptions(String(total), [String(total + 1), String(total - 1), String(rows + cols)], rng));
   }
 
   const stems = {
@@ -573,24 +738,35 @@ function fallbackQuestion(point, idx) {
   if (type === 'choice') {
     const stem = stems.choice[idx % 2];
     const ans = '认真阅读课文并积累词句';
-    return q('chinese', grade, type, `${p}【${tag}】${stem}`, ans, uniqueOptions(ans, ['不用朗读', '只抄字不思考', '跳过课文'], rng));
+    return q('chinese', grade, type, stem, ans, uniqueOptions(ans, ['不用朗读', '只抄字不思考', '跳过课文'], rng));
   }
   if (type === 'judge') {
     const ok = idx % 2 === 0;
-    return q('chinese', grade, type, `${p}【${tag}】${stems.judge[ok ? 0 : 1]}`, ok ? '正确' : '错误', null);
+    return q('chinese', grade, type, stems.judge[ok ? 0 : 1], ok ? '正确' : '错误', null);
   }
   if (type === 'fill') {
     const ans = idx % 2 === 0 ? '积累词句' : '认真阅读';
-    return q('chinese', grade, type, `${p}【${tag}】${stems.fill[idx % 2]}`, ans, null);
+    return q('chinese', grade, type, stems.fill[idx % 2], ans, null);
   }
-  return q('chinese', grade, 'image', `${p}【${tag}】${stems.image[0]}`, '朗读与理解课文', uniqueOptions('朗读与理解课文', ['完全不看课本', '只玩不看', '随便乱写'], rng));
+  return q('chinese', grade, 'image', stems.image[0], '朗读与理解课文', uniqueOptions('朗读与理解课文', ['完全不看课本', '只玩不看', '随便乱写'], rng));
 }
 
-function generateForPoint(point) {
+function generateForPoint(point, occurrenceIndex) {
   const out = [];
   const seen = new Set();
+  const benchPool = benchmarksForPoint(point, occurrenceIndex);
 
   for (let i = 0; i < PER_POINT; i++) {
+    if (benchPool[i]) {
+      const item = { ...benchPool[i] };
+      const key = `${item.content}|${item.answer}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        out.push(item);
+        continue;
+      }
+    }
+
     const rng = rngFactory(seedFrom(point.subj, point.grade, point.sem, point.topic, i));
     let item = null;
     if (point.subj === 'math') item = tryMathTopic(point.topic, point.grade, point.sem, i, rng);
@@ -610,14 +786,24 @@ function generateForPoint(point) {
 function main() {
   const md = fs.readFileSync(MD_PATH, 'utf-8');
   const points = parseKnowledgePoints(md);
-  const questions = [];
+  const byGradeSubject = new Map();
   const countByPoint = new Map();
+  const benchOffsets = new Map();
+  const topicOccurrence = new Map();
 
   for (const p of points) {
-    const qs = generateForPoint(p);
-    const key = `${p.subj}|${p.grade}|${p.sem}|${p.topic}`;
+    const benchKey = `${p.subj}|${p.grade}|${p.sem}|${p.topic}`;
+    const offset = benchOffsets.get(benchKey) || 0;
+    const occurrence = topicOccurrence.get(benchKey) || 0;
+    topicOccurrence.set(benchKey, occurrence + 1);
+    const qs = generateForPoint(p, occurrence);
+    benchOffsets.set(benchKey, offset + PER_POINT);
+
+    const key = `${p.subj}|${p.grade}|${p.sem}|${p.topic}|${offset}`;
     countByPoint.set(key, qs.length);
-    questions.push(...qs);
+    const bucket = `${p.grade}-${p.subj}`;
+    if (!byGradeSubject.has(bucket)) byGradeSubject.set(bucket, []);
+    byGradeSubject.get(bucket).push(...qs);
   }
 
   const min = Math.min(...countByPoint.values());
@@ -627,10 +813,41 @@ function main() {
     process.exit(1);
   }
 
-  fs.writeFileSync(OUT_PATH, JSON.stringify(questions, null, 2) + '\n', 'utf-8');
+  if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
+
+  let total = 0;
+  for (let g = 1; g <= 6; g++) {
+    for (const subj of ['chinese', 'math']) {
+      const qs = byGradeSubject.get(`${g}-${subj}`) || [];
+      const outPath = path.join(OUT_DIR, `seed-grade-${g}-${subj}.json`);
+      fs.writeFileSync(outPath, JSON.stringify(qs, null, 2) + '\n', 'utf-8');
+      total += qs.length;
+      console.log(`  grade ${g} ${subj}: ${qs.length} questions → ${outPath}`);
+    }
+    const legacyGrade = path.join(OUT_DIR, `seed-grade-${g}.json`);
+    if (fs.existsSync(legacyGrade)) {
+      fs.unlinkSync(legacyGrade);
+      console.log(`  removed legacy ${legacyGrade}`);
+    }
+  }
+
+  const legacy = path.join(OUT_DIR, 'seed.json');
+  if (fs.existsSync(legacy)) {
+    fs.unlinkSync(legacy);
+    console.log(`  removed legacy ${legacy}`);
+  }
+
   console.log(`Knowledge points: ${points.length}`);
-  console.log(`Questions written: ${questions.length} (min per point: ${min})`);
-  console.log(`Output: ${OUT_PATH}`);
+  console.log(`Questions written: ${total} (min per point: ${min})`);
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  parseKnowledgePoints,
+  generateForPoint,
+  benchmarksForPoint,
+  main,
+};

@@ -1,0 +1,5948 @@
+[
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数字表示\"3\"？",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "按顺序填数：1、□、3、4、□。",
+    "options": null,
+    "answer": "2、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "数字 5 比 3 大。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "数一数：图中有 🍎🍎🍎🍎 共□个苹果。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "3 和 5 比较，正确的是？",
+    "options": [
+      "3 > 5",
+      "3 < 5",
+      "3 = 5",
+      "5 < 3"
+    ],
+    "answer": "3 < 5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 ○ 里填 >、< 或 =：4 ○ 2",
+    "options": null,
+    "answer": ">",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数最小？",
+    "options": [
+      "5",
+      "4",
+      "1",
+      "3"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "排队：小明排第 1，小红排第 3。小明和小红之间有□人。",
+    "options": null,
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "从左往右数，第 4 个是哪个？一共 5 个小朋友，正中间排第几？",
+    "options": [
+      "第 3",
+      "第 2",
+      "第 4",
+      "第 5"
+    ],
+    "answer": "第 3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "5 可以分成 2 和□。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "4 可以分成 1 和□，也可以分成 2 和□。",
+    "options": null,
+    "answer": "3、2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪一组不能合成 5？",
+    "options": [
+      "1 和 4",
+      "2 和 3",
+      "0 和 5",
+      "2 和 4"
+    ],
+    "answer": "2 和 4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "树上有 2 只鸟，又飞来 1 只，现在有□只。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "算式 2 + 3 = 5 中，2 和 3 叫做什么？",
+    "options": [
+      "和",
+      "加数",
+      "差",
+      "被加数"
+    ],
+    "answer": "加数",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "1 + 4 = □",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 5 个气球，飞走了 2 个，还剩□个。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "4 − 1 = 3，这道算式读作？",
+    "options": [
+      "4 减 1 等于 3",
+      "4 加 1 等于 3",
+      "1 减 4 等于 3",
+      "3 减 1 等于 4"
+    ],
+    "answer": "4 减 1 等于 3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "妈妈买了 4 个桃子，吃掉了 1 个，还剩□个。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "0 + 5 = 0",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "3 − 3 = □",
+    "options": null,
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一个也没有，用哪个数字表示？",
+    "options": [
+      "1",
+      "5",
+      "10",
+      "0"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 1~5 中，最大的数是□，最小的数是□。",
+    "options": null,
+    "answer": "5、1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "得数等于 5 的算式是？",
+    "options": [
+      "2 + 2",
+      "3 + 2",
+      "4 − 1",
+      "1 + 3"
+    ],
+    "answer": "3 + 2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "3 + □ = 5，□ 里填□。",
+    "options": null,
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "按顺序写数：5、6、□、8、□。",
+    "options": null,
+    "answer": "7、9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "比 7 大比 9 小的数是？",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "7"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "9 大于 6，小于 8。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "10 里面有□个一。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "10 和 9 比较，正确的是？",
+    "options": [
+      "10 > 9",
+      "10 < 9",
+      "10 = 9",
+      "无法比较"
+    ],
+    "answer": "10 > 9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "8 和 10 中间的数是□。",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "6 + 2 = □",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "9 − 4 = □",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式的得数是 6？",
+    "options": [
+      "3 + 2",
+      "8 − 1",
+      "4 + 3",
+      "9 − 3"
+    ],
+    "answer": "9 − 3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "看图列式：★★★★★ ★★★，一共□颗星，算式：5 + 3 = □。",
+    "options": null,
+    "answer": "8、8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "10 − 6 = □",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "3 + 7 = □",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪两个数合起来是 10？",
+    "options": [
+      "3 和 6",
+      "2 和 7",
+      "4 和 6",
+      "5 和 4"
+    ],
+    "answer": "4 和 6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "2 + 3 + 4 = □",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "10 − 3 − 2 = □",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "3 + □ + 2 = 10，□ 里填？",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "3 + 4 − 2 = □",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "10 − 6 + 3 = □",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "公交车上有 5 人，到站上来 3 人，又下去 2 人，现在有几人？",
+    "options": [
+      "6",
+      "10",
+      "4",
+      "8"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从 3、6、9 中选两个数，写出两道加法：□+□=□，□+□=□。",
+    "options": null,
+    "answer": "3、6、9、6、3、9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "10 个小朋友玩老鹰捉小鸡，1 人当老鹰，1 人当母鸡，其余当小鸡。小鸡有几人？",
+    "options": [
+      "10",
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "□ + 4 = 9，□ = □。",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "连加连减和加减混合运算，都按从左往右的顺序算。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个是正方体？",
+    "options": [
+      "长方体",
+      "正方体",
+      "圆柱",
+      "球"
+    ],
+    "answer": "正方体",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "可以任意方向滚动的立体图形是？",
+    "options": [
+      "长方体",
+      "正方体",
+      "圆柱",
+      "球"
+    ],
+    "answer": "球",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "正方体有□个面，每个面都是□形。",
+    "options": null,
+    "answer": "6、正方",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "圆柱放在桌子上可以滚动。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "长方体有□个顶点。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪种物体最容易堆起来？",
+    "options": [
+      "正方体",
+      "球",
+      "圆柱（横放）",
+      "圆锥"
+    ],
+    "answer": "正方体",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "2 个完全一样的正方体可以拼成一个□。",
+    "options": null,
+    "answer": "长方体",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "用 4 个一样的正方体拼长方体，有几种拼法？",
+    "options": [
+      "1 种",
+      "2 种",
+      "3 种",
+      "4 种"
+    ],
+    "answer": "2 种",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "用 8 个小正方体可以拼成一个大正方体。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "至少用□个小正方体才能拼成一个大正方体。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "从上面看一个圆柱，看到的是什么形状？",
+    "options": [
+      "长方形",
+      "正方形",
+      "圆形",
+      "三角形"
+    ],
+    "answer": "圆形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "从正面看一个正方体，看到的是什么？",
+    "options": [
+      "圆形",
+      "正方形",
+      "长方形",
+      "三角形"
+    ],
+    "answer": "正方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "长方体的每个面都是长方形。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "篮球的形状是□体。",
+    "options": null,
+    "answer": "球",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "粉笔盒的形状近似于□体。",
+    "options": null,
+    "answer": "长方",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个物体不是圆柱？",
+    "options": [
+      "水杯",
+      "笔筒",
+      "柱子",
+      "魔方"
+    ],
+    "answer": "魔方",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个正方体有□条棱。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "球的表面是平的。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "把正方体放在桌子上，最多能看到几个面？",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "6"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "圆柱的上、下两个面是大小一样的□形。",
+    "options": null,
+    "answer": "圆",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "长方体的 6 个面中，可能有正方形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "1 个十和 5 个一组成的数是□。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "20 里面有□个十。",
+    "options": null,
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数读作\"十三\"？",
+    "options": [
+      "3",
+      "30",
+      "13",
+      "31"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "11 中两个 1 表示的意思相同。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从 10 数到 20，一共有□个数。",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从右边起，第一位是□位，第二位是□位。",
+    "options": null,
+    "answer": "个、十",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "数字 16 的十位上是？",
+    "options": [
+      "6",
+      "1",
+      "16",
+      "0"
+    ],
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "个位上是 9，十位上是 1，这个数是□。",
+    "options": null,
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "计数器上十位有 2 颗珠，个位有 0 颗珠，这个数是 20。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "18 是由□个十和□个一组成的。",
+    "options": null,
+    "answer": "1、8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "1 个十和 9 个一合起来是□。",
+    "options": null,
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个表示\"1 个十和 4 个一\"？",
+    "options": [
+      "14",
+      "41",
+      "5",
+      "104"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "16 的十位是□，个位是□。",
+    "options": null,
+    "answer": "1、6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "10 + 3 = □",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "15 − 5 = □",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "12 + 4 = □",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "18 − 8 = □",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式等于 17？",
+    "options": [
+      "10 + 6",
+      "20 − 2",
+      "15 + 1",
+      "10 + 7"
+    ],
+    "answer": "10 + 7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 15 多 2 的数是□。",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 20 少 3 的数是□。",
+    "options": null,
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "10 + 10 = 20。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小丽有 13 张贴纸，送给同学 3 张，还剩几张？",
+    "options": [
+      "16",
+      "10",
+      "9",
+      "7"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "9 + 5 = □。想：9 + 1 = 10，10 + □= □。",
+    "options": null,
+    "answer": "14、4、14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "9 + 7 = □",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式得数等于 9+4？",
+    "options": [
+      "9 + 5",
+      "8 + 6",
+      "7 + 6",
+      "6 + 8"
+    ],
+    "answer": "7 + 6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "8 + 5 = □",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "7 + 6 = □",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "6 + 9 = □",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "8 + □ = 15，□ 里填？",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "5 + 8 = □",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "4 + 9 = □",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "3 + 8 = □",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明有 8 颗糖，妈妈又给他 5 颗，一共有□颗糖。",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "树上原来有 7 只鸟，又飞来 6 只，现在有□只鸟。",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明第一天看了 9 页书，第二天看了 8 页，两天一共看了多少页？",
+    "options": [
+      "17",
+      "1",
+      "16",
+      "15"
+    ],
+    "answer": "17",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "停车场原来有 6 辆车，又开来 5 辆，现在停车场有□辆车。",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红有 7 支笔，小丽有 8 支笔，两人一共有多少支？",
+    "options": [
+      "13",
+      "14",
+      "16",
+      "15"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "美术组有 9 人，合唱组有 6 人，一共有□人。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "最大的一位数加最大的一位数 = □。",
+    "options": null,
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式的得数与其他不同？",
+    "options": [
+      "9+5",
+      "7+7",
+      "6+7",
+      "8+6"
+    ],
+    "answer": "6+7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：9+2=11, 9+3=12, 9+4=13, 9+5=□。",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "在 20 以内的进位加法中，和一定大于加数。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "□ + 8 < 16，□ 里最大能填□。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明算了 8 道题，小红比小明多算 5 道。小红算了多少道？",
+    "options": [
+      "3",
+      "13",
+      "12",
+      "14"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 1~20 中，个位是 5 的数有：□和□。",
+    "options": null,
+    "answer": "5、15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "得数是 12 的算式是？",
+    "options": [
+      "8 + 3",
+      "9 + 2",
+      "7 + 5",
+      "6 + 5"
+    ],
+    "answer": "7 + 5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "10 + □ = 18，□ = □。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "两个加数都是 8，和是 16。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从 0 到 10，一共有□个数。",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小红比小明多 3 朵花，小红有 9 朵，小明有□朵。",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "苹果比梨多 4 个，梨有 7 个，苹果有多少个？",
+    "options": [
+      "3",
+      "11",
+      "10",
+      "4"
+    ],
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "哥哥今年 12 岁，弟弟今年 8 岁，哥哥比弟弟大□岁。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "两根绳子一共长 20 米，其中一根长 13 米，另一根长□米。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个图形按形状分和其他不是一类？",
+    "options": [
+      "正方体",
+      "长方体",
+      "圆柱",
+      "球"
+    ],
+    "answer": "球",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "正方体每个面都是正方形，每个面大小一样。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从不同方向观察同一个正方体，最多可以看到□个面。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "排队时，小明前面有 4 人，后面有 6 人，这一队共□人。",
+    "options": null,
+    "answer": "11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一本故事书 20 页，看了 8 页，还剩□页。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "爸爸买了一些苹果，吃了一半后还剩 5 个，原来买了几个？",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "15"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明第一天做 5 道口算，以后每天都比前一天多做 1 道，第三天做□道。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：2、4、6、8、□、12。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "10 个小朋友排成一队，小明排第 5，小红排第 9。他们之间有几人？",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有一堆苹果，比 10 个多，比 15 个少，可能是□个。（写一个答案）",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "3 个小朋友每人分 4 颗糖，一共需要 7 颗糖。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个图形有四条边且四个角都是直角？",
+    "options": [
+      "正方形",
+      "三角形",
+      "圆",
+      "五边形"
+    ],
+    "answer": "正方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "长方形有□条边，对边□。",
+    "options": null,
+    "answer": "4、相等",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "三角形有□条边，□个角。",
+    "options": null,
+    "answer": "3、3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个图形没有直边？",
+    "options": [
+      "正方形",
+      "长方形",
+      "三角形",
+      "圆形"
+    ],
+    "answer": "圆形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "正方形的四条边都相等。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "长方形和正方形都有□个直角。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "长方形与正方形的区别是？",
+    "options": [
+      "正方形边更少",
+      "长方形没有直角",
+      "正方形四边相等，长方形只有对边相等",
+      "长方形是正方形的一种"
+    ],
+    "answer": "正方形四边相等，长方形只有对边相等",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "两个完全一样的三角形可以拼成什么图形？",
+    "options": [
+      "圆",
+      "平行四边形",
+      "五边形",
+      "正方体"
+    ],
+    "answer": "平行四边形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用两个完全一样的正方形可以拼成一个□。",
+    "options": null,
+    "answer": "长方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "四个一样的小正方形一定能拼成一个大正方形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "至少用□个完全一样的小正方形可以拼成一个大正方形。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "七巧板由几种图形组成？",
+    "options": [
+      "5 种",
+      "4 种",
+      "3 种",
+      "7 种"
+    ],
+    "answer": "3 种",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面图形中，属于平面图形的是？",
+    "options": [
+      "正方体",
+      "三角形",
+      "圆柱",
+      "球"
+    ],
+    "answer": "三角形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "圆是平面图形，球是立体图形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个正方形有□条对称轴。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "长方形有□条对称轴。",
+    "options": null,
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "用两个一样的直角三角形不能拼成？",
+    "options": [
+      "长方形",
+      "正方形",
+      "大三角形",
+      "圆形"
+    ],
+    "answer": "圆形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "正方形纸对折一次只能折出长方形。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "正方形纸对折一次，可能得到□形或□形。",
+    "options": null,
+    "answer": "长方、三角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "把一个正方形剪去一个角，剩下的图形不可能是？",
+    "options": [
+      "三角形",
+      "四边形",
+      "五边形",
+      "圆形"
+    ],
+    "answer": "圆形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "15 − 9 = □。想：9 + □= 15，所以 15 − 9 = □。",
+    "options": null,
+    "answer": "6、6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "17 − 9 = □",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "12 − 9 = □",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "13 − 7 = □",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "16 − 8 = □",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "14 − 6 = □",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "11 − 7 = □，□ 里应该填？",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "12 − 5 = □",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "11 − 4 = □",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "13 − 3 = □",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 15 个气球，飞走了 8 个，还剩□个。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明有 13 支铅笔，用了 5 支，还剩□支。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红做了 14 朵花，送出去 6 朵，她还剩几朵？",
+    "options": [
+      "20",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一共要种 17 棵树，已经种了 9 棵，还要种□棵。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "树上有 12 只鸟，飞走了 4 只，又飞走了 3 只，还剩□只。",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明有 16 元，买书花了 9 元，还剩多少元？",
+    "options": [
+      "8",
+      "7",
+      "6",
+      "25"
+    ],
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 20 以内的退位减法中，被减数最大是□。",
+    "options": null,
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式的结果是 5？",
+    "options": [
+      "12−7",
+      "11−4",
+      "13−9",
+      "15−8"
+    ],
+    "answer": "12−7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：20−9=11, 19−9=10, 18−9=9, 17−9=□。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "退位减法中，被减数个位不够减时向十位借 1，借 1 当 10。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "□ − 8 < 6，□ 里最大能填□。",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "哪个算式和 14−9 得数相同？",
+    "options": [
+      "12−6",
+      "15−9",
+      "11−7",
+      "13−8"
+    ],
+    "answer": "13−8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "5 个十和 3 个一组成的数是□。",
+    "options": null,
+    "answer": "53",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "78 里面有□个十和□个一。",
+    "options": null,
+    "answer": "7、8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "100 里面有□个十。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "10 个十是多少？",
+    "options": [
+      "10",
+      "20",
+      "50",
+      "100"
+    ],
+    "answer": "100",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从 35 开始，五个五个地数，后面三个数是：□、□、□。",
+    "options": null,
+    "answer": "40、45、50",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 ○ 填 > 或 <：56 ○ 65",
+    "options": null,
+    "answer": "<",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "按从小到大排列：72, 45, 89：□<□<□",
+    "options": null,
+    "answer": "45、72、89",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数最接近 50？",
+    "options": [
+      "45",
+      "51",
+      "58",
+      "42"
+    ],
+    "answer": "51",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 69 大，比 73 小的数有：□、□、□。",
+    "options": null,
+    "answer": "70、71、72",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "30 + 6 = □",
+    "options": null,
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "45 − 5 = □",
+    "options": null,
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "70 + 20 = □",
+    "options": null,
+    "answer": "90",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "63 − 60 = □",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用 3 个●在计数器上（十位和个位）摆两位数，能摆出□个不同的数。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "用 5 个珠子在计数器上拨两位数，最大能拨出？",
+    "options": [
+      "50",
+      "41",
+      "32",
+      "95"
+    ],
+    "answer": "50",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用数字 2、5 可以组成的两位数有□和□。",
+    "options": null,
+    "answer": "25、52",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "最大的一位数是□，最小的两位数是□，它们相差□。",
+    "options": null,
+    "answer": "9、10、1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "读数和写数都从高位起。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个两位数，十位上的数字比个位上的数字大 3，这个数可能是□。",
+    "options": null,
+    "answer": "30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面的数中，读作\"六十三\"的是？",
+    "options": [
+      "36",
+      "6 和 3",
+      "63",
+      "603"
+    ],
+    "answer": "63",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 1~100 中，个位是 0 的数有□个。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "23 + 5 = □",
+    "options": null,
+    "answer": "28",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "45 + 30 = □",
+    "options": null,
+    "answer": "75",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "34 + 8 = □",
+    "options": null,
+    "answer": "42",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式先算个位？",
+    "options": [
+      "27+6",
+      "50+30",
+      "40+20",
+      "60+10"
+    ],
+    "answer": "27+6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "28 + 4 = □，先算□+□= 12，再算 20 + 12 = □。",
+    "options": null,
+    "answer": "32、8、4、32",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "37 − 5 = □",
+    "options": null,
+    "answer": "32",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "56 − 20 = □",
+    "options": null,
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "43 − 7 = □",
+    "options": null,
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "62 − 8 = □，先算 12 − 8 = 4，再算□− 8 + 4 = □。",
+    "options": null,
+    "answer": "54、50、54",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式结果最小？",
+    "options": [
+      "40+30",
+      "80−10",
+      "25−8",
+      "36+12"
+    ],
+    "answer": "25−8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 75 少 8 的数是□。",
+    "options": null,
+    "answer": "67",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 46 多 9 的数是□。",
+    "options": null,
+    "answer": "55",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "7 + 27 + 13 = □",
+    "options": null,
+    "answer": "47",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "80 − 15 − 20 = □",
+    "options": null,
+    "answer": "45",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "估算：49 + 32 大约是多少？",
+    "options": [
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "answer": "80",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "36 + □ = 50，□ = □。",
+    "options": null,
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "□ − 9 = 28，□ = □。",
+    "options": null,
+    "answer": "37",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "口算 36+8 时，先算 6+8=14，再算 30+14=44。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "三天共看了 60 页，第一天 18 页，第二天 22 页，第三天多少页？",
+    "options": [
+      "20",
+      "40",
+      "30",
+      "10"
+    ],
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "口算接力：24 → +6 → □ → −8 → □ → +15 → □。",
+    "options": null,
+    "answer": "30、22、37",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用竖式计算：34 + 29 = □。",
+    "options": null,
+    "answer": "63",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用竖式计算：48 + 37 = □。",
+    "options": null,
+    "answer": "85",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "列竖式时，相同□要对齐，从□位算起。",
+    "options": null,
+    "answer": "数位、个",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "笔算加法时，个位满十向十位进 1。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "25 + 67 = □，个位 5 + 7 = 12，向十位进□，十位 2 + 6 +□=□。",
+    "options": null,
+    "answer": "92、1、1、9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用竖式计算：72 − 38 = □。",
+    "options": null,
+    "answer": "34",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用竖式计算：91 − 46 = □。",
+    "options": null,
+    "answer": "45",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "笔算减法时，个位不够减向十位借 1，借 1 当 10。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "笔算 54 − 29，个位 4 − 9 不够减，从十位借 1，变成□− 9 = □。",
+    "options": null,
+    "answer": "14、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "最大的两位数减去最小的两位数 = □。",
+    "options": null,
+    "answer": "89",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 63 少 28 的数是□。",
+    "options": null,
+    "answer": "35",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "竖式计算 57+36 时，十位上 5+3+1=？",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "两个加数都是 38，和是□。",
+    "options": null,
+    "answer": "76",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "被减数是 80，减数是 47，差是□。",
+    "options": null,
+    "answer": "33",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个竖式写法正确？",
+    "options": [
+      "个十对齐",
+      "相同数位对齐",
+      "随便对齐",
+      "从十位算起"
+    ],
+    "answer": "相同数位对齐",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "列竖式计算：100 − 64 = □。",
+    "options": null,
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "笔算加法和笔算减法都从个位算起。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个加数是 29，另一个加数是 45，和是□。",
+    "options": null,
+    "answer": "74",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 56 多 28 的数是□。",
+    "options": null,
+    "answer": "84",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "爸爸 35 岁，妈妈比爸爸小 3 岁，妈妈多少岁？",
+    "options": [
+      "38",
+      "35",
+      "33",
+      "32"
+    ],
+    "answer": "32",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "红花 25 朵，黄花比红花多 8 朵，黄花有□朵。",
+    "options": null,
+    "answer": "33",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明有 42 颗糖，小红比小明少 7 颗，小红有□颗。",
+    "options": null,
+    "answer": "35",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "苹果 36 个，梨比苹果少 12 个，梨有多少个？",
+    "options": [
+      "48",
+      "24",
+      "26",
+      "38"
+    ],
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一班 45 人，二班比一班多 3 人，两个班一共□人。",
+    "options": null,
+    "answer": "93",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "妈妈买了 15 个苹果（其中 4 个是青苹果），吃了 6 个，还剩几个？不需要的条件是？",
+    "options": [
+      "4 个青苹果",
+      "买了 15 个",
+      "吃了 6 个",
+      "这是减法"
+    ],
+    "answer": "4 个青苹果",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "果园有桃树 30 棵（其中 8 棵是新种的），梨树 22 棵。桃树比梨树多□棵。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "教室里有男生 18 人和女生 15 人在打扫卫生（其中 6 人在擦窗）。教室里共有□人。",
+    "options": null,
+    "answer": "33",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "图书馆有 32 本故事书和 28 本科技书（其中 12 本是新买的），两类书共多少本？多余条件是？",
+    "options": [
+      "32 本故事书",
+      "28 本科技书",
+      "两类书共多少本",
+      "其中 12 本是新买的"
+    ],
+    "answer": "其中 12 本是新买的",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一条路长 100 米，已经修了 65 米，还剩□米。",
+    "options": null,
+    "answer": "35",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小芳有 48 元，买书花了 29 元，买笔花了 8 元，一共花了□元，还剩□元。",
+    "options": null,
+    "answer": "37、11",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "哥哥身高 132 厘米，弟弟比哥哥矮 12 厘米，弟弟身高□厘米。",
+    "options": null,
+    "answer": "120",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一本书 80 页，第一天看 25 页，第二天看 28 页，第三天从第几页开始看？",
+    "options": [
+      "52",
+      "53",
+      "54",
+      "55"
+    ],
+    "answer": "54",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "求\"比一个数多几\"用□法，求\"比一个数少几\"用□法。",
+    "options": null,
+    "answer": "加、减",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "两数之和是 68，其中一个数是 39，另一个数是□。",
+    "options": null,
+    "answer": "29",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明比小红重 5 千克，小红重 28 千克，小明重多少？",
+    "options": [
+      "23",
+      "33",
+      "28",
+      "5"
+    ],
+    "answer": "33",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "\"含有多余条件\"的意思是：题目中所有条件都必须用到。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "公鸡 18 只，母鸡 26 只（其中白鸡 10 只），一共有□只鸡。",
+    "options": null,
+    "answer": "44",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "仓库原来有 56 袋大米，运出 29 袋，又运进 18 袋，现在有□袋。",
+    "options": null,
+    "answer": "45",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "比 47 多 15 的数是？",
+    "options": [
+      "62",
+      "52",
+      "32",
+      "57"
+    ],
+    "answer": "62",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "37 比 52 少□。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "人民币的单位有元、□、分。",
+    "options": null,
+    "answer": "角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "1 元 = □角，1 角 = □分。",
+    "options": null,
+    "answer": "10、10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一张 5 元可以换□张 1 元。",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一张 20 元可以换□张 10 元，或□张 5 元。",
+    "options": null,
+    "answer": "2、4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个面额最大？",
+    "options": [
+      "50 元",
+      "10 元",
+      "20 元",
+      "5 元"
+    ],
+    "answer": "50 元",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一支铅笔 1 元 5 角，一把尺子 2 元。一共要付□元□角。",
+    "options": null,
+    "answer": "3、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明有 10 元，买了一个 6 元 5 角的面包，应找回□元□角。",
+    "options": null,
+    "answer": "3、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "妈妈买水果花了 18 元，付了 20 元，应找回？",
+    "options": [
+      "3 元",
+      "1 元",
+      "2 元",
+      "38 元"
+    ],
+    "answer": "2 元",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小红有 5 元 5 角，买笔记本用了 3 元，还剩□元□角。",
+    "options": null,
+    "answer": "2、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一瓶水 2 元，一包饼干 4 元 5 角。饼干比水贵□元□角。",
+    "options": null,
+    "answer": "2、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "36 角 = □元□角。",
+    "options": null,
+    "answer": "3、6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "5 元 8 角 = □角。",
+    "options": null,
+    "answer": "58",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "买一个文具盒 8 元 5 角，用下面哪种付款方式最简便？",
+    "options": [
+      "1 元×8 + 5 角",
+      "5 元+2 元+1 元+5 角",
+      "10 元找零",
+      "全部用 1 角"
+    ],
+    "answer": "5 元+2 元+1 元+5 角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明用 50 元买一个书包（38 元）和一支笔（2 元），一共花了□元，找回□元。",
+    "options": null,
+    "answer": "40、10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "买 3 个本子，每本 2 元 5 角，需要付□元□角。",
+    "options": null,
+    "answer": "7、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一张 100 元可以换几张 20 元？",
+    "options": [
+      "2 张",
+      "3 张",
+      "4 张",
+      "5 张"
+    ],
+    "answer": "5 张",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "一张 50 元比 5 张 10 元更值钱。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "付了 10 元，买 3 支铅笔，每支 1 元 5 角。应找回□元□角。",
+    "options": null,
+    "answer": "5、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比较大小：6 元 8 角 ○ 70 角（填 >、< 或 =）。",
+    "options": null,
+    "answer": "<",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "果冻 2 元一个，10 元最多能买几个？",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "100 以内最大的两位数是□，最小的三位数是□。",
+    "options": null,
+    "answer": "99、100",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "7 个十减 2 个十是□个十，即□。",
+    "options": null,
+    "answer": "5、50",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "计算 58+36，个位 8+6=14，向十位进 1 后十位是？",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "被减数是 63，减数是 37，差是□。",
+    "options": null,
+    "answer": "26",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "商店有苹果 35 箱，比梨多 8 箱。梨有□箱，两种水果共□箱。",
+    "options": null,
+    "answer": "27、62",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一根彩带长 90 厘米，做中国结用去 38 厘米，做花用去 25 厘米，还剩□厘米。",
+    "options": null,
+    "answer": "27",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "二（1）班 42 人，二（2）班 38 人，两班一共多少人？",
+    "options": [
+      "4",
+      "70",
+      "76",
+      "80"
+    ],
+    "answer": "80",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "吃了 15 个饺子后还剩 18 个，原来有□个饺子。",
+    "options": null,
+    "answer": "33",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面说法正确的是？",
+    "options": [
+      "正方形是特殊的长方形",
+      "长方形是特殊的正方形",
+      "圆形有四条边",
+      "三角形有四条边"
+    ],
+    "answer": "正方形是特殊的长方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "七巧板由 7 块板组成，包含三角形、正方形和平行四边形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个长方体最多能看到□个面。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：1、4、9、16、□、36。",
+    "options": null,
+    "answer": "25",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：3、6、12、24、□。",
+    "options": null,
+    "answer": "48",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "时钟 3 点敲 3 下用 6 秒，6 点敲 6 下用多少秒？",
+    "options": [
+      "12 秒",
+      "15 秒",
+      "18 秒",
+      "6 秒"
+    ],
+    "answer": "15 秒",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小红、小丽比身高。小红比小丽高，小丽比小花高。最高的是□。",
+    "options": null,
+    "answer": "小红",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "三年前爸爸比儿子大 25 岁，今年爸爸 35 岁，儿子□岁。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "蜗牛从 10 米深的井底往上爬，白天爬 3 米晚上滑 2 米，几天能爬出？",
+    "options": [
+      "10 天",
+      "9 天",
+      "8 天",
+      "7 天"
+    ],
+    "answer": "8 天",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一条路两边种树，每边种 8 棵，一共种了□棵。",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "鸡兔同笼：8 个头，22 条腿，兔有□只。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "两位数加两位数，和一定是三位数。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "数字 47 中，十位上的数字是几？",
+    "options": [
+      "4",
+      "7",
+      "47",
+      "11"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "数字 63 中，个位上的数字是几？",
+    "options": [
+      "6",
+      "3",
+      "9",
+      "63"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 39 多 1 的数是（ ）。",
+    "options": null,
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 50 少 1 的数是（ ）。",
+    "options": null,
+    "answer": "49",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面四个数中，最大的是？",
+    "options": [
+      "89",
+      "98",
+      "78",
+      "90"
+    ],
+    "answer": "89",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面四个数中，最小的是？",
+    "options": [
+      "72",
+      "27",
+      "37",
+      "73"
+    ],
+    "answer": "27",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "十个十个地数：10、20、30、（ ）、50。",
+    "options": null,
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "五个五个地数：5、10、15、（ ）、25。",
+    "options": null,
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "两个两个地数：2、4、6、（ ）、10。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "与 50 相邻的两个数是？",
+    "options": [
+      "49 和 51",
+      "50 和 51",
+      "48 和 50",
+      "49 和 52"
+    ],
+    "answer": "49 和 51",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "3 个十和 6 个一组成的数是（ ）。",
+    "options": null,
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "8 个十组成的数是（ ）。",
+    "options": null,
+    "answer": "80",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个两位数，十位是 5，个位是 2，这个数是（ ）。",
+    "options": null,
+    "answer": "52",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个两位数，个位是 9，十位是 4，这个数是（ ）。",
+    "options": null,
+    "answer": "49",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "66 中的两个\"6\"表示相同的意义。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "100 里面有（ ）个十。",
+    "options": [
+      "10",
+      "1",
+      "100",
+      "0"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从右边起，计数器第一位是（ ）位，第二位是（ ）位。（用\"个\"\"十\"填空，用顿号隔开）",
+    "options": null,
+    "answer": "个、十",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 68 大、比 73 小的整数中，最大的是（ ）。",
+    "options": null,
+    "answer": "72",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面数中，读作\"六十三\"的是？",
+    "options": [
+      "63",
+      "36",
+      "6 和 3",
+      "603"
+    ],
+    "answer": "63",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "写出相邻数：___、70、___。（从小到大，用顿号隔开）",
+    "options": null,
+    "answer": "69、71",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "在 24、42、44、22 中，十位是 4 的数有几个？",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "一个两位数的十位数字一定比个位数字大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用数字 3、7 可以组成的两位数中，最大的是（ ），最小的是（ ）。（用顿号隔开）",
+    "options": null,
+    "answer": "73、37",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "计数器上十位有 4 颗珠，个位有 1 颗珠，这个数是（ ）。",
+    "options": null,
+    "answer": "41",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "68 中的 6 表示什么？",
+    "options": [
+      "6 个十",
+      "6 个一",
+      "6",
+      "68"
+    ],
+    "answer": "6 个十",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "最大的一位数和最小的两位数相差 1。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "写出 3 个十位是 6 的数：（ ）（ ）（ ）（用顿号隔开）",
+    "options": null,
+    "answer": "60、61、62",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数可以表示\"七个十和三个一\"？",
+    "options": [
+      "73",
+      "37",
+      "10",
+      "703"
+    ],
+    "answer": "73",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从大到小排列：45、54、39、93：（ ）、（ ）、（ ）、（ ）。（用顿号隔开）",
+    "options": null,
+    "answer": "93、54、45、39",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "10 个十是 100。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "公交车上有 28 人，到站下去 9 人，又上来 5 人，现在车上有（ ）人。",
+    "options": null,
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明有 35 张卡片，送给小红 8 张，又买了 6 张，小明现在有（ ）张。",
+    "options": null,
+    "answer": "33",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "树上有 42 只鸟，飞走了 15 只，又飞来 8 只，现在树上有（ ）只鸟。",
+    "options": null,
+    "answer": "35",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "图书角原来有 56 本书，借出 19 本，归还 7 本，现在有（ ）本书。",
+    "options": null,
+    "answer": "44",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "妈妈买了 30 个鸡蛋，用了 12 个，又买了 8 个，现在有（ ）个鸡蛋。",
+    "options": null,
+    "answer": "26",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "池塘里有 47 只鸭子，游走 18 只，又来 9 只，现在有（ ）只。",
+    "options": null,
+    "answer": "38",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小花做了 24 道口算，小丽比小花多做 7 道，小丽做了（ ）道。",
+    "options": null,
+    "answer": "31",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小刚有 50 元钱，买书花了 28 元，还剩（ ）元。",
+    "options": null,
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一根绳子长 60 米，第一次剪去 15 米，第二次剪去 18 米，还剩（ ）米。",
+    "options": null,
+    "answer": "27",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "果园里有桃树 35 棵，梨树比桃树多 9 棵，梨树有（ ）棵。",
+    "options": null,
+    "answer": "44",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "果园里有苹果树 52 棵，苹果树比梨树多 8 棵，梨树有（ ）棵。",
+    "options": null,
+    "answer": "44",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一班有 38 人，二班比一班少 4 人，两个班一共有（ ）人。",
+    "options": null,
+    "answer": "72",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一根铁丝长 90 米，用去 45 米，剩下的比用去的少（ ）米。（填数字）",
+    "options": null,
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明今年 7 岁，爸爸比他大 28 岁，爸爸今年（ ）岁。",
+    "options": null,
+    "answer": "35",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小红折了 26 颗星星，小丽折了 38 颗，两人一共折了（ ）颗；小丽比小红多折（ ）颗。（用顿号隔开）",
+    "options": null,
+    "answer": "64、12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明第一天看 15 页，第二天看 18 页，第三天从第几页开始看？",
+    "options": [
+      "34",
+      "33",
+      "32",
+      "35"
+    ],
+    "answer": "34",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红第一天看 20 页，第二天看 22 页，第三天从第几页开始看？",
+    "options": [
+      "43",
+      "42",
+      "44",
+      "41"
+    ],
+    "answer": "43",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一本故事书有 78 页，小明看了 39 页，大约还剩多少页？",
+    "options": [
+      "大约 40 页",
+      "大约 30 页",
+      "大约 50 页",
+      "大约 20 页"
+    ],
+    "answer": "大约 40 页",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "姐姐比妹妹高 8 厘米。姐姐身高 128 厘米，妹妹身高（ ）厘米。",
+    "options": null,
+    "answer": "120",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "爸爸重 72 千克，妈妈比爸爸轻 18 千克，妈妈重（ ）千克。",
+    "options": null,
+    "answer": "54",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "小明前面有 8 人，后面有 9 人，这一队共有 17 人。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "同学们排队，从前面数小红排第 8，从后面数她排第 5，这一队共有（ ）人。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从左边数小花排第 6，从右边数她排第 7，这一排共有（ ）人。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "算式 35+28 的得数和下面哪个最接近？",
+    "options": [
+      "60",
+      "70",
+      "50",
+      "80"
+    ],
+    "answer": "60",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "算式 76−39 的得数和下面哪个最接近？",
+    "options": [
+      "40",
+      "30",
+      "50",
+      "60"
+    ],
+    "answer": "40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "在加法算式中，和一定比两个加数都大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "被减数一定比差大。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式的结果大于 50？",
+    "options": [
+      "27+30",
+      "80−35",
+      "22+18",
+      "45−10"
+    ],
+    "answer": "27+30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个算式的结果小于 30？",
+    "options": [
+      "52−25",
+      "18+15",
+      "40−8",
+      "16+14"
+    ],
+    "answer": "52−25",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用 5、3、8 三个数字写出一个最大的两位数和一个最小的两位数，它们相差（ ）。",
+    "options": null,
+    "answer": "50",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一道加法题，小马虎把加数 37 看成了 73，结果算出来是 90。正确的结果应该是（ ）。",
+    "options": null,
+    "answer": "54",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一道减法题，小马虎把减数 24 看成了 42，结果算出来是 30。正确的差应该是（ ）。",
+    "options": null,
+    "answer": "48",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小马虎做加法，把个位上的 5 看成了 3，结果得到 47，正确的得数是（ ）。",
+    "options": null,
+    "answer": "49",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小马虎做减法，把减数个位上的 6 看成了 9，结果得到 25，正确的差是（ ）。",
+    "options": null,
+    "answer": "28",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "买一个书包 38 元，付了 50 元，应找回多少钱？",
+    "options": [
+      "12 元",
+      "22 元",
+      "88 元",
+      "2 元"
+    ],
+    "answer": "12 元",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一支铅笔 2 元，一块橡皮 1 元，买 3 支铅笔和 2 块橡皮一共多少钱？",
+    "options": [
+      "8 元",
+      "5 元",
+      "10 元",
+      "6 元"
+    ],
+    "answer": "8 元",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "超市促销：买一箱牛奶 45 元，妈妈付了 100 元，找回（ ）元。",
+    "options": null,
+    "answer": "55",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "铅笔比橡皮贵 3 角，橡皮 5 角，一支铅笔多少钱？",
+    "options": [
+      "8 角",
+      "2 角",
+      "3 角",
+      "15 角"
+    ],
+    "answer": "8 角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一块橡皮 8 角，小明拿了 1 元，应找回（ ）角。",
+    "options": null,
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "一个书包 45 元，一个文具盒 18 元，书包比文具盒贵 27 元。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "妹妹左手有 3 个气球，右手有 5 个气球，一共有（ ）个；送给弟弟 4 个后还剩（ ）个。（用顿号隔开）",
+    "options": null,
+    "answer": "8、4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：1、3、5、7、（ ）、11。",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：2、4、8、14、（ ）、32。",
+    "options": null,
+    "answer": "22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：1、1、2、3、5、（ ）、13。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：100、90、81、73、66、（ ）。",
+    "options": null,
+    "answer": "60",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：1、2、4、7、11、（ ）。",
+    "options": null,
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律填数：20、18、15、11、6、（ ）。",
+    "options": null,
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：○□△○□△○□（ ）。",
+    "options": null,
+    "answer": "△",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：红黄蓝红黄蓝红黄（ ）。",
+    "options": null,
+    "answer": "蓝",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：大中小大中小（ ）中。（填\"大\"或\"小\"）",
+    "options": null,
+    "answer": "大",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数符合规律：5、10、15、20、___？",
+    "options": [
+      "25",
+      "30",
+      "22",
+      "21"
+    ],
+    "answer": "25",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "找规律：1、3、6、10、___，横线上应该填？",
+    "options": [
+      "15",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：第一行有 1 个△，第二行有 3 个△，第三行有 5 个△，第四行应该有（ ）个△。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：正方形有 4 条边，长方形有 4 条边，三角形有（ ）条边。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "按规律\"1、2、4、8\"，下一个数是 12。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "按规律\"○△□○△□\"下一个是 ○。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "根据规律选择：1+2=3, 2+3=5, 3+4=7, ___",
+    "options": [
+      "4+5=9",
+      "4+6=10",
+      "5+6=11",
+      "4+4=8"
+    ],
+    "answer": "4+5=9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：1, 2, 4, 7, 11, 16, 22, ( )",
+    "options": null,
+    "answer": "29",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数列的规律不同？",
+    "options": [
+      "2,4,6,8,10",
+      "1,3,5,7,9",
+      "2,4,6,8,10",
+      "2,5,8,11,14"
+    ],
+    "answer": "2,4,6,8,10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "找规律：0, 3, 8, 15, ( ), 35",
+    "options": null,
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "第 1 堆：□，第 2 堆：□□□，第 3 堆：□□□□□，每堆多 2 个。第 5 堆有（ ）个。",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个数加上 6，再减去 4，得到 12，这个数是（ ）。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一个数减去 8，再加上 15，得到 30，这个数是（ ）。",
+    "options": null,
+    "answer": "23",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "▲+▲=10，▲+●=13，● 是多少？",
+    "options": [
+      "8",
+      "3",
+      "5",
+      "10"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "□+□+□=12，□×○=20，○ 是多少？",
+    "options": [
+      "5",
+      "4",
+      "20",
+      "6"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "★+★=14，★+◆=20，◆ =（ ）。",
+    "options": null,
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "△+△+△=9，□+□=10，△+□=（ ）。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "如果 A+B=15，B+C=20，A+C=17，那么 C 比 A 大多少？",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "8"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "已知：A-B=5，A+B=25。那么 A=（ ）。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "教室里有 3 盏灯，关了 1 盏，还有几盏灯？",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明有 5 颗糖，吃了 3 颗，还剩几颗？",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "8"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "树上有 8 只鸟，开枪打死 1 只，树上还有几只？",
+    "options": [
+      "0",
+      "7",
+      "8",
+      "1"
+    ],
+    "answer": "0",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明的爸爸有 3 个儿子：大毛、二毛和谁？",
+    "options": [
+      "小明",
+      "三毛",
+      "小毛",
+      "大毛"
+    ],
+    "answer": "小明",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一只猫吃一条鱼要 1 分钟，10 只猫同时吃 10 条鱼要几分钟？",
+    "options": [
+      "1 分钟",
+      "10 分钟",
+      "5 分钟",
+      "100 分钟"
+    ],
+    "answer": "1 分钟",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红住在 3 楼，她每上一层楼要走 12 级台阶，从 1 楼到 3 楼要走多少级？",
+    "options": [
+      "24",
+      "36",
+      "12",
+      "48"
+    ],
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "哥哥今年 10 岁，弟弟今年 6 岁，3 年后哥哥比弟弟大几岁？",
+    "options": [
+      "4",
+      "7",
+      "1",
+      "3"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红有 8 支彩笔，小明给了她 3 支后两人一样多。小明原来有几支？",
+    "options": [
+      "14",
+      "11",
+      "8",
+      "5"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小红和小明共有 20 颗糖，小红比小明多 4 颗，小红有（ ）颗。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "两筐苹果共 30 个，从第一筐拿 4 个到第二筐后两筐一样多。原来第一筐有（ ）个。",
+    "options": null,
+    "answer": "19",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "把一根木头锯成 4 段，需要锯 4 次。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "把一根木头锯成 6 段，每锯一次用 2 分钟，一共需要（ ）分钟。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "3 个小朋友每两人握一次手，一共握几次？",
+    "options": [
+      "3",
+      "6",
+      "2",
+      "4"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "4 个小朋友每两人打一场乒乓球，一共打几场？",
+    "options": [
+      "6",
+      "12",
+      "4",
+      "8"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 5 个点，每两点连一条线，最多可以连（ ）条线。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一只蜗牛从井底往上爬，井深 10 米。白天爬 3 米，晚上滑下 2 米，第几天能爬出井口？",
+    "options": [
+      "第 8 天",
+      "第 9 天",
+      "第 10 天",
+      "第 7 天"
+    ],
+    "answer": "第 8 天",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一个数加上它自己等于 18，这个数是几？",
+    "options": [
+      "9",
+      "18",
+      "6",
+      "3"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "三年前，爸爸比小明大 25 岁。今年爸爸 35 岁，小明今年（ ）岁。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "有 12 个小朋友玩老鹰捉小鸡，已经捉到 5 只小鸡，还有几只小鸡没被捉到？",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红、小丽、小花三人比赛。小红不是第一名，小丽也不是第一名但比小花快。谁是第一名？",
+    "options": [
+      "小花",
+      "小红",
+      "小丽",
+      "无法判断"
+    ],
+    "answer": "小花",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "有 10 支蜡烛，风吹灭了 3 支，第二天还剩几支？",
+    "options": [
+      "3",
+      "7",
+      "10",
+      "0"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "公交车到站，下去 7 人上来 5 人，现在比原来？",
+    "options": [
+      "少 2 人",
+      "多 2 人",
+      "一样多",
+      "多 12 人"
+    ],
+    "answer": "少 2 人",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红比小丽高，小丽比小花高。谁最矮？",
+    "options": [
+      "小花",
+      "小丽",
+      "小红",
+      "无法判断"
+    ],
+    "answer": "小花",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "三只兔子比赛跑步。小白比小黑快，小灰比小白慢但比小黑快。谁跑得最快？",
+    "options": [
+      "小白",
+      "小黑",
+      "小灰",
+      "一样快"
+    ],
+    "answer": "小白",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "按年龄大小排：小芳比小兰大，小兰比小红大，最大的是（ ）。",
+    "options": null,
+    "answer": "小芳",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "今天是星期一，再过 7 天还是星期一。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "今天是星期三，再过 4 天是星期几？",
+    "options": [
+      "星期日",
+      "星期六",
+      "星期一",
+      "星期四"
+    ],
+    "answer": "星期日",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "如果昨天是星期一，那么后天是星期（ ）。",
+    "options": null,
+    "answer": "四",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "天平左边放 2 个苹果，右边放 6 个橘子，天平平衡。一个苹果的重量等于几个橘子？",
+    "options": [
+      "3",
+      "6",
+      "2",
+      "4"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "△+△=□，□+□=○，6 个 △ 等于几个 ○？",
+    "options": [
+      "1 个半",
+      "2 个",
+      "3 个",
+      "6 个"
+    ],
+    "answer": "1 个半",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "1 只羊 = 3 只鸡的重量，1 只鸡 = 2 只兔的重量，1 只羊 = （ ）只兔的重量。",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "已知 ●+●+●+● = 20，■+■ = 14，●+■ = （ ）。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "用 3 根火柴棒可以摆一个三角形，摆 3 个独立的三角形需要几根？",
+    "options": [
+      "9",
+      "6",
+      "3",
+      "12"
+    ],
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一根绳子对折一次是 2 段，对折两次是几段？",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "8"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一个正方形有 4 个角，剪去一个角后还剩几个角？",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一个正方体有几个面？",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "12"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "长方体最多有几个面是正方形？",
+    "options": [
+      "2",
+      "4",
+      "1",
+      "6"
+    ],
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个图形不是轴对称图形？（有对称轴的图形）",
+    "options": [
+      "普通平行四边形",
+      "正方形",
+      "等边三角形",
+      "圆形"
+    ],
+    "answer": "普通平行四边形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "从不同方向看一个圆柱，不可能看到什么形状？",
+    "options": [
+      "三角形",
+      "圆形",
+      "长方形",
+      "正方形"
+    ],
+    "answer": "三角形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "七巧板由（ ）块板组成。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "所有的长方形都是四边形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "正方形是特殊的长方形。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "用两个一样的正方形一定能拼成一个大正方形。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面几组小棒中，哪一组能拼成一个三角形？（小棒长度分别为）",
+    "options": [
+      "4cm, 5cm, 6cm",
+      "2cm, 3cm, 6cm",
+      "1cm, 2cm, 4cm",
+      "4cm, 4cm, 9cm"
+    ],
+    "answer": "4cm, 5cm, 6cm",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "数一数：长方体有（ ）个顶点。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "在方格纸上，一个长方形长 4 格、宽 3 格，它的周长是多少格？",
+    "options": [
+      "14",
+      "12",
+      "7",
+      "24"
+    ],
+    "answer": "14",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "image",
+    "content": "小明从前面看一个物体，看到的是圆形；从上面看，看到的是长方形。这个物体可能是？",
+    "options": [
+      "圆柱",
+      "球",
+      "正方体",
+      "圆锥"
+    ],
+    "answer": "圆柱",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "正方形对折一次，不能折出什么图形？",
+    "options": [
+      "圆形",
+      "长方形",
+      "三角形",
+      "正方形"
+    ],
+    "answer": "圆形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "如图摆放：第一层 1 个正方体，第二层 3 个，第三层 5 个，第四层（ ）个。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪种形状的积木最容易滚动？",
+    "options": [
+      "球",
+      "正方体",
+      "长方体",
+      "三棱柱"
+    ],
+    "answer": "球",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一个三角形剪掉一个角，剩下的图形不可能是什么？",
+    "options": [
+      "正方形",
+      "三角形",
+      "四边形",
+      "五边形"
+    ],
+    "answer": "正方形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "长方形和正方形都有 4 个直角。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "分针指向 6，时针指向 2 和 3 之间，是几点？",
+    "options": [
+      "2:30",
+      "2:06",
+      "3:30",
+      "6:10"
+    ],
+    "answer": "2:30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "分针指向 12，时针指向 9，是几点？",
+    "options": [
+      "9:00",
+      "12:09",
+      "9:12",
+      "12:00"
+    ],
+    "answer": "9:00",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "时钟上，时针走一大格是（ ）小时，分针走一大格是（ ）分钟。（用顿号隔开）",
+    "options": null,
+    "answer": "1、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "从早上 8 点到中午 12 点，经过了（ ）小时。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一节课 40 分钟，课间休息 10 分钟，从 8:10 上课，下课是（ ）时（ ）分。（用顿号隔开）",
+    "options": null,
+    "answer": "8、50",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明早上 7:30 到校，上午 11:10 放学，他在学校待了（ ）小时（ ）分钟。（用顿号隔开）",
+    "options": null,
+    "answer": "3、40",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "时针走一圈是 12 小时，分针走一圈是 60 小时。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "1 小时 = 60 分钟。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "现在是上午 9:00，再过 2 小时 30 分是（ ）时（ ）分。（用顿号隔开）",
+    "options": null,
+    "answer": "11、30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "从 3:00 到 3:45，分针走了多少圈？",
+    "options": [
+      "四分之三圈",
+      "半圈",
+      "一圈",
+      "四分之一圈"
+    ],
+    "answer": "四分之三圈",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "钟面上时针从 3 走到 5，经过了（ ）小时。",
+    "options": null,
+    "answer": "2",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "晚上 9 点睡觉，早上 7 点起床，睡了几个小时？",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "9"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "课间休息从 10:00 到 10:15，共有（ ）分钟。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "早晨 6:30 到校锻炼，7:00 结束，锻炼了（ ）分钟。",
+    "options": null,
+    "answer": "30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "1 小时 30 分钟 = 90 分钟。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "1 元 = （ ）角，1 角 = （ ）分。（用顿号隔开）",
+    "options": null,
+    "answer": "10、10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一张 10 元可以换（ ）张 5 元，也可以换（ ）张 1 元。（用顿号隔开）",
+    "options": null,
+    "answer": "2、10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一张 5 元 + 一张 2 元 + 3 张 1 元 = （ ）元。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "买一个本子 2 元 5 角，付了 5 元，应找回？",
+    "options": [
+      "2 元 5 角",
+      "3 元 5 角",
+      "2 元",
+      "1 元 5 角"
+    ],
+    "answer": "2 元 5 角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "妈妈有 20 元，买了一本书花了 13 元 5 角，还剩多少钱？",
+    "options": [
+      "6 元 5 角",
+      "7 元 5 角",
+      "6 元",
+      "5 元 5 角"
+    ],
+    "answer": "6 元 5 角",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "6 元 3 角 = （ ）角。",
+    "options": null,
+    "answer": "63",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "45 角 = （ ）元（ ）角。（用顿号隔开）",
+    "options": null,
+    "answer": "4、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "付出 20 元，买一只钢笔 8 元 5 角，应找回（ ）元（ ）角。（用顿号隔开）",
+    "options": null,
+    "answer": "11、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个钱数最大？",
+    "options": [
+      "8 元",
+      "70 角",
+      "6 元 8 角",
+      "75 分"
+    ],
+    "answer": "8 元",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明有 5 元钱，买铅笔用去 1 元 2 角，买橡皮用去 1 元 8 角，一共用去多少？",
+    "options": [
+      "3 元",
+      "2 元",
+      "4 元",
+      "2 元 5 角"
+    ],
+    "answer": "3 元",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "20 元 + 15 元 + 8 角 + 2 角 = （ ）元（ ）角。（用顿号隔开）",
+    "options": null,
+    "answer": "35、10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一支自动铅笔 3 元，一把直尺 1 元 5 角，买这两样一共要（ ）元（ ）角。（用顿号隔开）",
+    "options": null,
+    "answer": "4、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红买了饼干 4 元 5 角，糖果 3 元，巧克力 2 元 5 角，一共花了多少钱？",
+    "options": [
+      "10 元",
+      "9 元",
+      "9 元 5 角",
+      "10 元 5 角"
+    ],
+    "answer": "10 元",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "100 元可以换（ ）张 20 元，或换（ ）张 50 元 + （ ）张 10 元。（请写出一种答案，用顿号隔开）",
+    "options": null,
+    "answer": "5、1、5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "1 米 = （ ）厘米。",
+    "options": null,
+    "answer": "100",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一支铅笔大约长多少？",
+    "options": [
+      "18 厘米",
+      "18 米",
+      "1 米",
+      "50 厘米"
+    ],
+    "answer": "18 厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "教室的门高大约是多少？",
+    "options": [
+      "2 米",
+      "20 厘米",
+      "20 米",
+      "50 厘米"
+    ],
+    "answer": "2 米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一根绳子用了 35 厘米后还剩 45 厘米，原来长（ ）厘米，合（ ）米（ ）厘米。（用顿号隔开）",
+    "options": null,
+    "answer": "80、0、80",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明身高 1 米 28 厘米，小丽身高 1 米 35 厘米，两人身高相差（ ）厘米。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一把尺子长 20 厘米，用这把尺子量一根绳子，量了 4 次刚好量完，绳子长（ ）厘米。",
+    "options": null,
+    "answer": "80",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "1 米和 100 厘米一样长。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "一根筷子长约 20 米。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "课桌高约 70（ ）。（填\"厘米\"或\"米\"）",
+    "options": null,
+    "answer": "厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "学校操场跑道一圈 200 米，跑 2 圈是（ ）米，再跑（ ）米就是 500 米。（用顿号隔开）",
+    "options": null,
+    "answer": "400、100",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个单位最大？",
+    "options": [
+      "米",
+      "分米",
+      "厘米",
+      "毫米"
+    ],
+    "answer": "米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比 1 米短 30 厘米是（ ）厘米。",
+    "options": null,
+    "answer": "70",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明一步大约走 40 厘米，走 5 步大约多少厘米？",
+    "options": [
+      "200 厘米",
+      "100 厘米",
+      "150 厘米",
+      "45 厘米"
+    ],
+    "answer": "200 厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一条彩带长 85 厘米，做手工剪去 28 厘米，还剩多长？",
+    "options": [
+      "57 厘米",
+      "67 厘米",
+      "47 厘米",
+      "63 厘米"
+    ],
+    "answer": "57 厘米",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "把一根 1 米长的绳子分成 5 段一样长的小段，每段长（ ）厘米。",
+    "options": null,
+    "answer": "20",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个数与其他的\"不是同一类\"？（按单双数分）",
+    "options": [
+      "8",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面哪个图形与其他三个不同类？",
+    "options": [
+      "圆形",
+      "长方形",
+      "正方形",
+      "三角形"
+    ],
+    "answer": "圆形",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "把苹果、香蕉、橘子、胡萝卜分为两类，下面哪种分法合理？",
+    "options": [
+      "水果和蔬菜",
+      "大的和小的",
+      "圆形和非圆形",
+      "甜的和不甜的"
+    ],
+    "answer": "水果和蔬菜",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "按形状分：△有 5 个，○有 3 个，□有 4 个，一共有（ ）个图形。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明统计了本周天气：晴天 3 天，阴天 2 天，雨天 2 天。阴天比晴天少（ ）天。",
+    "options": null,
+    "answer": "1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "动物园里：猴子（ ）只，大象（ ）头，长颈鹿（ ）只。猴子比大象多 5 只，一共有 15 只动物。如果猴子有 8 只，大象有（ ）头。（仅填最后一空）",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "20 个小朋友去公园：坐小火车 12 人，划船 5 人，剩下的玩滑梯。玩滑梯的有几人？",
+    "options": [
+      "3",
+      "8",
+      "7",
+      "15"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "统计：□比○多 2 个，□有 7 个，○有（ ）个。",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "分类时，同一堆东西只能有一种分类方法。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "把 2、4、6、8、10 分两类，哪一类分法合理？",
+    "options": [
+      "4、6 和 2、8、10",
+      "2、6、10 和 4、8",
+      "2、4 和 6、8、10",
+      "以上都合理"
+    ],
+    "answer": "4、6 和 2、8、10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "两数之和是 16，两数之差是 4，这两个数中较大的是？",
+    "options": [
+      "10",
+      "6",
+      "12",
+      "14"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "有 15 只鸟停在两棵树上，第一棵树飞了 5 只到第二棵后两棵树一样多。原来第一棵树有几只？",
+    "options": [
+      "10",
+      "5",
+      "12",
+      "7"
+    ],
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一根绳子长 12 米，对折两次后每段长（ ）米。",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "妈妈买了一些苹果，小明吃了一半，还剩 6 个，妈妈买了（ ）个苹果。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "奶奶买了梨，吃了一半后又吃了剩下的一半，还剩 3 个，奶奶一共买了（ ）个梨。",
+    "options": null,
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一条绳子剪了 3 次，剪成了几段？",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "从 1 写到 20，一共写了几个\"1\"？（1、10、11...都算）",
+    "options": [
+      "12",
+      "10",
+      "11",
+      "13"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "三个连续的数，中间是 8，另外两个是（ ）和（ ）。（用顿号隔开）",
+    "options": null,
+    "answer": "7、9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "五个连续的数，中间是 20，这五个数是（ ）、（ ）、20、（ ）、（ ）。（用顿号隔开）",
+    "options": null,
+    "answer": "18、19、21、22",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "1 头牛 = 2 头猪的重量，1 头猪 = 3 只羊的重量，1 头牛 = ? 只羊",
+    "options": [
+      "6",
+      "5",
+      "3",
+      "2"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "用 10 元买 3 元的练习本，最多能买几本？",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有一堆糖，比 20 颗多，比 30 颗少。平均分给 4 个小朋友正好分完，这堆糖有（ ）颗。（写一种可能）",
+    "options": null,
+    "answer": "24",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一个两位数，十位上的数字比个位上的数字多 4，这个数可能是？",
+    "options": [
+      "51",
+      "15",
+      "62",
+      "48"
+    ],
+    "answer": "51",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 18 名同学排成一队，小红前面有 7 人，她后面有（ ）人。",
+    "options": null,
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "两位数减一位数，差一定是两位数。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "用 1、2、3 三个数字能组成（ ）个不同的两位数。",
+    "options": null,
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "□−7−8 = □−____，横线上应填什么？",
+    "options": [
+      "15",
+      "7",
+      "8",
+      "1"
+    ],
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 加法和减法的混合运算：第一个加数比第二个加数大 5，和是 47。第二个加数是（ ）。",
+    "options": null,
+    "answer": "21",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "一位数加一位数，和可能是？",
+    "options": [
+      "一位数或两位数",
+      "只能是一位数",
+      "只能是两位数",
+      "一定是三位数"
+    ],
+    "answer": "一位数或两位数",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "两数相加，和是 25，一个加数增加 5，另一个加数减少 3，新的和是（ ）。",
+    "options": null,
+    "answer": "27",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明早上从家出发上学，先向东走 50 米，再向北走 30 米到达学校。学校在家的什么方向？",
+    "options": [
+      "东北",
+      "东南",
+      "西北",
+      "东"
+    ],
+    "answer": "东北",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "爸爸从家向东走 100 米到超市，再向西走 40 米到邮局。邮局在家的哪边？",
+    "options": [
+      "东边",
+      "西边",
+      "南边",
+      "北边"
+    ],
+    "answer": "东边",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "3 只猫 3 天捉 3 只老鼠，6 只猫 6 天捉几只老鼠？",
+    "options": [
+      "12",
+      "6",
+      "9",
+      "18"
+    ],
+    "answer": "12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "鸡兔同笼，共有 8 个头，22 条腿。鸡有（ ）只。",
+    "options": null,
+    "answer": "5",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "鸡兔同笼，共有 10 个头，28 条腿。兔有（ ）只。",
+    "options": null,
+    "answer": "4",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "估一估：28+39 大约是多少？",
+    "options": [
+      "70",
+      "60",
+      "50",
+      "80"
+    ],
+    "answer": "70",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "估一估：93−47 大约是多少？",
+    "options": [
+      "46",
+      "50",
+      "40",
+      "60"
+    ],
+    "answer": "46",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 38、73、84、57 中，最接近 60 的数是（ ）。",
+    "options": null,
+    "answer": "57",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "在 25、32、41、19 中，最接近 30 的数是（ ）。",
+    "options": null,
+    "answer": "32",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "judge",
+    "content": "57 比 49 更接近 60。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比较大小：45+28 ○ 70（填 >、< 或 =）。",
+    "options": null,
+    "answer": ">",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比较大小：83−29 ○ 50（填 >、< 或 =）。",
+    "options": null,
+    "answer": ">",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比较大小：27+18 ○ 52−8（填 >、< 或 =）。",
+    "options": null,
+    "answer": ">",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "比较大小：63−25 ○ 26+12（填 >、< 或 =）。",
+    "options": null,
+    "answer": "=",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "从大到小排列：4角、4元、4分，正确的是？",
+    "options": [
+      "4元 > 4角 > 4分",
+      "4元 > 4分 > 4角",
+      "4角 > 4元 > 4分",
+      "4分 > 4角 > 4元"
+    ],
+    "answer": "4元 > 4角 > 4分",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面算式中，得数最大的是？",
+    "options": [
+      "90−25",
+      "35+28",
+      "18+43",
+      "72−18"
+    ],
+    "answer": "90−25",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "下面算式中，得数最小的是？",
+    "options": [
+      "20+12",
+      "67−30",
+      "15+18",
+      "41−6"
+    ],
+    "answer": "20+12",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "34+□ < 50，□ 里最大填（ ）。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "67−□ > 40，□ 里最大填（ ）。",
+    "options": null,
+    "answer": "26",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "□+25 在 60 到 70 之间，□ 最小是（ ）。",
+    "options": null,
+    "answer": "35",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一本书每天看 8 页，看了 5 天，还剩 20 页没看，这本书共（ ）页。",
+    "options": null,
+    "answer": "60",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "公园里有 3 排树，每排 8 棵，后来又种了 9 棵，现在有（ ）棵树。",
+    "options": null,
+    "answer": "33",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "6 个小朋友分 42 颗糖，每人分得的糖一样多，每人有（ ）颗。",
+    "options": null,
+    "answer": "7",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小明和 5 个同学去春游，每人带 6 元钱，一共带了（ ）元。",
+    "options": null,
+    "answer": "36",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "36 个小朋友分成 4 队做操，每队平均分成 3 组，每组几人？",
+    "options": [
+      "3",
+      "9",
+      "4",
+      "12"
+    ],
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "哥哥今年 12 岁，弟弟今年 7 岁，两人年龄之和是 19 岁。几年后两人年龄之和是 25 岁？（ ）年",
+    "options": null,
+    "answer": "3",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "妈妈 32 岁，女儿 6 岁。当女儿 12 岁时，妈妈（ ）岁。",
+    "options": null,
+    "answer": "38",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明期末考试，数学比语文多 3 分，两科总分是 97 分。数学考了多少分？",
+    "options": [
+      "50",
+      "47",
+      "52",
+      "48"
+    ],
+    "answer": "50",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "两数之和是 50，差是 10。较大的数是（ ）。",
+    "options": null,
+    "answer": "30",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一包糖分给小朋友，每人 5 颗剩 3 颗，每人 6 颗正好分完。有（ ）颗糖。",
+    "options": null,
+    "answer": "18",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 25 个皮球，每 6 个装一盒，可以装（ ）盒，还剩（ ）个。（用顿号隔开）",
+    "options": null,
+    "answer": "4、1",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 38 个同学去划船，每条船坐 5 人，至少需要（ ）条船。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "有 47 颗纽扣，每件衣服钉 5 颗，最多可以钉（ ）件衣服。",
+    "options": null,
+    "answer": "9",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红从家到学校要走 15 分钟。她 7:30 从家出发，7:40 时她在哪里？",
+    "options": [
+      "路上",
+      "学校",
+      "家里",
+      "不确定"
+    ],
+    "answer": "路上",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "一列队伍，小红前面有 6 人，后面有 8 人，这一列共有（ ）人。",
+    "options": null,
+    "answer": "15",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "20 个小朋友坐成一圈做游戏。从小明开始数，顺时针第 8 个是小花，从小明开始逆时针数，小花是第几个？",
+    "options": [
+      "13",
+      "12",
+      "8",
+      "14"
+    ],
+    "answer": "13",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小红存了 30 元，小丽存了 18 元。小红给小丽多少元后两人一样多？",
+    "options": [
+      "6",
+      "12",
+      "3",
+      "8"
+    ],
+    "answer": "6",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "fill",
+    "content": "小军有 45 元，小芳有 29 元，小军给小芳（ ）元后两人钱一样多。",
+    "options": null,
+    "answer": "8",
+    "image_path": null
+  },
+  {
+    "subject": "math",
+    "grade": 1,
+    "type": "choice",
+    "content": "小明看一本 80 页的书，前 4 天每天看 9 页，第 5 天应从第几页看起？",
+    "options": [
+      "37",
+      "36",
+      "38",
+      "45"
+    ],
+    "answer": "37",
+    "image_path": null
+  }
+]

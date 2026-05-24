@@ -14,6 +14,17 @@ const UNLOCK_BTN_DEFAULT = '结束锁屏，进入桌面';
 
 const SUBJECT_LABELS = { chinese: '语文', math: '数学' };
 const TYPE_LABELS = { choice: '选择题', judge: '判断题', fill: '填空题', image: '看图题' };
+const EXAM_BANNERS = {
+  chinese: { tag: '语文 一年级下册 RJ', title: '第四单元素养评价卷', meta: '时间：60 分钟　分值：100 分' },
+  math: { tag: '一年级数学下（R）附录Ⅲ', title: '第四单元学业质量测评', meta: '时间：60 分钟　满分：100 分' }
+};
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
 
 async function init() {
   generateStars();
@@ -146,8 +157,8 @@ async function loadQuestion() {
   const excludeIds = sessionWrongIds[currentSubject];
   const q = await window.quizAPI.getQuestion(currentSubject, grade, excludeIds);
   if (!q) {
-    document.getElementById('question-content').textContent =
-      '该年级本科目暂无可用题目。请在设置中调整年级或题型，或到管理后台补充题库；也可取消「答对不再出现」后重试。';
+    document.getElementById('question-content').innerHTML =
+      escapeHtml('该年级本科目暂无可用题目。请在设置中调整年级或题型，或到管理后台补充题库；也可取消「答对不再出现」后重试。');
     document.getElementById('options-area').innerHTML = '';
     document.getElementById('fill-area').style.display = 'none';
     return;
@@ -156,30 +167,46 @@ async function loadQuestion() {
   renderQuestion(q);
 }
 
+function updateExamBanner(subject) {
+  const banner = EXAM_BANNERS[subject] || EXAM_BANNERS.math;
+  document.getElementById('exam-subject-tag').textContent = banner.tag;
+  document.getElementById('exam-paper-title').textContent = banner.title;
+  document.getElementById('exam-paper-meta').textContent = banner.meta;
+}
+
 function renderQuestion(q) {
+  updateExamBanner(q.subject);
   document.getElementById('q-grade-label').textContent = `${q.grade}年级`;
   document.getElementById('q-type-label').textContent = TYPE_LABELS[q.type] || q.type;
-  document.getElementById('question-content').textContent = q.content;
+
+  const contentEl = document.getElementById('question-content');
+  contentEl.innerHTML = ExamRender.render(q.content);
 
   const imgWrap = document.getElementById('question-image-wrap');
-  if (q.type === 'image' && q.image_path) {
-    document.getElementById('question-image').src = q.image_path;
+  const imgEl = document.getElementById('question-image');
+  if (q.image_path && !q.content.includes('[[img:')) {
+    imgEl.src = q.image_path;
     imgWrap.style.display = 'block';
   } else {
     imgWrap.style.display = 'none';
+    imgEl.removeAttribute('src');
   }
 
   const optionsArea = document.getElementById('options-area');
   const fillArea = document.getElementById('fill-area');
   optionsArea.innerHTML = '';
+  optionsArea.className = '';
   fillArea.style.display = 'none';
 
   if (q.type === 'choice' || q.type === 'image') {
-    const labels = ['A', 'B', 'C', 'D'];
-    (q.options || []).forEach((opt, i) => {
+    const opts = q.options || [];
+    const inline = opts.every((o) => ExamRender.stripOptionMarker(o).length <= 12) && opts.length <= 5;
+    if (inline) optionsArea.classList.add('options-inline');
+    opts.forEach((opt, i) => {
       const btn = document.createElement('button');
       btn.className = 'option-btn';
-      btn.textContent = `${labels[i]}. ${opt}`;
+      const text = ExamRender.stripOptionMarker(opt);
+      btn.innerHTML = `<span class="opt-num">${ExamRender.optionLabel(i)}</span>${escapeHtml(text)}`;
       btn.onclick = () => handleAnswer(opt, btn);
       optionsArea.appendChild(btn);
     });
@@ -263,9 +290,10 @@ function switchSubjectSilent(subj) {
 
 function highlightCorrectAnswer() {
   const optionBtns = document.querySelectorAll('.option-btn');
-  optionBtns.forEach(btn => {
-    const label = btn.textContent.replace(/^[A-D]\. /, '');
-    if (label === currentQuestion.answer || btn.textContent.includes(currentQuestion.answer)) {
+  const opts = currentQuestion.options || [];
+  optionBtns.forEach((btn, i) => {
+    const opt = opts[i];
+    if (opt != null && String(opt).trim() === currentQuestion.answer.trim()) {
       btn.classList.add('correct');
     }
   });

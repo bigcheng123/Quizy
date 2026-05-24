@@ -21,6 +21,7 @@ afterEach(() => {
   delete process.env.QUIZY_TEST_USERDATA;
   delete process.env.QUIZY_SKIP_SEED;
   delete process.env.QUIZY_SEED_PATH;
+  delete process.env.QUIZY_SEED_DIR;
   if (tmp && fs.existsSync(tmp)) {
     fs.rmSync(tmp, { recursive: true, force: true });
   }
@@ -131,9 +132,31 @@ test('addRecord getRecords getRecordDates', () => {
   assert.ok(recs.every((r) => r.subject === 'math'));
 });
 
-test('repo seed.json exists at path used by resolveSeedPath', () => {
-  const seedPath = path.join(__dirname, '..', 'data', 'seed.json');
-  assert.ok(fs.existsSync(seedPath), `missing seed: ${seedPath}`);
+test('repo seed-grade-*-{chinese|math}.json exist under data/', () => {
+  const dataDir = path.join(__dirname, '..', 'data');
+  for (let g = 1; g <= 6; g++) {
+    for (const subj of ['chinese', 'math']) {
+      const seedPath = path.join(dataDir, `seed-grade-${g}-${subj}.json`);
+      assert.ok(fs.existsSync(seedPath), `missing seed: ${seedPath}`);
+      const qs = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+      assert.ok(Array.isArray(qs) && qs.length > 0, `empty seed: ${seedPath}`);
+      assert.ok(
+        qs.every((q) => q.grade === g && q.subject === subj),
+        `seed-grade-${g}-${subj}.json contains wrong grade/subject`
+      );
+    }
+  }
+});
+
+test('seedIfEmpty imports all grade seed files when QUIZY_SEED_DIR set', () => {
+  delete process.env.QUIZY_SKIP_SEED;
+  delete process.env.QUIZY_SEED_PATH;
+  process.env.QUIZY_SEED_DIR = path.join(__dirname, '..', 'data');
+  dbm.closeDb();
+  dbm.initDb();
+  assert.ok(dbm.getQuestionCount('chinese', 1) > 0);
+  assert.ok(dbm.getQuestionCount('math', 6) > 0);
+  delete process.env.QUIZY_SEED_DIR;
 });
 
 test('mergeSeedIfBehind adds only missing seed rows', () => {

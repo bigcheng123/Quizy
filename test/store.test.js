@@ -43,6 +43,7 @@ test('initStore with temp cwd: defaults, getConfig, setConfig', (t) => {
   assert.equal(cfg.excludeCorrectlyAnswered, true);
   assert.equal(cfg.adminPassword, '123456');
   assert.deepEqual(cfg.unlockRequirements, { chinese: 5, math: 5 });
+  assert.equal(cfg.openAtLogin, true);
 
   storeMod.setConfig('grade', 6);
   assert.equal(storeMod.getConfig().grade, 6);

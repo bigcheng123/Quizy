@@ -1,0 +1,1966 @@
+[
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"蒙汉情深何忍别，天涯碧草话斜阳\"主要表达了什么情感？",
+    "options": [
+      "对草原景色的赞美",
+      "蒙汉两族人民之间的深厚情谊",
+      "对离别的不舍",
+      "对夕阳的喜爱"
+    ],
+    "answer": "蒙汉两族人民之间的深厚情谊",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "文中把草原上的羊群比作\"给无边的绿毯绣上了（ ）\"。",
+    "options": null,
+    "answer": "白色的大花",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "老舍在《草原》中描写的是内蒙古陈巴尔虎旗的草原风光。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "课文中小丘的线条被比喻成什么？",
+    "options": [
+      "像只用绿色渲染、不用墨线勾勒的中国画",
+      "像一幅油画",
+      "像一条彩带",
+      "像一片绿色的海洋"
+    ],
+    "answer": "像只用绿色渲染、不用墨线勾勒的中国画",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "宗璞认为\"丁香结\"比喻什么？",
+    "options": [
+      "生活中的快乐",
+      "解不开的愁怨和人生中的不顺心",
+      "春天的美丽",
+      "衣服上的盘花扣"
+    ],
+    "answer": "解不开的愁怨和人生中的不顺心",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "文章引用古人词句\"（ ）\"，说明丁香与微雨的关系。",
+    "options": null,
+    "answer": "丁香空结雨中愁",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "作者认为人生如果没有\"结\"，就会太平淡无味。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "作者在文中描写了哪两种颜色的丁香花？",
+    "options": [
+      "红色和白色",
+      "白色和紫色",
+      "紫色和黄色",
+      "白色和粉色"
+    ],
+    "answer": "白色和紫色",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"日暮客愁新\"中\"客\"指的是谁？",
+    "options": [
+      "游客",
+      "诗人自己（客居他乡之人）",
+      "船夫",
+      "朋友"
+    ],
+    "answer": "诗人自己（客居他乡之人）",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "诗中描写天空比树还低、月影近人的句子是\"（ ），（ ）\"。",
+    "options": null,
+    "answer": "野旷天低树，江清月近人",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "这首诗表达了诗人对田园生活的向往。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"江清月近人\"中月亮之所以感觉\"近人\"，是因为什么？",
+    "options": [
+      "月亮真的离人很近",
+      "江水清澈，月影倒映在水中，仿佛离人很近",
+      "月亮从天上落下来了",
+      "诗人站在高山上"
+    ],
+    "answer": "江水清澈，月影倒映在水中，仿佛离人很近",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"黑云翻墨未遮山\"中\"翻墨\"运用了什么修辞手法？",
+    "options": [
+      "拟人",
+      "比喻",
+      "夸张",
+      "排比"
+    ],
+    "answer": "比喻",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "诗中描写暴雨的句子是\"（ ），（ ）\"。",
+    "options": null,
+    "answer": "黑云翻墨未遮山，白雨跳珠乱入船",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "这首诗描写的是西湖阵雨骤来骤去的景象。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"望湖楼下水如天\"表现的是什么景象？",
+    "options": [
+      "湖水干涸",
+      "雨后水面平静、水天一色",
+      "天空倒映在水中",
+      "仍在下大雨"
+    ],
+    "answer": "雨后水面平静、水天一色",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"稻花香里说丰年\"的下句是？",
+    "options": [
+      "听取蛙声一片",
+      "清风半夜鸣蝉",
+      "路转溪桥忽见",
+      "两三点雨山前"
+    ],
+    "answer": "听取蛙声一片",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "词中描写夏夜天气突变的句子是\"（ ），（ ）\"。",
+    "options": null,
+    "answer": "七八个星天外，两三点雨山前",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "这首词描写的是冬天的夜晚。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"旧时茅店社林边，路转溪桥忽见\"表达了作者怎样的心情？",
+    "options": [
+      "悲伤",
+      "惊喜（在雨中忽然找到了避雨的地方）",
+      "愤怒",
+      "失望"
+    ],
+    "answer": "惊喜（在雨中忽然找到了避雨的地方）",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"金沙水拍云崖暖，大渡桥横铁索寒\"中\"暖\"和\"寒\"分别表达了什么？",
+    "options": [
+      "天气变化",
+      "巧渡金沙江的喜悦和强渡大渡河的悲壮",
+      "水的温度不同",
+      "没有特殊含义"
+    ],
+    "answer": "巧渡金沙江的喜悦和强渡大渡河的悲壮",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "诗中表现红军不畏艰难的总起句是\"（ ），（ ）\"。",
+    "options": null,
+    "answer": "红军不怕远征难，万水千山只等闲",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "\"五岭逶迤腾细浪\"中把五岭山脉比作细小的波浪，表现了红军藐视困难的气概。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"更喜岷山千里雪\"中的\"喜\"表达了什么？",
+    "options": [
+      "喜欢雪景",
+      "长征即将胜利的喜悦",
+      "喜欢爬山",
+      "喜欢冬天"
+    ],
+    "answer": "长征即将胜利的喜悦",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "五壮士把敌人引上棋盘陀的主要目的是什么？",
+    "options": [
+      "在那里设埋伏",
+      "保护群众和连队主力安全转移",
+      "寻找更有利的地形",
+      "获取更多弹药"
+    ],
+    "answer": "保护群众和连队主力安全转移",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "五壮士跳崖前喊出的口号是\"（ ）\"和\"中国共产党万岁！\"",
+    "options": null,
+    "answer": "打倒日本帝国主义！",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "班长马宝玉是最后一个跳下悬崖的。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "五壮士在弹尽粮绝时用什么继续攻击敌人？",
+    "options": [
+      "用刺刀",
+      "用石头砸",
+      "赤手空拳",
+      "撤退逃跑"
+    ],
+    "answer": "用石头砸",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "开国大典举行的时间是？",
+    "options": [
+      "1949年10月1日",
+      "1949年9月1日",
+      "1950年10月1日",
+      "1948年10月1日"
+    ],
+    "answer": "1949年10月1日",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "参加开国大典的总人数达（ ）万人。",
+    "options": null,
+    "answer": "三十",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "开国大典的阅兵式中，战车部队经过时，人民空军的飞机也飞过天空。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "开国大典升国旗时礼炮的响数是？",
+    "options": [
+      "21响",
+      "28响",
+      "54响",
+      "一百响"
+    ],
+    "answer": "28响",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "老汉从队伍中揪出的那个小伙子是他的什么人？",
+    "options": [
+      "普通村民",
+      "他的儿子",
+      "他的邻居",
+      "一个逃兵"
+    ],
+    "answer": "他的儿子",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "老汉站在水中指挥群众过桥时，说：\"桥窄！排成一队，不要挤！（ ）！\"",
+    "options": null,
+    "answer": "党员排在后边",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "最后老汉和小伙子都成功过了桥。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "文中把老汉比作什么来表现他的沉着和威严？",
+    "options": [
+      "一棵大树",
+      "一座山",
+      "一头豹子",
+      "一块石头"
+    ],
+    "answer": "一座山",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "桑娜抱回邻居西蒙的两个孩子时，她自己的心情是怎样的？",
+    "options": [
+      "毫不犹豫",
+      "忐忑不安",
+      "满心欢喜",
+      "毫不在意"
+    ],
+    "answer": "忐忑不安",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "桑娜的丈夫以什么为生？（ ）",
+    "options": null,
+    "answer": "打鱼（渔夫）",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "渔夫回家后不同意收养邻居的孩子。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "桑娜家原本有几个孩子？",
+    "options": [
+      "三个",
+      "五个",
+      "七个",
+      "两个"
+    ],
+    "answer": "五个",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"善哉乎鼓琴，巍巍乎若太山\"中\"善哉\"的意思是？",
+    "options": [
+      "善良啊",
+      "弹得好啊",
+      "准备好了吗",
+      "好人啊"
+    ],
+    "answer": "弹得好啊",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "锺子期死后，伯牙\"（ ），终身不复鼓琴\"。",
+    "options": null,
+    "answer": "破琴绝弦",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "\"知音\"一词来源于伯牙和锺子期的故事。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "伯牙终身不复鼓琴的根本原因是什么？",
+    "options": [
+      "琴摔坏了",
+      "觉得世上再也没有值得为之弹琴的人了",
+      "年纪大了弹不动了",
+      "不想弹了"
+    ],
+    "answer": "觉得世上再也没有值得为之弹琴的人了",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "牧童指出戴嵩画的牛错在哪里？",
+    "options": [
+      "颜色不对",
+      "牛尾巴画得太短",
+      "牛斗时尾巴应夹在两腿间，画中却摇着尾巴",
+      "牛角画得太小"
+    ],
+    "answer": "牛斗时尾巴应夹在两腿间，画中却摇着尾巴",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "古语\"耕当问奴，（ ）\"，说明实践出真知的道理。",
+    "options": null,
+    "answer": "织当问婢",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "杜处士听到牧童的批评后很生气。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"处士笑而然之\"中\"然之\"的意思是？",
+    "options": [
+      "然后",
+      "认为他说得对",
+      "自然",
+      "突然"
+    ],
+    "answer": "认为他说得对",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"九曲黄河万里沙\"中\"九曲\"是形容黄河的什么特点？",
+    "options": [
+      "水很黄",
+      "河道弯曲众多",
+      "恰好有九个弯",
+      "水流很急"
+    ],
+    "answer": "河道弯曲众多",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "诗中后两句\"如今直上银河去，（ ）\"，融入了牛郎织女的神话传说。",
+    "options": null,
+    "answer": "同到牵牛织女家",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "这首诗前两句写实景，后两句展开想象。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "这首诗表达了诗人怎样的精神？",
+    "options": [
+      "悲伤失落",
+      "逆流而上、奋发进取",
+      "逃避现实",
+      "思念家乡"
+    ],
+    "answer": "逆流而上、奋发进取",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"南朝四百八十寺\"中的\"四百八十\"怎么理解？",
+    "options": [
+      "确数，正好480座",
+      "虚数，形容寺庙众多",
+      "寺庙的编号",
+      "历史年份"
+    ],
+    "answer": "虚数，形容寺庙众多",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "诗中声与色兼备地描写江南春景的诗句是\"（ ），水村山郭酒旗风\"。",
+    "options": null,
+    "answer": "千里莺啼绿映红",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "这首诗的后两句表达了对南朝佛教盛行的历史感慨。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"多少楼台烟雨中\"营造了怎样的意境？",
+    "options": [
+      "明朗欢快",
+      "朦胧迷离",
+      "凄凉悲伤",
+      "雄伟壮阔"
+    ],
+    "answer": "朦胧迷离",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"一水护田将绿绕，两山排闼送青来\"运用了什么修辞手法？",
+    "options": [
+      "比喻",
+      "拟人",
+      "夸张",
+      "排比"
+    ],
+    "answer": "拟人",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "诗中描写主人勤劳爱洁的诗句是\"（ ），花木成畦手自栽\"。",
+    "options": null,
+    "answer": "茅檐长扫净无苔",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "\"排闼\"的意思是推开门。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "这首诗是写在什么地方的？",
+    "options": [
+      "寺庙的墙上",
+      "湖阴先生家的墙壁上",
+      "诗人自己家的墙上",
+      "宫殿的墙上"
+    ],
+    "answer": "湖阴先生家的墙壁上",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"使弈秋诲二人弈\"中\"诲\"的意思是？",
+    "options": [
+      "后悔",
+      "教导",
+      "说话",
+      "知道"
+    ],
+    "answer": "教导",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "文中形容一个人学习专心的成语是\"（ ）\"。",
+    "options": null,
+    "answer": "专心致志",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "文中第二个人学不好是因为他智力不如第一个人。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"为是其智弗若与？曰：非然也。\"这句话中\"非然也\"的意思是？",
+    "options": [
+      "是这样",
+      "不是这样的",
+      "也许吧",
+      "不知道"
+    ],
+    "answer": "不是这样的",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "第一个小孩认为太阳什么时候离人近？",
+    "options": [
+      "刚出来时",
+      "中午时",
+      "傍晚时",
+      "任何时候都一样"
+    ],
+    "answer": "刚出来时",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "面对两小儿的争辩，\"（ ）不能决也\"。",
+    "options": null,
+    "answer": "孔子",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "两小儿使用的论据都是毫无道理的。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "\"孰为汝多知乎\"中\"知\"通哪个字？",
+    "options": [
+      "志",
+      "智",
+      "知",
+      "制"
+    ],
+    "answer": "智",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "鲁滨逊在荒岛上救下的土著人叫什么名字？",
+    "options": [
+      "星期一",
+      "星期五",
+      "星期六",
+      "汤姆"
+    ],
+    "answer": "星期五",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "鲁滨逊在荒岛上生活了（ ）年。",
+    "options": null,
+    "answer": "二十八",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "鲁滨逊在荒岛上没有任何工具，全凭双手生存。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "鲁滨逊教\"星期五\"学习的主要内容是什么？",
+    "options": [
+      "打猎和捕鱼",
+      "英语和《圣经》",
+      "种田和盖房",
+      "航海和贸易"
+    ],
+    "answer": "英语和《圣经》",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "尼尔斯变成小人的原因是什么？",
+    "options": [
+      "吃了魔法药水",
+      "捉弄了小狐仙",
+      "被雷劈了",
+      "喝了变小药水"
+    ],
+    "answer": "捉弄了小狐仙",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "尼尔斯骑的那只雄鹅名叫（ ）。",
+    "options": null,
+    "answer": "莫顿",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "尼尔斯在旅行中一直是个调皮捣蛋的孩子，没有任何改变。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "一路上一直追捕大雁的狐狸叫什么名字？",
+    "options": [
+      "斯密尔",
+      "雷克斯",
+      "汤姆",
+      "哈克"
+    ],
+    "answer": "斯密尔",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "汤姆在墓地目睹的凶手是谁？",
+    "options": [
+      "波特",
+      "印第安·乔",
+      "哈克贝利·费恩",
+      "贝琪"
+    ],
+    "answer": "印第安·乔",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "汤姆的好朋友、和他一起目睹谋杀案的男孩叫（ ）。",
+    "options": null,
+    "answer": "哈克贝利·费恩",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "汤姆在山洞里是用手电筒找到出口的。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "汤姆最终有没有在法庭上说出真相？",
+    "options": [
+      "没有，一直保密",
+      "有，勇敢地说出了真相",
+      "被逼着才承认的",
+      "写在了日记里"
+    ],
+    "answer": "有，勇敢地说出了真相",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "课文《草原》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "朗读课文《草原》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "《草原》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《草原》，篇名是《（ ）》",
+    "options": null,
+    "answer": "草原",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学好《草原》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "《草原》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "《草原》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "想象课本插图与《草原》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "本学期知识点包含：（ ）",
+    "options": null,
+    "answer": "积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《草原》《丁香结》《古诗词三首》」相关的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "随便乱写",
+      "只玩不看",
+      "完全不看课本"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "课文《七律·长征》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "朗读课文《七律·长征》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "《七律·长征》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《七律·长征》，篇名是《（ ）》",
+    "options": null,
+    "answer": "七律·长征",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学好《七律·长征》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "《七律·长征》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "《七律·长征》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "想象课本插图与《七律·长征》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《七律·长征》《狼牙山五壮士》《开国大典…」相关的学习活动是？",
+    "options": [
+      "完全不看课本",
+      "只玩不看",
+      "朗读与理解课文",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "课文《桥》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "朗读课文《桥》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "《桥》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《桥》，篇名是《（ ）》",
+    "options": null,
+    "answer": "桥",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学好《桥》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "《桥》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "《桥》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "想象课本插图与《桥》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《桥》《穷人》」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "随便乱写",
+      "完全不看课本",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "阅读时看到题目和插图先猜想内容，属于哪种阅读策略？",
+    "options": [
+      "预测",
+      "抄写",
+      "默背字典",
+      "查部首"
+    ],
+    "answer": "预测",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "边读边在头脑中想象画面，有助于？",
+    "options": [
+      "理解内容",
+      "加快速度跳过",
+      "不用思考",
+      "只记生字"
+    ],
+    "answer": "理解内容",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "说明文中「列数字」的作用是？",
+    "options": [
+      "使说明更准确具体",
+      "增加悬念",
+      "表达情感",
+      "制造比喻"
+    ],
+    "answer": "使说明更准确具体",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "「环境描写作用」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "学好语文要关注：（ ）",
+    "options": null,
+    "answer": "认真阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学习「环境描写作用」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "不用朗读",
+      "只抄字不思考",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「环境描写作用」相关的学习活动是？",
+    "options": [
+      "随便乱写",
+      "完全不看课本",
+      "只玩不看",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "课文《伯牙鼓琴》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "朗读课文《伯牙鼓琴》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "《伯牙鼓琴》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《伯牙鼓琴》，篇名是《（ ）》",
+    "options": null,
+    "answer": "伯牙鼓琴",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学好《伯牙鼓琴》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "《伯牙鼓琴》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "《伯牙鼓琴》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "想象课本插图与《伯牙鼓琴》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《伯牙鼓琴》《书戴嵩画牛》」相关的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只玩不看",
+      "完全不看课本",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学习「围绕中心写；学写倡议书」时，下面哪项做法最合适？",
+    "options": [
+      "只抄字不思考",
+      "不用朗读",
+      "认真阅读课文并积累词句",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "与「围绕中心写；学写倡议书」相关的学习要求是？",
+    "options": [
+      "认真阅读课文并积累词句",
+      "不用朗读",
+      "只抄字不思考",
+      "跳过课文"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "认真学好「围绕中心写；学写倡议书」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "「围绕中心写；学写倡议书」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「围绕中心写；学写倡议书」相关的学习活动是？",
+    "options": [
+      "完全不看课本",
+      "只玩不看",
+      "朗读与理解课文",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "课文《浪淘沙》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "朗读课文《浪淘沙》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "《浪淘沙》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《浪淘沙》，篇名是《（ ）》",
+    "options": null,
+    "answer": "浪淘沙",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学好《浪淘沙》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "《浪淘沙》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "《浪淘沙》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "想象课本插图与《浪淘沙》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《浪淘沙》《江南春》《书湖阴先生壁》」相关的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只玩不看",
+      "完全不看课本",
+      "随便乱写"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "课文《文言文二则：学弈、两小儿辩日》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "朗读课文《文言文二则：学弈、两小儿辩日》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "《文言文二则：学弈、两小儿辩日》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《文言文二则：学弈、两小儿辩日》，篇名是《（ ）》",
+    "options": null,
+    "answer": "文言文二则：学弈、两小儿辩日",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学好《文言文二则：学弈、两小儿辩日》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "《文言文二则：学弈、两小儿辩日》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "《文言文二则：学弈、两小儿辩日》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "想象课本插图与《文言文二则：学弈、两小儿辩日》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《文言文二则：学弈、两小儿辩日》」相关的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "随便乱写",
+      "完全不看课本",
+      "只玩不看"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "课文《鲁滨逊漂流记》的学习重点包括理解内容、积累词语。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "朗读课文《鲁滨逊漂流记》时，应注意停顿和语气。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "《鲁滨逊漂流记》属于本学期哪类学习内容？",
+    "options": [
+      "课文阅读",
+      "数学计算",
+      "科学实验",
+      "体育技能"
+    ],
+    "answer": "课文阅读",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "我们学习的课文篇目包括《鲁滨逊漂流记》，篇名是《（ ）》",
+    "options": null,
+    "answer": "鲁滨逊漂流记",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学好《鲁滨逊漂流记》时，较好的做法是？",
+    "options": [
+      "朗读并理解课文",
+      "只抄字不思考",
+      "跳过不读",
+      "不用积累词语"
+    ],
+    "answer": "朗读并理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "《鲁滨逊漂流记》的识字与朗读可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "fill",
+    "content": "《鲁滨逊漂流记》这篇课文，我们应做到：读懂内容、（ ）好词",
+    "options": null,
+    "answer": "积累",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "想象课本插图与《鲁滨逊漂流记》相关，最应进行的学习活动是？",
+    "options": [
+      "朗读与理解课文",
+      "只做算术题",
+      "忽略课文",
+      "不看书"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「《鲁滨逊漂流记》《骑鹅旅行记》《汤姆·索…」相关的学习活动是？",
+    "options": [
+      "随便乱写",
+      "只玩不看",
+      "完全不看课本",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学习「写故事梗概；毕业赠言」时，下面哪项做法最合适？",
+    "options": [
+      "跳过课文",
+      "认真阅读课文并积累词句",
+      "只抄字不思考",
+      "不用朗读"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "与「写故事梗概；毕业赠言」相关的学习要求是？",
+    "options": [
+      "认真阅读课文并积累词句",
+      "跳过课文",
+      "只抄字不思考",
+      "不用朗读"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "认真学好「写故事梗概；毕业赠言」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "「写故事梗概；毕业赠言」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「写故事梗概；毕业赠言」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "朗读与理解课文",
+      "随便乱写",
+      "完全不看课本"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学习「难忘小学生活」时，下面哪项做法最合适？",
+    "options": [
+      "只抄字不思考",
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "与「难忘小学生活」相关的学习要求是？",
+    "options": [
+      "只抄字不思考",
+      "跳过课文",
+      "不用朗读",
+      "认真阅读课文并积累词句"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "认真学好「难忘小学生活」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "「难忘小学生活」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「难忘小学生活」相关的学习活动是？",
+    "options": [
+      "随便乱写",
+      "只玩不看",
+      "完全不看课本",
+      "朗读与理解课文"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "学习「1—6 古诗默写；修辞；非连续性文本；病…」时，下面哪项做法最合适？",
+    "options": [
+      "只抄字不思考",
+      "跳过课文",
+      "认真阅读课文并积累词句",
+      "不用朗读"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "choice",
+    "content": "与「1—6 古诗默写；修辞；非连续性文本；病…」相关的学习要求是？",
+    "options": [
+      "跳过课文",
+      "只抄字不思考",
+      "认真阅读课文并积累词句",
+      "不用朗读"
+    ],
+    "answer": "认真阅读课文并积累词句",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "认真学好「1—6 古诗默写；修辞；非连续性文本；病…」有助于提高语文素养。",
+    "options": null,
+    "answer": "正确",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "judge",
+    "content": "「1—6 古诗默写；修辞；非连续性文本；病…」可以完全不复习。",
+    "options": null,
+    "answer": "错误",
+    "image_path": null
+  },
+  {
+    "subject": "chinese",
+    "grade": 6,
+    "type": "image",
+    "content": "根据文字描述想象情境：与「1—6 古诗默写；修辞；非连续性文本；病…」相关的学习活动是？",
+    "options": [
+      "只玩不看",
+      "随便乱写",
+      "朗读与理解课文",
+      "完全不看课本"
+    ],
+    "answer": "朗读与理解课文",
+    "image_path": null
+  }
+]

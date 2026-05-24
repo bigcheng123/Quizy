@@ -12,6 +12,7 @@ contextBridge.exposeInMainWorld('adminAPI', {
   getRecords: (date) => ipcRenderer.invoke('get-records', date),
   getRecordDates: () => ipcRenderer.invoke('get-record-dates'),
   getQuestionAnswerStats: () => ipcRenderer.invoke('get-question-answer-stats'),
+  resetDbAndReloadSeed: () => ipcRenderer.invoke('reset-db-reload-seed'),
   onQuestionStatsChanged: (fn) => {
     ipcRenderer.on('question-stats-changed', (_, payload) => {
       Promise.resolve()
